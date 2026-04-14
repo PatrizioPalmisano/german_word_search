@@ -1,0 +1,5708 @@
+[
+  {
+    "example_sentence_native": "Er will Arzt sein.",
+    "word": "sein",
+    "english_translation": "to be",
+    "gender": "",
+    "example_sentence_english": "He wants to be a doctor.",
+    "pos": "verb",
+    "word_frequency": 1
+  },
+  {
+    "example_sentence_native": "Ich habe ein Buch.",
+    "word": "haben",
+    "english_translation": "to have",
+    "gender": "",
+    "example_sentence_english": "I have a book.",
+    "pos": "verb",
+    "word_frequency": 2
+  },
+  {
+    "example_sentence_native": "Ich habe nur fünf Euro.",
+    "word": "nur",
+    "english_translation": "only;just",
+    "gender": "",
+    "example_sentence_english": "I only have five euros.",
+    "pos": "adverb",
+    "word_frequency": 3
+  },
+  {
+    "example_sentence_native": "Er wird Arzt.",
+    "word": "werden",
+    "english_translation": "to become;to get",
+    "gender": "",
+    "example_sentence_english": "He is becoming a doctor.",
+    "pos": "verb",
+    "word_frequency": 4
+  },
+  {
+    "example_sentence_native": "Ich kann Deutsch sprechen.",
+    "word": "können",
+    "english_translation": "to be able to;can",
+    "gender": "",
+    "example_sentence_english": "I can speak German.",
+    "pos": "verb",
+    "word_frequency": 5
+  },
+  {
+    "example_sentence_native": "Er ist nicht da.",
+    "word": "da",
+    "english_translation": "there;since;because",
+    "gender": "",
+    "example_sentence_english": "He is not there.",
+    "pos": "adverb",
+    "word_frequency": 6
+  },
+  {
+    "example_sentence_native": "Zuerst essen wir, dann gehen wir spazieren.",
+    "word": "dann",
+    "english_translation": "then",
+    "gender": "",
+    "example_sentence_english": "First we eat, then we go for a walk.",
+    "pos": "adverb",
+    "word_frequency": 7
+  },
+  {
+    "example_sentence_native": "Ich habe das schon gemacht.",
+    "word": "schon",
+    "english_translation": "already;yet",
+    "gender": "",
+    "example_sentence_english": "I have already done that.",
+    "pos": "adverb",
+    "word_frequency": 8
+  },
+  {
+    "example_sentence_native": "Ich möchte mehr Wasser.",
+    "word": "mehr",
+    "english_translation": "more",
+    "gender": "",
+    "example_sentence_english": "I would like more water.",
+    "pos": "adjective",
+    "word_frequency": 9
+  },
+  {
+    "example_sentence_native": "Komm mal her!",
+    "word": "mal",
+    "english_translation": "once;just",
+    "gender": "",
+    "example_sentence_english": "Just come here!",
+    "pos": "adverb",
+    "word_frequency": 10
+  },
+  {
+    "example_sentence_native": "Ich war schon viele Male dort.",
+    "word": "Mal",
+    "english_translation": "time (as in 'one time';'many times')",
+    "gender": "neuter",
+    "example_sentence_english": "I have been there many times.",
+    "pos": "noun",
+    "word_frequency": 11
+  },
+  {
+    "example_sentence_native": "Ich bin hier.",
+    "word": "hier",
+    "english_translation": "here",
+    "gender": "",
+    "example_sentence_english": "I am here.",
+    "pos": "adverb",
+    "word_frequency": 12
+  },
+  {
+    "example_sentence_native": "Sie liest immer Bücher.",
+    "word": "immer",
+    "english_translation": "always",
+    "gender": "",
+    "example_sentence_english": "She always reads books.",
+    "pos": "adverb",
+    "word_frequency": 13
+  },
+  {
+    "example_sentence_native": "Ich muss jetzt gehen.",
+    "word": "jetzt",
+    "english_translation": "now",
+    "gender": "",
+    "example_sentence_english": "I have to go now.",
+    "pos": "adverb",
+    "word_frequency": 14
+  },
+  {
+    "example_sentence_native": "Er kommt wieder.",
+    "word": "wieder",
+    "english_translation": "again",
+    "gender": "",
+    "example_sentence_english": "He is coming again.",
+    "pos": "adverb",
+    "word_frequency": 15
+  },
+  {
+    "example_sentence_native": "Ich habe kein Geld.",
+    "word": "kein",
+    "english_translation": "no",
+    "gender": "",
+    "example_sentence_english": "I have no money.",
+    "pos": "adjective",
+    "word_frequency": 16
+  },
+  {
+    "example_sentence_native": "Alle Studenten sind hier.",
+    "word": "all",
+    "english_translation": "all",
+    "gender": "",
+    "example_sentence_english": "All students are here.",
+    "pos": "adjective",
+    "word_frequency": 17
+  },
+  {
+    "example_sentence_native": "Das ist sehr gut.",
+    "word": "sehr",
+    "english_translation": "very",
+    "gender": "",
+    "example_sentence_english": "That is very good.",
+    "pos": "adverb",
+    "word_frequency": 18
+  },
+  {
+    "example_sentence_native": "Das ist ein gutes Buch.",
+    "word": "gut",
+    "english_translation": "good",
+    "gender": "",
+    "example_sentence_english": "That is a good book.",
+    "pos": "adjective",
+    "word_frequency": 19
+  },
+  {
+    "example_sentence_native": "Ich gebe dir ein Buch.",
+    "word": "geben",
+    "english_translation": "to give",
+    "gender": "",
+    "example_sentence_english": "I give you a book.",
+    "pos": "verb",
+    "word_frequency": 20
+  },
+  {
+    "example_sentence_native": "Also, was machen wir jetzt?",
+    "word": "also",
+    "english_translation": "so;therefore",
+    "gender": "",
+    "example_sentence_english": "So, what do we do now?",
+    "pos": "adverb",
+    "word_frequency": 21
+  },
+  {
+    "example_sentence_native": "Ich gehe nach Hause.",
+    "word": "gehen",
+    "english_translation": "to go",
+    "gender": "",
+    "example_sentence_english": "I am going home.",
+    "pos": "verb",
+    "word_frequency": 22
+  },
+  {
+    "example_sentence_native": "Er hat viel Geld.",
+    "word": "viel",
+    "english_translation": "much;many",
+    "gender": "",
+    "example_sentence_english": "He has much money.",
+    "pos": "adjective",
+    "word_frequency": 23
+  },
+  {
+    "example_sentence_native": "Ich habe keine Zeit.",
+    "word": "Zeit",
+    "english_translation": "time",
+    "gender": "feminine",
+    "example_sentence_english": "I have no time.",
+    "pos": "noun",
+    "word_frequency": 24
+  },
+  {
+    "example_sentence_native": "Das ist eine ganz neue Idee.",
+    "word": "ganz",
+    "english_translation": "whole;entire;quite",
+    "gender": "",
+    "example_sentence_english": "That is a completely new idea.",
+    "pos": "adjective",
+    "word_frequency": 25
+  },
+  {
+    "example_sentence_native": "Was machst du heute?",
+    "word": "machen",
+    "english_translation": "to make;to do",
+    "gender": "",
+    "example_sentence_english": "What are you doing today?",
+    "pos": "verb",
+    "word_frequency": 26
+  },
+  {
+    "example_sentence_native": "Das ist eine einfache Frage.",
+    "word": "einfach",
+    "english_translation": "simple;easy",
+    "gender": "",
+    "example_sentence_english": "That is a simple question.",
+    "pos": "adjective",
+    "word_frequency": 27
+  },
+  {
+    "example_sentence_native": "Wo wohnst du?",
+    "word": "wo",
+    "english_translation": "where",
+    "gender": "",
+    "example_sentence_english": "Where do you live?",
+    "pos": "adverb",
+    "word_frequency": 28
+  },
+  {
+    "example_sentence_native": "Heute ist ein schöner Tag.",
+    "word": "heute",
+    "english_translation": "today",
+    "gender": "",
+    "example_sentence_english": "Today is a beautiful day.",
+    "pos": "adverb",
+    "word_frequency": 29
+  },
+  {
+    "example_sentence_native": "Ich komme aus Deutschland.",
+    "word": "kommen",
+    "english_translation": "to come",
+    "gender": "",
+    "example_sentence_english": "I come from Germany.",
+    "pos": "verb",
+    "word_frequency": 30
+  },
+  {
+    "example_sentence_native": "Wir leben in einer großen Stadt.",
+    "word": "leben",
+    "english_translation": "to live",
+    "gender": "",
+    "example_sentence_english": "We live in a big city.",
+    "pos": "verb",
+    "word_frequency": 31
+  },
+  {
+    "example_sentence_native": "Ich möchte ein anderes Buch.",
+    "word": "ander",
+    "english_translation": "other",
+    "gender": "",
+    "example_sentence_english": "I would like another book.",
+    "pos": "adjective",
+    "word_frequency": 32
+  },
+  {
+    "example_sentence_native": "Ein Jahr hat zwölf Monate.",
+    "word": "Jahr",
+    "english_translation": "year",
+    "gender": "neuter",
+    "example_sentence_english": "A year has twelve months.",
+    "pos": "noun",
+    "word_frequency": 33
+  },
+  {
+    "example_sentence_native": "Wir treffen uns dort.",
+    "word": "dort",
+    "english_translation": "there",
+    "gender": "",
+    "example_sentence_english": "We meet there.",
+    "pos": "adverb",
+    "word_frequency": 34
+  },
+  {
+    "example_sentence_native": "Das ist ein neues Auto.",
+    "word": "neu",
+    "english_translation": "new",
+    "gender": "",
+    "example_sentence_english": "That is a new car.",
+    "pos": "adjective",
+    "word_frequency": 35
+  },
+  {
+    "example_sentence_native": "Warum bist du traurig?",
+    "word": "warum",
+    "english_translation": "why",
+    "gender": "",
+    "example_sentence_english": "Why are you sad?",
+    "pos": "adverb",
+    "word_frequency": 36
+  },
+  {
+    "example_sentence_native": "Ich weiß es nicht.",
+    "word": "wissen",
+    "english_translation": "to know (facts)",
+    "gender": "",
+    "example_sentence_english": "I don't know it.",
+    "pos": "verb",
+    "word_frequency": 37
+  },
+  {
+    "example_sentence_native": "Der Mann liest ein Buch.",
+    "word": "Mann",
+    "english_translation": "man;husband",
+    "gender": "masculine",
+    "example_sentence_english": "The man is reading a book.",
+    "pos": "noun",
+    "word_frequency": 38
+  },
+  {
+    "example_sentence_native": "Vielleicht regnet es morgen.",
+    "word": "vielleicht",
+    "english_translation": "perhaps",
+    "gender": "",
+    "example_sentence_english": "Perhaps it will rain tomorrow.",
+    "pos": "adverb",
+    "word_frequency": 39
+  },
+  {
+    "example_sentence_native": "Kannst du mir bitte helfen?",
+    "word": "bitte",
+    "english_translation": "please",
+    "gender": "",
+    "example_sentence_english": "Can you please help me?",
+    "pos": "adverb",
+    "word_frequency": 40
+  },
+  {
+    "example_sentence_native": "Ich sehe einen Vogel.",
+    "word": "sehen",
+    "english_translation": "to see",
+    "gender": "",
+    "example_sentence_english": "I see a bird.",
+    "pos": "verb",
+    "word_frequency": 41
+  },
+  {
+    "example_sentence_native": "Guten Tag!",
+    "word": "Tag",
+    "english_translation": "day",
+    "gender": "masculine",
+    "example_sentence_english": "Good day!",
+    "pos": "noun",
+    "word_frequency": 42
+  },
+  {
+    "example_sentence_native": "Was willst du sagen?",
+    "word": "sagen",
+    "english_translation": "to say",
+    "gender": "",
+    "example_sentence_english": "What do you want to say?",
+    "pos": "verb",
+    "word_frequency": 43
+  },
+  {
+    "example_sentence_native": "Er steht am Fenster.",
+    "word": "stehen",
+    "english_translation": "to stand",
+    "gender": "",
+    "example_sentence_english": "He stands at the window.",
+    "pos": "verb",
+    "word_frequency": 44
+  },
+  {
+    "example_sentence_native": "Sie spricht Deutsch.",
+    "word": "deutsch",
+    "english_translation": "German",
+    "gender": "",
+    "example_sentence_english": "She speaks German.",
+    "pos": "adjective",
+    "word_frequency": 45
+  },
+  {
+    "example_sentence_native": "Ich lerne Deutsch.",
+    "word": "Deutsch",
+    "english_translation": "German (language)",
+    "gender": "neuter",
+    "example_sentence_english": "I am learning German.",
+    "pos": "noun",
+    "word_frequency": 46
+  },
+  {
+    "example_sentence_native": "Das ist das Ende der Geschichte.",
+    "word": "Ende",
+    "english_translation": "end",
+    "gender": "neuter",
+    "example_sentence_english": "That is the end of the story.",
+    "pos": "noun",
+    "word_frequency": 47
+  },
+  {
+    "example_sentence_native": "Ich habe das nie gesehen.",
+    "word": "nie",
+    "english_translation": "never",
+    "gender": "",
+    "example_sentence_english": "I have never seen that.",
+    "pos": "adverb",
+    "word_frequency": 48
+  },
+  {
+    "example_sentence_native": "Es ist drei Uhr.",
+    "word": "Uhr",
+    "english_translation": "clock;o'clock",
+    "gender": "feminine",
+    "example_sentence_english": "It is three o'clock.",
+    "pos": "noun",
+    "word_frequency": 49
+  },
+  {
+    "example_sentence_native": "Ich war einmal in Berlin.",
+    "word": "einmal",
+    "english_translation": "once;one time",
+    "gender": "",
+    "example_sentence_english": "I was once in Berlin.",
+    "pos": "adverb",
+    "word_frequency": 50
+  },
+  {
+    "example_sentence_native": "Die Frau liest ein Buch.",
+    "word": "Frau",
+    "english_translation": "woman;wife;Mrs.",
+    "gender": "feminine",
+    "example_sentence_english": "The woman is reading a book.",
+    "pos": "noun",
+    "word_frequency": 51
+  },
+  {
+    "example_sentence_native": "Berlin ist eine große Stadt.",
+    "word": "Stadt",
+    "english_translation": "city;town",
+    "gender": "feminine",
+    "example_sentence_english": "Berlin is a big city.",
+    "pos": "noun",
+    "word_frequency": 52
+  },
+  {
+    "example_sentence_native": "Viele Leute waren auf der Party.",
+    "word": "Leute",
+    "english_translation": "people",
+    "gender": "Unknown",
+    "example_sentence_english": "Many people were at the party.",
+    "pos": "noun",
+    "word_frequency": 53
+  },
+  {
+    "example_sentence_native": "Ich kann meine Schlüssel nicht finden.",
+    "word": "finden",
+    "english_translation": "to find",
+    "gender": "",
+    "example_sentence_english": "I cannot find my keys.",
+    "pos": "verb",
+    "word_frequency": 54
+  },
+  {
+    "example_sentence_native": "Das Kind spielt im Garten.",
+    "word": "Kind",
+    "english_translation": "child",
+    "gender": "neuter",
+    "example_sentence_english": "The child is playing in the garden.",
+    "pos": "noun",
+    "word_frequency": 55
+  },
+  {
+    "example_sentence_native": "Ich habe kein Geld.",
+    "word": "Geld",
+    "english_translation": "money",
+    "gender": "neuter",
+    "example_sentence_english": "I have no money.",
+    "pos": "noun",
+    "word_frequency": 56
+  },
+  {
+    "example_sentence_native": "Wir haben die gleiche Meinung.",
+    "word": "gleich",
+    "english_translation": "same;equal;immediately",
+    "gender": "",
+    "example_sentence_english": "We have the same opinion.",
+    "pos": "adjective",
+    "word_frequency": 57
+  },
+  {
+    "example_sentence_native": "Der Weg ist sehr lang.",
+    "word": "lang",
+    "english_translation": "long",
+    "gender": "",
+    "example_sentence_english": "The way is very long.",
+    "pos": "adjective",
+    "word_frequency": 58
+  },
+  {
+    "example_sentence_native": "Das ist ein wichtiger Teil des Projekts.",
+    "word": "Teil",
+    "english_translation": "part",
+    "gender": "masculine",
+    "example_sentence_english": "That is an important part of the project.",
+    "pos": "noun",
+    "word_frequency": 59
+  },
+  {
+    "example_sentence_native": "Ich bin fast fertig.",
+    "word": "fast",
+    "english_translation": "almost;nearly",
+    "gender": "",
+    "example_sentence_english": "I am almost finished.",
+    "pos": "adverb",
+    "word_frequency": 60
+  },
+  {
+    "example_sentence_native": "Das ist die richtige Antwort.",
+    "word": "richtig",
+    "english_translation": "right;correct",
+    "gender": "",
+    "example_sentence_english": "That is the correct answer.",
+    "pos": "adjective",
+    "word_frequency": 61
+  },
+  {
+    "example_sentence_native": "Was soll ich tun?",
+    "word": "tun",
+    "english_translation": "to do;to put",
+    "gender": "",
+    "example_sentence_english": "What should I do?",
+    "pos": "verb",
+    "word_frequency": 62
+  },
+  {
+    "example_sentence_native": "Ich gehe zur Arbeit.",
+    "word": "Arbeit",
+    "english_translation": "work;job",
+    "gender": "feminine",
+    "example_sentence_english": "I go to work.",
+    "pos": "noun",
+    "word_frequency": 63
+  },
+  {
+    "example_sentence_native": "Ich habe eine Frage.",
+    "word": "Frage",
+    "english_translation": "question",
+    "gender": "feminine",
+    "example_sentence_english": "I have a question.",
+    "pos": "noun",
+    "word_frequency": 64
+  },
+  {
+    "example_sentence_native": "Er kommt zurück.",
+    "word": "zurück",
+    "english_translation": "back;return",
+    "gender": "",
+    "example_sentence_english": "He is coming back.",
+    "pos": "adverb",
+    "word_frequency": 65
+  },
+  {
+    "example_sentence_native": "Das Haus ist gross.",
+    "word": "gross",
+    "english_translation": "big;large;tall",
+    "gender": "",
+    "example_sentence_english": "The house is big.",
+    "pos": "adjective",
+    "word_frequency": 66
+  },
+  {
+    "example_sentence_native": "Das Buch liegt auf dem Tisch.",
+    "word": "liegen",
+    "english_translation": "to lie (down);to be located",
+    "gender": "",
+    "example_sentence_english": "The book is lying on the table.",
+    "pos": "verb",
+    "word_frequency": 67
+  },
+  {
+    "example_sentence_native": "Wir gehen zusammen ins Kino.",
+    "word": "zusammen",
+    "english_translation": "together",
+    "gender": "",
+    "example_sentence_english": "We are going to the cinema together.",
+    "pos": "adverb",
+    "word_frequency": 68
+  },
+  {
+    "example_sentence_native": "Das ist ein schönes Bild.",
+    "word": "schön",
+    "english_translation": "beautiful",
+    "gender": "",
+    "example_sentence_english": "That is a beautiful picture.",
+    "pos": "adjective",
+    "word_frequency": 69
+  },
+  {
+    "example_sentence_native": "Das Auto ist sehr schnell.",
+    "word": "schnell",
+    "english_translation": "fast",
+    "gender": "",
+    "example_sentence_english": "The car is very fast.",
+    "pos": "adjective",
+    "word_frequency": 70
+  },
+  {
+    "example_sentence_native": "Es ist schon spät.",
+    "word": "spät",
+    "english_translation": "late",
+    "gender": "",
+    "example_sentence_english": "It's already late.",
+    "pos": "adjective",
+    "word_frequency": 71
+  },
+  {
+    "example_sentence_native": "Ich trinke gern Kaffee.",
+    "word": "gern",
+    "english_translation": "gladly;with pleasure",
+    "gender": "",
+    "example_sentence_english": "I like to drink coffee.",
+    "pos": "adverb",
+    "word_frequency": 72
+  },
+  {
+    "example_sentence_native": "Bitte öffnen Sie das Buch auf Seite zehn.",
+    "word": "Seite",
+    "english_translation": "page;side",
+    "gender": "feminine",
+    "example_sentence_english": "Please open the book to page ten.",
+    "pos": "noun",
+    "word_frequency": 73
+  },
+  {
+    "example_sentence_native": "Das Spiel beginnt um acht Uhr.",
+    "word": "Spiel",
+    "english_translation": "game;play",
+    "gender": "neuter",
+    "example_sentence_english": "The game starts at eight o'clock.",
+    "pos": "noun",
+    "word_frequency": 74
+  },
+  {
+    "example_sentence_native": "Ich habe nur wenig Zeit.",
+    "word": "wenig",
+    "english_translation": "little;few",
+    "gender": "",
+    "example_sentence_english": "I only have little time.",
+    "pos": "adjective",
+    "word_frequency": 75
+  },
+  {
+    "example_sentence_native": "Ich heiße Anna.",
+    "word": "heissen",
+    "english_translation": "to be called;to mean",
+    "gender": "",
+    "example_sentence_english": "My name is Anna.",
+    "pos": "verb",
+    "word_frequency": 76
+  },
+  {
+    "example_sentence_native": "Ich gehe oft spazieren.",
+    "word": "oft",
+    "english_translation": "often",
+    "gender": "",
+    "example_sentence_english": "I often go for a walk.",
+    "pos": "adverb",
+    "word_frequency": 77
+  },
+  {
+    "example_sentence_native": "Ich möchte dich etwas fragen.",
+    "word": "fragen",
+    "english_translation": "to ask",
+    "gender": "",
+    "example_sentence_english": "I want to ask you something.",
+    "pos": "verb",
+    "word_frequency": 78
+  },
+  {
+    "example_sentence_native": "Deutschland ist ein schönes Land.",
+    "word": "Land",
+    "english_translation": "country;land",
+    "gender": "neuter",
+    "example_sentence_english": "Germany is a beautiful country.",
+    "pos": "noun",
+    "word_frequency": 79
+  },
+  {
+    "example_sentence_native": "Haben Sie einen freien Platz?",
+    "word": "Platz",
+    "english_translation": "place;space;square",
+    "gender": "masculine",
+    "example_sentence_english": "Do you have a free seat/space?",
+    "pos": "noun",
+    "word_frequency": 80
+  },
+  {
+    "example_sentence_native": "Ich nehme einen Kaffee.",
+    "word": "nehmen",
+    "english_translation": "to take",
+    "gender": "",
+    "example_sentence_english": "I'll take a coffee.",
+    "pos": "verb",
+    "word_frequency": 81
+  },
+  {
+    "example_sentence_native": "Das ist ein kurzes Buch.",
+    "word": "kurz",
+    "english_translation": "short",
+    "gender": "",
+    "example_sentence_english": "That is a short book.",
+    "pos": "adjective",
+    "word_frequency": 82
+  },
+  {
+    "example_sentence_native": "Am Morgen trinke ich Kaffee.",
+    "word": "Morgen",
+    "english_translation": "morning",
+    "gender": "masculine",
+    "example_sentence_english": "In the morning I drink coffee.",
+    "pos": "noun",
+    "word_frequency": 83
+  },
+  {
+    "example_sentence_native": "Guten Morgen!",
+    "word": "Morgen",
+    "english_translation": "morning",
+    "gender": "masculine",
+    "example_sentence_english": "Good morning!",
+    "pos": "noun",
+    "word_frequency": 84
+  },
+  {
+    "example_sentence_native": "Ich bekomme einen Brief.",
+    "word": "bekommen",
+    "english_translation": "to get;to receive",
+    "gender": "",
+    "example_sentence_english": "I receive a letter.",
+    "pos": "verb",
+    "word_frequency": 85
+  },
+  {
+    "example_sentence_native": "Das kostet zehn Euro.",
+    "word": "Euro",
+    "english_translation": "Euro",
+    "gender": "masculine",
+    "example_sentence_english": "That costs ten Euros.",
+    "pos": "noun",
+    "word_frequency": 86
+  },
+  {
+    "example_sentence_native": "Das ist ein kleines Haus.",
+    "word": "klein",
+    "english_translation": "small",
+    "gender": "",
+    "example_sentence_english": "That is a small house.",
+    "pos": "adjective",
+    "word_frequency": 87
+  },
+  {
+    "example_sentence_native": "Kinder spielen gerne im Garten.",
+    "word": "spielen",
+    "english_translation": "to play",
+    "gender": "",
+    "example_sentence_english": "Children like to play in the garden.",
+    "pos": "verb",
+    "word_frequency": 88
+  },
+  {
+    "example_sentence_native": "Meine Familie ist sehr wichtig für mich.",
+    "word": "Familie",
+    "english_translation": "family",
+    "gender": "feminine",
+    "example_sentence_english": "My family is very important to me.",
+    "pos": "noun",
+    "word_frequency": 89
+  },
+  {
+    "example_sentence_native": "Das Haus hat einen großen Garten.",
+    "word": "Haus",
+    "english_translation": "house",
+    "gender": "neuter",
+    "example_sentence_english": "The house has a big garden.",
+    "pos": "noun",
+    "word_frequency": 90
+  },
+  {
+    "example_sentence_native": "Ich arbeite jeden Tag.",
+    "word": "arbeiten",
+    "english_translation": "to work",
+    "gender": "",
+    "example_sentence_english": "I work every day.",
+    "pos": "verb",
+    "word_frequency": 91
+  },
+  {
+    "example_sentence_native": "Das Bild hängt an der Wand.",
+    "word": "Bild",
+    "english_translation": "picture",
+    "gender": "neuter",
+    "example_sentence_english": "The picture hangs on the wall.",
+    "pos": "noun",
+    "word_frequency": 92
+  },
+  {
+    "example_sentence_native": "Ich möchte heute zu Hause bleiben.",
+    "word": "bleiben",
+    "english_translation": "to stay",
+    "gender": "",
+    "example_sentence_english": "I want to stay at home today.",
+    "pos": "verb",
+    "word_frequency": 93
+  },
+  {
+    "example_sentence_native": "Ist das möglich?",
+    "word": "möglich",
+    "english_translation": "possible",
+    "gender": "",
+    "example_sentence_english": "Is that possible?",
+    "pos": "adjective",
+    "word_frequency": 94
+  },
+  {
+    "example_sentence_native": "Warte eine Minute.",
+    "word": "Minute",
+    "english_translation": "minute",
+    "gender": "feminine",
+    "example_sentence_english": "Wait a minute.",
+    "pos": "noun",
+    "word_frequency": 95
+  },
+  {
+    "example_sentence_native": "Die Polizei ist hier.",
+    "word": "Polizei",
+    "english_translation": "police",
+    "gender": "feminine",
+    "example_sentence_english": "The police are here.",
+    "pos": "noun",
+    "word_frequency": 96
+  },
+  {
+    "example_sentence_native": "Ich stelle das Buch auf den Tisch.",
+    "word": "stellen",
+    "english_translation": "to place;to put",
+    "gender": "",
+    "example_sentence_english": "I place the book on the table.",
+    "pos": "verb",
+    "word_frequency": 97
+  },
+  {
+    "example_sentence_native": "Eine Woche hat sieben Tage.",
+    "word": "Woche",
+    "english_translation": "week",
+    "gender": "feminine",
+    "example_sentence_english": "A week has seven days.",
+    "pos": "noun",
+    "word_frequency": 98
+  },
+  {
+    "example_sentence_native": "Mein Name ist Anna.",
+    "word": "Name",
+    "english_translation": "name",
+    "gender": "masculine",
+    "example_sentence_english": "My name is Anna.",
+    "pos": "noun",
+    "word_frequency": 99
+  },
+  {
+    "example_sentence_native": "Das ist kein Problem.",
+    "word": "Problem",
+    "english_translation": "problem",
+    "gender": "neuter",
+    "example_sentence_english": "That is no problem.",
+    "pos": "noun",
+    "word_frequency": 100
+  },
+  {
+    "example_sentence_native": "Die Nacht ist dunkel.",
+    "word": "Nacht",
+    "english_translation": "night",
+    "gender": "feminine",
+    "example_sentence_english": "The night is dark.",
+    "pos": "noun",
+    "word_frequency": 101
+  },
+  {
+    "example_sentence_native": "Eine Stunde hat sechzig Minuten.",
+    "word": "Stunde",
+    "english_translation": "hour",
+    "gender": "feminine",
+    "example_sentence_english": "An hour has sixty minutes.",
+    "pos": "noun",
+    "word_frequency": 102
+  },
+  {
+    "example_sentence_native": "Ich habe genug Geld.",
+    "word": "genug",
+    "english_translation": "enough",
+    "gender": "",
+    "example_sentence_english": "I have enough money.",
+    "pos": "adverb",
+    "word_frequency": 103
+  },
+  {
+    "example_sentence_native": "Bitte halten Sie die Tür offen.",
+    "word": "halten",
+    "english_translation": "to hold;to stop",
+    "gender": "",
+    "example_sentence_english": "Please hold the door open.",
+    "pos": "verb",
+    "word_frequency": 104
+  },
+  {
+    "example_sentence_native": "Die Schule beginnt um acht Uhr.",
+    "word": "Schule",
+    "english_translation": "school",
+    "gender": "feminine",
+    "example_sentence_english": "School starts at eight o'clock.",
+    "pos": "noun",
+    "word_frequency": 105
+  },
+  {
+    "example_sentence_native": "Kannst du mir den Weg zeigen?",
+    "word": "zeigen",
+    "english_translation": "to show;to point",
+    "gender": "",
+    "example_sentence_english": "Can you show me the way?",
+    "pos": "verb",
+    "word_frequency": 106
+  },
+  {
+    "example_sentence_native": "Was möchtest du essen?",
+    "word": "essen",
+    "english_translation": "to eat",
+    "gender": "",
+    "example_sentence_english": "What would you like to eat?",
+    "pos": "verb",
+    "word_frequency": 107
+  },
+  {
+    "example_sentence_native": "Guten Abend!",
+    "word": "Abend",
+    "english_translation": "evening",
+    "gender": "masculine",
+    "example_sentence_english": "Good evening!",
+    "pos": "noun",
+    "word_frequency": 108
+  },
+  {
+    "example_sentence_native": "Ich höre gerne Musik.",
+    "word": "Musik",
+    "english_translation": "music",
+    "gender": "feminine",
+    "example_sentence_english": "I like to listen to music.",
+    "pos": "noun",
+    "word_frequency": 109
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne Wasser.",
+    "word": "Wasser",
+    "english_translation": "water",
+    "gender": "neuter",
+    "example_sentence_english": "I like to drink water.",
+    "pos": "noun",
+    "word_frequency": 110
+  },
+  {
+    "example_sentence_native": "Das Haus ist sehr alt.",
+    "word": "alt",
+    "english_translation": "old",
+    "gender": "",
+    "example_sentence_english": "The house is very old.",
+    "pos": "adjective",
+    "word_frequency": 111
+  },
+  {
+    "example_sentence_native": "Ich komme bald nach Hause.",
+    "word": "bald",
+    "english_translation": "soon",
+    "gender": "",
+    "example_sentence_english": "I'm coming home soon.",
+    "pos": "adverb",
+    "word_frequency": 112
+  },
+  {
+    "example_sentence_native": "Das ist mein zweites Buch.",
+    "word": "zweit",
+    "english_translation": "second",
+    "gender": "",
+    "example_sentence_english": "This is my second book.",
+    "pos": "adjective",
+    "word_frequency": 113
+  },
+  {
+    "example_sentence_native": "Ich fahre mit dem Auto zur Arbeit.",
+    "word": "Auto",
+    "english_translation": "car",
+    "gender": "neuter",
+    "example_sentence_english": "I drive to work by car.",
+    "pos": "noun",
+    "word_frequency": 114
+  },
+  {
+    "example_sentence_native": "Kannst du mir das Buch bringen?",
+    "word": "bringen",
+    "english_translation": "to bring",
+    "gender": "",
+    "example_sentence_english": "Can you bring me the book?",
+    "pos": "verb",
+    "word_frequency": 115
+  },
+  {
+    "example_sentence_native": "Sie hielt meine Hand.",
+    "word": "Hand",
+    "english_translation": "hand",
+    "gender": "feminine",
+    "example_sentence_english": "She held my hand.",
+    "pos": "noun",
+    "word_frequency": 116
+  },
+  {
+    "example_sentence_native": "Er hat Kopfschmerzen.",
+    "word": "Kopf",
+    "english_translation": "head",
+    "gender": "masculine",
+    "example_sentence_english": "He has a headache.",
+    "pos": "noun",
+    "word_frequency": 117
+  },
+  {
+    "example_sentence_native": "Wir treffen uns nächste Woche.",
+    "word": "nächst",
+    "english_translation": "next",
+    "gender": "",
+    "example_sentence_english": "We will meet next week.",
+    "pos": "adjective",
+    "word_frequency": 118
+  },
+  {
+    "example_sentence_native": "Jede Person hat Rechte.",
+    "word": "Person",
+    "english_translation": "person",
+    "gender": "feminine",
+    "example_sentence_english": "Every person has rights.",
+    "pos": "noun",
+    "word_frequency": 119
+  },
+  {
+    "example_sentence_native": "Die Aufgabe ist sehr schwer.",
+    "word": "schwer",
+    "english_translation": "heavy;difficult",
+    "gender": "",
+    "example_sentence_english": "The task is very difficult.",
+    "pos": "adjective",
+    "word_frequency": 120
+  },
+  {
+    "example_sentence_native": "Das ist eine wichtige Information.",
+    "word": "wichtig",
+    "english_translation": "important",
+    "gender": "",
+    "example_sentence_english": "That is important information.",
+    "pos": "adjective",
+    "word_frequency": 121
+  },
+  {
+    "example_sentence_native": "Der Berg ist sehr hoch.",
+    "word": "hoch",
+    "english_translation": "high;tall",
+    "gender": "",
+    "example_sentence_english": "The mountain is very high.",
+    "pos": "adjective",
+    "word_frequency": 122
+  },
+  {
+    "example_sentence_native": "Welches Alter hat er?",
+    "word": "Alter",
+    "english_translation": "age",
+    "gender": "neuter",
+    "example_sentence_english": "What age is he?",
+    "pos": "noun",
+    "word_frequency": 123
+  },
+  {
+    "example_sentence_native": "Am Anfang war es schwierig.",
+    "word": "Anfang",
+    "english_translation": "beginning",
+    "gender": "masculine",
+    "example_sentence_english": "In the beginning, it was difficult.",
+    "pos": "noun",
+    "word_frequency": 124
+  },
+  {
+    "example_sentence_native": "Er wohnt ganz oben.",
+    "word": "oben",
+    "english_translation": "above",
+    "gender": "",
+    "example_sentence_english": "He lives right at the top.",
+    "pos": "adverb",
+    "word_frequency": 125
+  },
+  {
+    "example_sentence_native": "Meine Mutter ist sehr nett.",
+    "word": "Mutter",
+    "english_translation": "mother",
+    "gender": "feminine",
+    "example_sentence_english": "My mother is very nice.",
+    "pos": "noun",
+    "word_frequency": 126
+  },
+  {
+    "example_sentence_native": "Sie hat blaue Augen.",
+    "word": "Auge",
+    "english_translation": "eye",
+    "gender": "neuter",
+    "example_sentence_english": "She has blue eyes.",
+    "pos": "noun",
+    "word_frequency": 127
+  },
+  {
+    "example_sentence_native": "Ich brauche deine Hilfe.",
+    "word": "brauchen",
+    "english_translation": "to need",
+    "gender": "",
+    "example_sentence_english": "I need your help.",
+    "pos": "verb",
+    "word_frequency": 128
+  },
+  {
+    "example_sentence_native": "Ich denke, es ist eine gute Idee.",
+    "word": "denken",
+    "english_translation": "to think",
+    "gender": "",
+    "example_sentence_english": "I think it's a good idea.",
+    "pos": "verb",
+    "word_frequency": 129
+  },
+  {
+    "example_sentence_native": "Ich schreibe einen Brief.",
+    "word": "schreiben",
+    "english_translation": "to write",
+    "gender": "",
+    "example_sentence_english": "I am writing a letter.",
+    "pos": "verb",
+    "word_frequency": 130
+  },
+  {
+    "example_sentence_native": "Wir treffen uns morgen.",
+    "word": "treffen",
+    "english_translation": "to meet;to hit",
+    "gender": "",
+    "example_sentence_english": "We are meeting tomorrow.",
+    "pos": "verb",
+    "word_frequency": 131
+  },
+  {
+    "example_sentence_native": "Ich wünsche dir viel Glück!",
+    "word": "Glück",
+    "english_translation": "luck;happiness",
+    "gender": "neuter",
+    "example_sentence_english": "I wish you good luck!",
+    "pos": "noun",
+    "word_frequency": 132
+  },
+  {
+    "example_sentence_native": "Guten Tag, Herr Müller.",
+    "word": "Herr",
+    "english_translation": "Mr.;sir;gentleman",
+    "gender": "masculine",
+    "example_sentence_english": "Good day, Mr. Müller.",
+    "pos": "noun",
+    "word_frequency": 133
+  },
+  {
+    "example_sentence_native": "Kannst du mir bitte Hilfe leisten?",
+    "word": "Hilfe",
+    "english_translation": "help;aid",
+    "gender": "feminine",
+    "example_sentence_english": "Can you please give me help?",
+    "pos": "noun",
+    "word_frequency": 134
+  },
+  {
+    "example_sentence_native": "Die Aufgabe ist sehr leicht.",
+    "word": "leicht",
+    "english_translation": "light;easy",
+    "gender": "",
+    "example_sentence_english": "The task is very easy.",
+    "pos": "adjective",
+    "word_frequency": 135
+  },
+  {
+    "example_sentence_native": "Ich sehe gern einen Film.",
+    "word": "Film",
+    "english_translation": "film;movie",
+    "gender": "masculine",
+    "example_sentence_english": "I like to watch a movie.",
+    "pos": "noun",
+    "word_frequency": 136
+  },
+  {
+    "example_sentence_native": "Die Musik ist zu laut.",
+    "word": "laut",
+    "english_translation": "loud",
+    "gender": "",
+    "example_sentence_english": "The music is too loud.",
+    "pos": "adjective",
+    "word_frequency": 137
+  },
+  {
+    "example_sentence_native": "Ich lese jeden Abend ein Buch.",
+    "word": "lesen",
+    "english_translation": "to read",
+    "gender": "",
+    "example_sentence_english": "I read a book every evening.",
+    "pos": "verb",
+    "word_frequency": 138
+  },
+  {
+    "example_sentence_native": "Das ist ein sehr interessantes Buch.",
+    "word": "Buch",
+    "english_translation": "book",
+    "gender": "neuter",
+    "example_sentence_english": "That is a very interesting book.",
+    "pos": "noun",
+    "word_frequency": 139
+  },
+  {
+    "example_sentence_native": "Das ist ein kleines Ding.",
+    "word": "Ding",
+    "english_translation": "thing",
+    "gender": "neuter",
+    "example_sentence_english": "That is a small thing.",
+    "pos": "noun",
+    "word_frequency": 140
+  },
+  {
+    "example_sentence_native": "Ich stehe jeden Morgen früh auf.",
+    "word": "früh",
+    "english_translation": "early",
+    "gender": "",
+    "example_sentence_english": "I get up early every morning.",
+    "pos": "adjective",
+    "word_frequency": 141
+  },
+  {
+    "example_sentence_native": "Mein Sohn geht zur Schule.",
+    "word": "Sohn",
+    "english_translation": "son",
+    "gender": "masculine",
+    "example_sentence_english": "My son goes to school.",
+    "pos": "noun",
+    "word_frequency": 142
+  },
+  {
+    "example_sentence_native": "Wir hatten viel Spass auf der Party.",
+    "word": "Spass",
+    "english_translation": "fun",
+    "gender": "masculine",
+    "example_sentence_english": "We had a lot of fun at the party.",
+    "pos": "noun",
+    "word_frequency": 143
+  },
+  {
+    "example_sentence_native": "Dieses Wort ist schwer auszusprechen.",
+    "word": "Wort",
+    "english_translation": "word",
+    "gender": "neuter",
+    "example_sentence_english": "This word is difficult to pronounce.",
+    "pos": "noun",
+    "word_frequency": 144
+  },
+  {
+    "example_sentence_native": "Das kleine Mädchen spielt im Garten.",
+    "word": "Mädchen",
+    "english_translation": "girl",
+    "gender": "neuter",
+    "example_sentence_english": "The little girl is playing in the garden.",
+    "pos": "noun",
+    "word_frequency": 145
+  },
+  {
+    "example_sentence_native": "Mein Vater liest die Zeitung.",
+    "word": "Vater",
+    "english_translation": "father",
+    "gender": "masculine",
+    "example_sentence_english": "My father is reading the newspaper.",
+    "pos": "noun",
+    "word_frequency": 146
+  },
+  {
+    "example_sentence_native": "Ich fahre jeden Tag zur Arbeit.",
+    "word": "fahren",
+    "english_translation": "to drive;to go (by vehicle)",
+    "gender": "",
+    "example_sentence_english": "I drive to work every day.",
+    "pos": "verb",
+    "word_frequency": 147
+  },
+  {
+    "example_sentence_native": "Ich bin heute Abend frei.",
+    "word": "frei",
+    "english_translation": "free;available",
+    "gender": "",
+    "example_sentence_english": "I am free tonight.",
+    "pos": "adjective",
+    "word_frequency": 148
+  },
+  {
+    "example_sentence_native": "Das ist eine gute Idee.",
+    "word": "Idee",
+    "english_translation": "idea",
+    "gender": "feminine",
+    "example_sentence_english": "That is a good idea.",
+    "pos": "noun",
+    "word_frequency": 149
+  },
+  {
+    "example_sentence_native": "Das ist super!",
+    "word": "super",
+    "english_translation": "great;super",
+    "gender": "",
+    "example_sentence_english": "That is great!",
+    "pos": "adjective",
+    "word_frequency": 150
+  },
+  {
+    "example_sentence_native": "Er ist mein bester Freund.",
+    "word": "Freund",
+    "english_translation": "friend (male)",
+    "gender": "masculine",
+    "example_sentence_english": "He is my best friend.",
+    "pos": "noun",
+    "word_frequency": 151
+  },
+  {
+    "example_sentence_native": "Er kann das Team gut führen.",
+    "word": "führen",
+    "english_translation": "to lead;to guide",
+    "gender": "",
+    "example_sentence_english": "He can lead the team well.",
+    "pos": "verb",
+    "word_frequency": 152
+  },
+  {
+    "example_sentence_native": "Kannst du mir bitte helfen?",
+    "word": "helfen",
+    "english_translation": "to help",
+    "gender": "",
+    "example_sentence_english": "Can you please help me?",
+    "pos": "verb",
+    "word_frequency": 153
+  },
+  {
+    "example_sentence_native": "Wie viel kostet das?",
+    "word": "kosten",
+    "english_translation": "to cost",
+    "gender": "",
+    "example_sentence_english": "How much does that cost?",
+    "pos": "verb",
+    "word_frequency": 154
+  },
+  {
+    "example_sentence_native": "Ich suche meine Schlüssel.",
+    "word": "suchen",
+    "english_translation": "to search;to look for",
+    "gender": "",
+    "example_sentence_english": "I am looking for my keys.",
+    "pos": "verb",
+    "word_frequency": 155
+  },
+  {
+    "example_sentence_native": "Ich laufe jeden Morgen im Park.",
+    "word": "laufen",
+    "english_translation": "to run",
+    "gender": "",
+    "example_sentence_english": "I run every morning in the park.",
+    "pos": "verb",
+    "word_frequency": 156
+  },
+  {
+    "example_sentence_native": "Ich verstehe die Frage nicht.",
+    "word": "verstehen",
+    "english_translation": "to understand",
+    "gender": "",
+    "example_sentence_english": "I don't understand the question.",
+    "pos": "verb",
+    "word_frequency": 157
+  },
+  {
+    "example_sentence_native": "Wann kommst du nach Hause?",
+    "word": "wann",
+    "english_translation": "when",
+    "gender": "",
+    "example_sentence_english": "When are you coming home?",
+    "pos": "adverb",
+    "word_frequency": 158
+  },
+  {
+    "example_sentence_native": "Meine Klasse ist sehr groß.",
+    "word": "Klasse",
+    "english_translation": "class;grade",
+    "gender": "feminine",
+    "example_sentence_english": "My class is very big.",
+    "pos": "noun",
+    "word_frequency": 159
+  },
+  {
+    "example_sentence_native": "Der Preis für das Buch ist hoch.",
+    "word": "Preis",
+    "english_translation": "price;prize",
+    "gender": "masculine",
+    "example_sentence_english": "The price for the book is high.",
+    "pos": "noun",
+    "word_frequency": 160
+  },
+  {
+    "example_sentence_native": "Ich habe ihn gestern gesehen.",
+    "word": "gestern",
+    "english_translation": "yesterday",
+    "gender": "",
+    "example_sentence_english": "I saw him yesterday.",
+    "pos": "adverb",
+    "word_frequency": 161
+  },
+  {
+    "example_sentence_native": "Der März ist der dritte Monat des Jahres.",
+    "word": "März",
+    "english_translation": "March",
+    "gender": "masculine",
+    "example_sentence_english": "March is the third month of the year.",
+    "pos": "noun",
+    "word_frequency": 162
+  },
+  {
+    "example_sentence_native": "Ich habe meine Schlüssel vergessen.",
+    "word": "vergessen",
+    "english_translation": "to forget",
+    "gender": "",
+    "example_sentence_english": "I forgot my keys.",
+    "pos": "verb",
+    "word_frequency": 163
+  },
+  {
+    "example_sentence_native": "Ich möchte ein neues Buch kaufen.",
+    "word": "kaufen",
+    "english_translation": "to buy",
+    "gender": "",
+    "example_sentence_english": "I want to buy a new book.",
+    "pos": "verb",
+    "word_frequency": 164
+  },
+  {
+    "example_sentence_native": "Wir lernen Deutsch.",
+    "word": "lernen",
+    "english_translation": "to learn",
+    "gender": "",
+    "example_sentence_english": "We are learning German.",
+    "pos": "verb",
+    "word_frequency": 165
+  },
+  {
+    "example_sentence_native": "Der Junge spielt im Garten.",
+    "word": "Junge",
+    "english_translation": "boy",
+    "gender": "masculine",
+    "example_sentence_english": "The boy is playing in the garden.",
+    "pos": "noun",
+    "word_frequency": 166
+  },
+  {
+    "example_sentence_native": "Einen Moment, bitte!",
+    "word": "Moment",
+    "english_translation": "moment",
+    "gender": "masculine",
+    "example_sentence_english": "One moment, please!",
+    "pos": "noun",
+    "word_frequency": 167
+  },
+  {
+    "example_sentence_native": "Das Wetter ist heute schlecht.",
+    "word": "schlecht",
+    "english_translation": "bad",
+    "gender": "",
+    "example_sentence_english": "The weather is bad today.",
+    "pos": "adjective",
+    "word_frequency": 168
+  },
+  {
+    "example_sentence_native": "Kannst du Deutsch sprechen?",
+    "word": "sprechen",
+    "english_translation": "to speak",
+    "gender": "",
+    "example_sentence_english": "Can you speak German?",
+    "pos": "verb",
+    "word_frequency": 169
+  },
+  {
+    "example_sentence_native": "Der April ist ein Frühlingsmonat.",
+    "word": "April",
+    "english_translation": "April",
+    "gender": "masculine",
+    "example_sentence_english": "April is a spring month.",
+    "pos": "noun",
+    "word_frequency": 170
+  },
+  {
+    "example_sentence_native": "Im Juli fahren wir in den Urlaub.",
+    "word": "Juli",
+    "english_translation": "July",
+    "gender": "masculine",
+    "example_sentence_english": "In July we go on vacation.",
+    "pos": "noun",
+    "word_frequency": 171
+  },
+  {
+    "example_sentence_native": "Der Juni ist ein schöner Monat.",
+    "word": "Juni",
+    "english_translation": "June",
+    "gender": "masculine",
+    "example_sentence_english": "June is a beautiful month.",
+    "pos": "noun",
+    "word_frequency": 172
+  },
+  {
+    "example_sentence_native": "Bitte gehen Sie links.",
+    "word": "links",
+    "english_translation": "left;to the left",
+    "gender": "",
+    "example_sentence_english": "Please go left.",
+    "pos": "adverb",
+    "word_frequency": 173
+  },
+  {
+    "example_sentence_native": "Im Oktober feiern wir das Oktoberfest.",
+    "word": "Oktober",
+    "english_translation": "October",
+    "gender": "masculine",
+    "example_sentence_english": "In October we celebrate Oktoberfest.",
+    "pos": "noun",
+    "word_frequency": 174
+  },
+  {
+    "example_sentence_native": "Er setzt sich auf den Stuhl.",
+    "word": "setzen",
+    "english_translation": "to set;to put;to place",
+    "gender": "",
+    "example_sentence_english": "He sits down on the chair.",
+    "pos": "verb",
+    "word_frequency": 175
+  },
+  {
+    "example_sentence_native": "Das Wort beginnt mit einem F.",
+    "word": "F",
+    "english_translation": "F (letter)",
+    "gender": "neuter",
+    "example_sentence_english": "The word starts with an F.",
+    "pos": "noun",
+    "word_frequency": 176
+  },
+  {
+    "example_sentence_native": "Ich höre Musik.",
+    "word": "hören",
+    "english_translation": "to hear;to listen",
+    "gender": "",
+    "example_sentence_english": "I am listening to music.",
+    "pos": "verb",
+    "word_frequency": 177
+  },
+  {
+    "example_sentence_native": "Gehen Sie hier rechts ab.",
+    "word": "rechts",
+    "english_translation": "right (direction)",
+    "gender": "",
+    "example_sentence_english": "Turn right here.",
+    "pos": "adverb",
+    "word_frequency": 178
+  },
+  {
+    "example_sentence_native": "Ich hätte gerne ein Stück Kuchen.",
+    "word": "Stück",
+    "english_translation": "piece;bit;item",
+    "gender": "neuter",
+    "example_sentence_english": "I would like a piece of cake.",
+    "pos": "noun",
+    "word_frequency": 179
+  },
+  {
+    "example_sentence_native": "Der Apfel fällt vom Baum.",
+    "word": "fallen",
+    "english_translation": "to fall",
+    "gender": "",
+    "example_sentence_english": "The apple falls from the tree.",
+    "pos": "verb",
+    "word_frequency": 180
+  },
+  {
+    "example_sentence_native": "Der Sommer ist meine Lieblingsjahreszeit.",
+    "word": "Sommer",
+    "english_translation": "summer",
+    "gender": "masculine",
+    "example_sentence_english": "Summer is my favorite season.",
+    "pos": "noun",
+    "word_frequency": 181
+  },
+  {
+    "example_sentence_native": "Meine Tochter geht zur Schule.",
+    "word": "Tochter",
+    "english_translation": "daughter",
+    "gender": "feminine",
+    "example_sentence_english": "My daughter goes to school.",
+    "pos": "noun",
+    "word_frequency": 182
+  },
+  {
+    "example_sentence_native": "Ich suche eine neue Wohnung.",
+    "word": "Wohnung",
+    "english_translation": "apartment",
+    "gender": "feminine",
+    "example_sentence_english": "I am looking for a new apartment.",
+    "pos": "noun",
+    "word_frequency": 183
+  },
+  {
+    "example_sentence_native": "Ich kenne diesen Mann nicht.",
+    "word": "kennen",
+    "english_translation": "to know (people;places;facts)",
+    "gender": "",
+    "example_sentence_english": "I don't know this man.",
+    "pos": "verb",
+    "word_frequency": 184
+  },
+  {
+    "example_sentence_native": "Deutsch ist eine schöne Sprache.",
+    "word": "Sprache",
+    "english_translation": "language",
+    "gender": "feminine",
+    "example_sentence_english": "German is a beautiful language.",
+    "pos": "noun",
+    "word_frequency": 185
+  },
+  {
+    "example_sentence_native": "Das Bad ist im ersten Stock.",
+    "word": "Bad",
+    "english_translation": "bath;bathroom",
+    "gender": "neuter",
+    "example_sentence_english": "The bathroom is on the first floor.",
+    "pos": "noun",
+    "word_frequency": 186
+  },
+  {
+    "example_sentence_native": "Ich habe einen Fehler gemacht.",
+    "word": "Fehler",
+    "english_translation": "mistake;error",
+    "gender": "masculine",
+    "example_sentence_english": "I made a mistake.",
+    "pos": "noun",
+    "word_frequency": 187
+  },
+  {
+    "example_sentence_native": "Das Auto fährt langsam.",
+    "word": "langsam",
+    "english_translation": "slow",
+    "gender": "",
+    "example_sentence_english": "The car drives slowly.",
+    "pos": "adjective",
+    "word_frequency": 188
+  },
+  {
+    "example_sentence_native": "Der Tisch ist zwei Meter lang.",
+    "word": "Meter",
+    "english_translation": "meter",
+    "gender": "masculine",
+    "example_sentence_english": "The table is two meters long.",
+    "pos": "noun",
+    "word_frequency": 189
+  },
+  {
+    "example_sentence_native": "Die Strecke beträgt 100 Km.",
+    "word": "Km",
+    "english_translation": "kilometer(s)",
+    "gender": "masculine",
+    "example_sentence_english": "The distance is 100 kilometers.",
+    "pos": "noun",
+    "word_frequency": 190
+  },
+  {
+    "example_sentence_native": "Ich schaue gerne Tv.",
+    "word": "Tv",
+    "english_translation": "TV;television",
+    "gender": "masculine",
+    "example_sentence_english": "I like to watch TV.",
+    "pos": "noun",
+    "word_frequency": 191
+  },
+  {
+    "example_sentence_native": "Er muss den Wagen ziehen.",
+    "word": "ziehen",
+    "english_translation": "to pull;to move",
+    "gender": "",
+    "example_sentence_english": "He has to pull the cart.",
+    "pos": "verb",
+    "word_frequency": 192
+  },
+  {
+    "example_sentence_native": "Blumen wachsen überall.",
+    "word": "überall",
+    "english_translation": "everywhere",
+    "gender": "",
+    "example_sentence_english": "Flowers grow everywhere.",
+    "pos": "adverb",
+    "word_frequency": 193
+  },
+  {
+    "example_sentence_native": "Ich warte auf deine Antwort.",
+    "word": "Antwort",
+    "english_translation": "answer",
+    "gender": "feminine",
+    "example_sentence_english": "I am waiting for your answer.",
+    "pos": "noun",
+    "word_frequency": 194
+  },
+  {
+    "example_sentence_native": "Die Bahn fährt pünktlich ab.",
+    "word": "Bahn",
+    "english_translation": "train;railway;path",
+    "gender": "feminine",
+    "example_sentence_english": "The train departs on time.",
+    "pos": "noun",
+    "word_frequency": 195
+  },
+  {
+    "example_sentence_native": "Mein Geburtstag ist im Dezember.",
+    "word": "Dezember",
+    "english_translation": "December",
+    "gender": "masculine",
+    "example_sentence_english": "My birthday is in December.",
+    "pos": "noun",
+    "word_frequency": 196
+  },
+  {
+    "example_sentence_native": "Sie hat ein freundliches Gesicht.",
+    "word": "Gesicht",
+    "english_translation": "face",
+    "gender": "neuter",
+    "example_sentence_english": "She has a friendly face.",
+    "pos": "noun",
+    "word_frequency": 197
+  },
+  {
+    "example_sentence_native": "Ein Jahr hat zwölf Monate.",
+    "word": "Monat",
+    "english_translation": "month",
+    "gender": "masculine",
+    "example_sentence_english": "A year has twelve months.",
+    "pos": "noun",
+    "word_frequency": 198
+  },
+  {
+    "example_sentence_native": "Das ist eine tolle Idee!",
+    "word": "toll",
+    "english_translation": "great;fantastic",
+    "gender": "",
+    "example_sentence_english": "That is a great idea!",
+    "pos": "adjective",
+    "word_frequency": 199
+  },
+  {
+    "example_sentence_native": "Ich trage einen Rucksack.",
+    "word": "tragen",
+    "english_translation": "to carry;to wear",
+    "gender": "",
+    "example_sentence_english": "I am carrying a backpack.",
+    "pos": "verb",
+    "word_frequency": 200
+  },
+  {
+    "example_sentence_native": "Im Januar ist es sehr kalt.",
+    "word": "Januar",
+    "english_translation": "January",
+    "gender": "masculine",
+    "example_sentence_english": "In January it is very cold.",
+    "pos": "noun",
+    "word_frequency": 201
+  },
+  {
+    "example_sentence_native": "Das ist die falsche Antwort.",
+    "word": "falsch",
+    "english_translation": "wrong;false",
+    "gender": "",
+    "example_sentence_english": "That is the wrong answer.",
+    "pos": "adjective",
+    "word_frequency": 202
+  },
+  {
+    "example_sentence_native": "Bist du fertig mit deiner Arbeit?",
+    "word": "fertig",
+    "english_translation": "ready;finished",
+    "gender": "",
+    "example_sentence_english": "Are you finished with your work?",
+    "pos": "adjective",
+    "word_frequency": 203
+  },
+  {
+    "example_sentence_native": "Ich habe ein schönes Foto gemacht.",
+    "word": "Foto",
+    "english_translation": "photo",
+    "gender": "neuter",
+    "example_sentence_english": "I took a beautiful photo.",
+    "pos": "noun",
+    "word_frequency": 204
+  },
+  {
+    "example_sentence_native": "Mein Bruder lebt in Berlin.",
+    "word": "Bruder",
+    "english_translation": "brother",
+    "gender": "masculine",
+    "example_sentence_english": "My brother lives in Berlin.",
+    "pos": "noun",
+    "word_frequency": 205
+  },
+  {
+    "example_sentence_native": "Der Februar ist ein kurzer Monat.",
+    "word": "Februar",
+    "english_translation": "February",
+    "gender": "masculine",
+    "example_sentence_english": "February is a short month.",
+    "pos": "noun",
+    "word_frequency": 206
+  },
+  {
+    "example_sentence_native": "Er spielt gerne Fussball.",
+    "word": "Fussball",
+    "english_translation": "football;soccer",
+    "gender": "masculine",
+    "example_sentence_english": "He likes to play football.",
+    "pos": "noun",
+    "word_frequency": 207
+  },
+  {
+    "example_sentence_native": "Die Schuhe passen mir gut.",
+    "word": "passen",
+    "english_translation": "to fit;to suit",
+    "gender": "",
+    "example_sentence_english": "The shoes fit me well.",
+    "pos": "verb",
+    "word_frequency": 208
+  },
+  {
+    "example_sentence_native": "Meine Katze ist schwarz.",
+    "word": "schwarz",
+    "english_translation": "black",
+    "gender": "",
+    "example_sentence_english": "My cat is black.",
+    "pos": "adjective",
+    "word_frequency": 209
+  },
+  {
+    "example_sentence_native": "Am Sonntag gehen wir spazieren.",
+    "word": "Sonntag",
+    "english_translation": "Sunday",
+    "gender": "masculine",
+    "example_sentence_english": "On Sunday, we go for a walk.",
+    "pos": "noun",
+    "word_frequency": 210
+  },
+  {
+    "example_sentence_native": "Er wartet unten auf dich.",
+    "word": "unten",
+    "english_translation": "below;downstairs",
+    "gender": "",
+    "example_sentence_english": "He is waiting for you downstairs.",
+    "pos": "adverb",
+    "word_frequency": 211
+  },
+  {
+    "example_sentence_native": "Ich muss auf den Bus warten.",
+    "word": "warten",
+    "english_translation": "to wait",
+    "gender": "",
+    "example_sentence_english": "I have to wait for the bus.",
+    "pos": "verb",
+    "word_frequency": 212
+  },
+  {
+    "example_sentence_native": "Bitte setzen Sie einen Punkt am Ende des Satzes.",
+    "word": "Punkt",
+    "english_translation": "point;dot;period",
+    "gender": "masculine",
+    "example_sentence_english": "Please put a period at the end of the sentence.",
+    "pos": "noun",
+    "word_frequency": 213
+  },
+  {
+    "example_sentence_native": "Meine Freundin kommt heute Abend.",
+    "word": "Freundin",
+    "english_translation": "girlfriend;female friend",
+    "gender": "feminine",
+    "example_sentence_english": "My girlfriend is coming tonight.",
+    "pos": "noun",
+    "word_frequency": 214
+  },
+  {
+    "example_sentence_native": "Das Auto ist grün.",
+    "word": "grün",
+    "english_translation": "green",
+    "gender": "",
+    "example_sentence_english": "The car is green.",
+    "pos": "adjective",
+    "word_frequency": 215
+  },
+  {
+    "example_sentence_native": "Mach bitte das Licht an.",
+    "word": "Licht",
+    "english_translation": "light",
+    "gender": "neuter",
+    "example_sentence_english": "Please turn on the light.",
+    "pos": "noun",
+    "word_frequency": 216
+  },
+  {
+    "example_sentence_native": "Ich gehe zum Markt.",
+    "word": "Markt",
+    "english_translation": "market",
+    "gender": "masculine",
+    "example_sentence_english": "I am going to the market.",
+    "pos": "noun",
+    "word_frequency": 217
+  },
+  {
+    "example_sentence_native": "Der Schüler lernt fleißig.",
+    "word": "Schüler",
+    "english_translation": "student",
+    "gender": "masculine",
+    "example_sentence_english": "The student studies diligently.",
+    "pos": "noun",
+    "word_frequency": 218
+  },
+  {
+    "example_sentence_native": "Bitte lesen Sie den Text.",
+    "word": "Text",
+    "english_translation": "text",
+    "gender": "masculine",
+    "example_sentence_english": "Please read the text.",
+    "pos": "noun",
+    "word_frequency": 219
+  },
+  {
+    "example_sentence_native": "Ich lese jeden Morgen die Zeitung.",
+    "word": "Zeitung",
+    "english_translation": "newspaper",
+    "gender": "feminine",
+    "example_sentence_english": "I read the newspaper every morning.",
+    "pos": "noun",
+    "word_frequency": 220
+  },
+  {
+    "example_sentence_native": "Ich mache gerne Sport.",
+    "word": "Sport",
+    "english_translation": "sport",
+    "gender": "masculine",
+    "example_sentence_english": "I like to do sports.",
+    "pos": "noun",
+    "word_frequency": 221
+  },
+  {
+    "example_sentence_native": "Das Zimmer ist groß.",
+    "word": "Zimmer",
+    "english_translation": "room",
+    "gender": "neuter",
+    "example_sentence_english": "The room is big.",
+    "pos": "noun",
+    "word_frequency": 222
+  },
+  {
+    "example_sentence_native": "Zuerst müssen wir essen.",
+    "word": "zuerst",
+    "english_translation": "first",
+    "gender": "",
+    "example_sentence_english": "First, we have to eat.",
+    "pos": "adverb",
+    "word_frequency": 223
+  },
+  {
+    "example_sentence_native": "Mir fehlt die Zeit.",
+    "word": "fehlen",
+    "english_translation": "to be missing",
+    "gender": "",
+    "example_sentence_english": "I lack the time.",
+    "pos": "verb",
+    "word_frequency": 224
+  },
+  {
+    "example_sentence_native": "Wir schauen einen Film.",
+    "word": "schauen",
+    "english_translation": "to look;to watch",
+    "gender": "",
+    "example_sentence_english": "We are watching a movie.",
+    "pos": "verb",
+    "word_frequency": 225
+  },
+  {
+    "example_sentence_native": "Das Wochenende war sehr entspannend.",
+    "word": "Wochenende",
+    "english_translation": "weekend",
+    "gender": "neuter",
+    "example_sentence_english": "The weekend was very relaxing.",
+    "pos": "noun",
+    "word_frequency": 226
+  },
+  {
+    "example_sentence_native": "Der Unterricht beginnt um neun Uhr.",
+    "word": "beginnen",
+    "english_translation": "to begin;to start",
+    "gender": "",
+    "example_sentence_english": "The class begins at nine o'clock.",
+    "pos": "verb",
+    "word_frequency": 227
+  },
+  {
+    "example_sentence_native": "Das Bett ist sehr bequem.",
+    "word": "Bett",
+    "english_translation": "bed",
+    "gender": "neuter",
+    "example_sentence_english": "The bed is very comfortable.",
+    "pos": "noun",
+    "word_frequency": 228
+  },
+  {
+    "example_sentence_native": "Das Auto ist rot.",
+    "word": "rot",
+    "english_translation": "red",
+    "gender": "",
+    "example_sentence_english": "The car is red.",
+    "pos": "adjective",
+    "word_frequency": 229
+  },
+  {
+    "example_sentence_native": "Am Samstag gehen wir ins Kino.",
+    "word": "Samstag",
+    "english_translation": "Saturday",
+    "gender": "masculine",
+    "example_sentence_english": "On Saturday we go to the cinema.",
+    "pos": "noun",
+    "word_frequency": 230
+  },
+  {
+    "example_sentence_native": "Wir teilen uns ein Zimmer.",
+    "word": "teilen",
+    "english_translation": "to share;to divide",
+    "gender": "",
+    "example_sentence_english": "We share a room.",
+    "pos": "verb",
+    "word_frequency": 231
+  },
+  {
+    "example_sentence_native": "Das ist eine schwierige Aufgabe.",
+    "word": "Aufgabe",
+    "english_translation": "task;assignment",
+    "gender": "feminine",
+    "example_sentence_english": "That is a difficult task.",
+    "pos": "noun",
+    "word_frequency": 232
+  },
+  {
+    "example_sentence_native": "Der Lehrer erklärt die Grammatik.",
+    "word": "Lehrer",
+    "english_translation": "teacher",
+    "gender": "masculine",
+    "example_sentence_english": "The teacher explains the grammar.",
+    "pos": "noun",
+    "word_frequency": 233
+  },
+  {
+    "example_sentence_native": "Wir sitzen auf der Bank im Park.",
+    "word": "Bank",
+    "english_translation": "bench",
+    "gender": "feminine",
+    "example_sentence_english": "We are sitting on the bench in the park.",
+    "pos": "noun",
+    "word_frequency": 234
+  },
+  {
+    "example_sentence_native": "Das Lineal ist 30 Cm lang.",
+    "word": "Cm",
+    "english_translation": "centimeter",
+    "gender": "masculine",
+    "example_sentence_english": "The ruler is 30 cm long.",
+    "pos": "noun",
+    "word_frequency": 235
+  },
+  {
+    "example_sentence_native": "Am Freitag gehen wir ins Kino.",
+    "word": "Freitag",
+    "english_translation": "Friday",
+    "gender": "masculine",
+    "example_sentence_english": "On Friday we go to the cinema.",
+    "pos": "noun",
+    "word_frequency": 236
+  },
+  {
+    "example_sentence_native": "Wir übernachten in einem Hotel.",
+    "word": "Hotel",
+    "english_translation": "hotel",
+    "gender": "neuter",
+    "example_sentence_english": "We are staying overnight in a hotel.",
+    "pos": "noun",
+    "word_frequency": 237
+  },
+  {
+    "example_sentence_native": "Der Zug fährt pünktlich ab.",
+    "word": "Zug",
+    "english_translation": "train",
+    "gender": "masculine",
+    "example_sentence_english": "The train departs on time.",
+    "pos": "noun",
+    "word_frequency": 238
+  },
+  {
+    "example_sentence_native": "Wie ist deine Telefonnummer?",
+    "word": "Nummer",
+    "english_translation": "number",
+    "gender": "feminine",
+    "example_sentence_english": "What is your phone number?",
+    "pos": "noun",
+    "word_frequency": 239
+  },
+  {
+    "example_sentence_native": "Ich sitze auf dem Stuhl.",
+    "word": "sitzen",
+    "english_translation": "to sit",
+    "gender": "",
+    "example_sentence_english": "I am sitting on the chair.",
+    "pos": "verb",
+    "word_frequency": 240
+  },
+  {
+    "example_sentence_native": "Bitte schließe die Tür.",
+    "word": "Tür",
+    "english_translation": "door",
+    "gender": "feminine",
+    "example_sentence_english": "Please close the door.",
+    "pos": "noun",
+    "word_frequency": 241
+  },
+  {
+    "example_sentence_native": "Wir bekommen Besuch am Wochenende.",
+    "word": "Besuch",
+    "english_translation": "visit",
+    "gender": "masculine",
+    "example_sentence_english": "We are having visitors on the weekend.",
+    "pos": "noun",
+    "word_frequency": 242
+  },
+  {
+    "example_sentence_native": "Das ist ein englisches Buch.",
+    "word": "englisch",
+    "english_translation": "English",
+    "gender": "",
+    "example_sentence_english": "That is an English book.",
+    "pos": "adjective",
+    "word_frequency": 243
+  },
+  {
+    "example_sentence_native": "Sie ist sehr glücklich.",
+    "word": "glücklich",
+    "english_translation": "happy",
+    "gender": "",
+    "example_sentence_english": "She is very happy.",
+    "pos": "adjective",
+    "word_frequency": 244
+  },
+  {
+    "example_sentence_native": "Hast du die Post schon geholt?",
+    "word": "Post",
+    "english_translation": "mail;post office",
+    "gender": "feminine",
+    "example_sentence_english": "Have you already picked up the mail?",
+    "pos": "noun",
+    "word_frequency": 245
+  },
+  {
+    "example_sentence_native": "Das Fenster ist offen.",
+    "word": "Fenster",
+    "english_translation": "window",
+    "gender": "neuter",
+    "example_sentence_english": "The window is open.",
+    "pos": "noun",
+    "word_frequency": 246
+  },
+  {
+    "example_sentence_native": "Er möchte sein altes Auto verkaufen.",
+    "word": "verkaufen",
+    "english_translation": "to sell",
+    "gender": "",
+    "example_sentence_english": "He wants to sell his old car.",
+    "pos": "verb",
+    "word_frequency": 247
+  },
+  {
+    "example_sentence_native": "Darf ich mich vorstellen?",
+    "word": "vorstellen",
+    "english_translation": "to introduce;to imagine",
+    "gender": "",
+    "example_sentence_english": "May I introduce myself?",
+    "pos": "verb",
+    "word_frequency": 248
+  },
+  {
+    "example_sentence_native": "Das Thema interessiert mich sehr.",
+    "word": "interessieren",
+    "english_translation": "to interest",
+    "gender": "",
+    "example_sentence_english": "The topic interests me a lot.",
+    "pos": "verb",
+    "word_frequency": 249
+  },
+  {
+    "example_sentence_native": "Ich liebe es, neue Sprachen zu lernen.",
+    "word": "lieben",
+    "english_translation": "to love",
+    "gender": "",
+    "example_sentence_english": "I love learning new languages.",
+    "pos": "verb",
+    "word_frequency": 250
+  },
+  {
+    "example_sentence_native": "Was meinst du dazu?",
+    "word": "meinen",
+    "english_translation": "to mean;to think",
+    "gender": "",
+    "example_sentence_english": "What do you think about that?",
+    "pos": "verb",
+    "word_frequency": 251
+  },
+  {
+    "example_sentence_native": "Am Montag habe ich einen Termin.",
+    "word": "Montag",
+    "english_translation": "Monday",
+    "gender": "masculine",
+    "example_sentence_english": "On Monday, I have an appointment.",
+    "pos": "noun",
+    "word_frequency": 252
+  },
+  {
+    "example_sentence_native": "Ich muss zum Arzt gehen.",
+    "word": "Arzt",
+    "english_translation": "doctor",
+    "gender": "masculine",
+    "example_sentence_english": "I have to go to the doctor.",
+    "pos": "noun",
+    "word_frequency": 253
+  },
+  {
+    "example_sentence_native": "Mein Hund spielt gerne im Garten.",
+    "word": "Hund",
+    "english_translation": "dog",
+    "gender": "masculine",
+    "example_sentence_english": "My dog likes to play in the garden.",
+    "pos": "noun",
+    "word_frequency": 254
+  },
+  {
+    "example_sentence_native": "Ich gehe gerne im See baden.",
+    "word": "baden",
+    "english_translation": "to bathe;to swim",
+    "gender": "",
+    "example_sentence_english": "I like to swim in the lake.",
+    "pos": "verb",
+    "word_frequency": 255
+  },
+  {
+    "example_sentence_native": "Ich brauche eine Karte für die Stadt.",
+    "word": "Karte",
+    "english_translation": "map;card;ticket",
+    "gender": "feminine",
+    "example_sentence_english": "I need a map for the city.",
+    "pos": "noun",
+    "word_frequency": 256
+  },
+  {
+    "example_sentence_native": "Die Sonne scheint heute.",
+    "word": "Sonne",
+    "english_translation": "sun",
+    "gender": "feminine",
+    "example_sentence_english": "The sun is shining today.",
+    "pos": "noun",
+    "word_frequency": 257
+  },
+  {
+    "example_sentence_native": "Das Tier schläft.",
+    "word": "Tier",
+    "english_translation": "animal",
+    "gender": "neuter",
+    "example_sentence_english": "The animal is sleeping.",
+    "pos": "noun",
+    "word_frequency": 258
+  },
+  {
+    "example_sentence_native": "Mein Handy klingelt.",
+    "word": "Handy",
+    "english_translation": "mobile phone;cell phone",
+    "gender": "neuter",
+    "example_sentence_english": "My mobile phone is ringing.",
+    "pos": "noun",
+    "word_frequency": 259
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne Kaffee am Morgen.",
+    "word": "Kaffee",
+    "english_translation": "coffee",
+    "gender": "masculine",
+    "example_sentence_english": "I like to drink coffee in the morning.",
+    "pos": "noun",
+    "word_frequency": 260
+  },
+  {
+    "example_sentence_native": "Der Film war sehr lustig.",
+    "word": "lustig",
+    "english_translation": "funny;amusing",
+    "gender": "",
+    "example_sentence_english": "The movie was very funny.",
+    "pos": "adjective",
+    "word_frequency": 261
+  },
+  {
+    "example_sentence_native": "Der Winter ist meine Lieblingsjahreszeit.",
+    "word": "Winter",
+    "english_translation": "winter",
+    "gender": "masculine",
+    "example_sentence_english": "Winter is my favorite season.",
+    "pos": "noun",
+    "word_frequency": 262
+  },
+  {
+    "example_sentence_native": "Kann ich dein Handy benutzen?",
+    "word": "benutzen",
+    "english_translation": "to use",
+    "gender": "",
+    "example_sentence_english": "Can I use your phone?",
+    "pos": "verb",
+    "word_frequency": 263
+  },
+  {
+    "example_sentence_native": "Er legt das Buch auf den Tisch.",
+    "word": "legen",
+    "english_translation": "to lay;to put",
+    "gender": "",
+    "example_sentence_english": "He lays the book on the table.",
+    "pos": "verb",
+    "word_frequency": 264
+  },
+  {
+    "example_sentence_native": "Der Tisch ist aus Holz.",
+    "word": "Tisch",
+    "english_translation": "table",
+    "gender": "masculine",
+    "example_sentence_english": "The table is made of wood.",
+    "pos": "noun",
+    "word_frequency": 265
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne ein kaltes Bier.",
+    "word": "Bier",
+    "english_translation": "beer",
+    "gender": "neuter",
+    "example_sentence_english": "I like to drink a cold beer.",
+    "pos": "noun",
+    "word_frequency": 266
+  },
+  {
+    "example_sentence_native": "Ich muss jetzt schlafen gehen.",
+    "word": "schlafen",
+    "english_translation": "to sleep",
+    "gender": "",
+    "example_sentence_english": "I have to go to sleep now.",
+    "pos": "verb",
+    "word_frequency": 267
+  },
+  {
+    "example_sentence_native": "Sie sind herzlich willkommen!",
+    "word": "willkommen",
+    "english_translation": "welcome",
+    "gender": "",
+    "example_sentence_english": "You are very welcome!",
+    "pos": "adjective",
+    "word_frequency": 268
+  },
+  {
+    "example_sentence_native": "Mein Fuss tut weh.",
+    "word": "Fuss",
+    "english_translation": "foot",
+    "gender": "masculine",
+    "example_sentence_english": "My foot hurts.",
+    "pos": "noun",
+    "word_frequency": 269
+  },
+  {
+    "example_sentence_native": "Ich bin in Deutschland geboren.",
+    "word": "geboren",
+    "english_translation": "born",
+    "gender": "",
+    "example_sentence_english": "I was born in Germany.",
+    "pos": "verb",
+    "word_frequency": 270
+  },
+  {
+    "example_sentence_native": "Kannst du bitte das Buch holen?",
+    "word": "holen",
+    "english_translation": "to fetch",
+    "gender": "",
+    "example_sentence_english": "Can you please get the book?",
+    "pos": "verb",
+    "word_frequency": 271
+  },
+  {
+    "example_sentence_native": "Das sind zehn Kilometer bis zur Stadt.",
+    "word": "Kilometer",
+    "english_translation": "kilometer",
+    "gender": "masculine",
+    "example_sentence_english": "That's ten kilometers to the city.",
+    "pos": "noun",
+    "word_frequency": 272
+  },
+  {
+    "example_sentence_native": "Wir gehen oft im Wald spazieren.",
+    "word": "Wald",
+    "english_translation": "forest;wood",
+    "gender": "masculine",
+    "example_sentence_english": "We often go for a walk in the forest.",
+    "pos": "noun",
+    "word_frequency": 273
+  },
+  {
+    "example_sentence_native": "Das Buch ist sehr interessant.",
+    "word": "interessant",
+    "english_translation": "interesting",
+    "gender": "",
+    "example_sentence_english": "The book is very interesting.",
+    "pos": "adjective",
+    "word_frequency": 274
+  },
+  {
+    "example_sentence_native": "Das Auto steht hinten im Hof.",
+    "word": "hinten",
+    "english_translation": "behind;at the back",
+    "gender": "",
+    "example_sentence_english": "The car is at the back in the yard.",
+    "pos": "adverb",
+    "word_frequency": 275
+  },
+  {
+    "example_sentence_native": "Warte bitte eine Sekunde.",
+    "word": "Sekunde",
+    "english_translation": "second",
+    "gender": "feminine",
+    "example_sentence_english": "Please wait a second.",
+    "pos": "noun",
+    "word_frequency": 276
+  },
+  {
+    "example_sentence_native": "Wann hast du Geburtstag?",
+    "word": "Geburtstag",
+    "english_translation": "birthday",
+    "gender": "masculine",
+    "example_sentence_english": "When is your birthday?",
+    "pos": "noun",
+    "word_frequency": 277
+  },
+  {
+    "example_sentence_native": "Das ist ein ganz normaler Tag.",
+    "word": "normal",
+    "english_translation": "normal",
+    "gender": "",
+    "example_sentence_english": "This is a completely normal day.",
+    "pos": "adjective",
+    "word_frequency": 278
+  },
+  {
+    "example_sentence_native": "Meine Schwester ist älter als ich.",
+    "word": "Schwester",
+    "english_translation": "sister",
+    "gender": "feminine",
+    "example_sentence_english": "My sister is older than me.",
+    "pos": "noun",
+    "word_frequency": 279
+  },
+  {
+    "example_sentence_native": "Ich bin zuhause.",
+    "word": "zuhause",
+    "english_translation": "at home",
+    "gender": "",
+    "example_sentence_english": "I am at home.",
+    "pos": "adverb",
+    "word_frequency": 280
+  },
+  {
+    "example_sentence_native": "Wir wollen heute Abend feiern.",
+    "word": "feiern",
+    "english_translation": "to celebrate",
+    "gender": "",
+    "example_sentence_english": "We want to celebrate tonight.",
+    "pos": "verb",
+    "word_frequency": 281
+  },
+  {
+    "example_sentence_native": "Sie mussten sehr lachen.",
+    "word": "lachen",
+    "english_translation": "to laugh",
+    "gender": "",
+    "example_sentence_english": "They had to laugh a lot.",
+    "pos": "verb",
+    "word_frequency": 282
+  },
+  {
+    "example_sentence_native": "Kannst du das Telefon beantworten?",
+    "word": "Telefon",
+    "english_translation": "telephone",
+    "gender": "neuter",
+    "example_sentence_english": "Can you answer the telephone?",
+    "pos": "noun",
+    "word_frequency": 283
+  },
+  {
+    "example_sentence_native": "Ich möchte Wasser trinken.",
+    "word": "trinken",
+    "english_translation": "to drink",
+    "gender": "",
+    "example_sentence_english": "I would like to drink water.",
+    "pos": "verb",
+    "word_frequency": 284
+  },
+  {
+    "example_sentence_native": "Der Schnee ist weiß.",
+    "word": "weiss",
+    "english_translation": "white",
+    "gender": "",
+    "example_sentence_english": "The snow is white.",
+    "pos": "adjective",
+    "word_frequency": 285
+  },
+  {
+    "example_sentence_native": "Das Wetter ist heute schön.",
+    "word": "Wetter",
+    "english_translation": "weather",
+    "gender": "neuter",
+    "example_sentence_english": "The weather is nice today.",
+    "pos": "noun",
+    "word_frequency": 286
+  },
+  {
+    "example_sentence_native": "Wir fahren zum Flughafen.",
+    "word": "Flughafen",
+    "english_translation": "airport",
+    "gender": "masculine",
+    "example_sentence_english": "We are driving to the airport.",
+    "pos": "noun",
+    "word_frequency": 287
+  },
+  {
+    "example_sentence_native": "Das Krankenhaus ist groß und modern.",
+    "word": "Krankenhaus",
+    "english_translation": "hospital",
+    "gender": "neuter",
+    "example_sentence_english": "The hospital is large and modern.",
+    "pos": "noun",
+    "word_frequency": 288
+  },
+  {
+    "example_sentence_native": "Sie öffnete ihren Mund, um zu sprechen.",
+    "word": "Mund",
+    "english_translation": "mouth",
+    "gender": "masculine",
+    "example_sentence_english": "She opened her mouth to speak.",
+    "pos": "noun",
+    "word_frequency": 289
+  },
+  {
+    "example_sentence_native": "Die Familie ist sehr arm.",
+    "word": "arm",
+    "english_translation": "poor",
+    "gender": "",
+    "example_sentence_english": "The family is very poor.",
+    "pos": "adjective",
+    "word_frequency": 290
+  },
+  {
+    "example_sentence_native": "Er hat sich den Arm gebrochen.",
+    "word": "Arm",
+    "english_translation": "arm",
+    "gender": "masculine",
+    "example_sentence_english": "He broke his arm.",
+    "pos": "noun",
+    "word_frequency": 291
+  },
+  {
+    "example_sentence_native": "Das Dorf liegt in den Bergen.",
+    "word": "Dorf",
+    "english_translation": "village",
+    "gender": "neuter",
+    "example_sentence_english": "The village is located in the mountains.",
+    "pos": "noun",
+    "word_frequency": 292
+  },
+  {
+    "example_sentence_native": "Ich brauche noch fünf Min.",
+    "word": "Min",
+    "english_translation": "minute (informal abbreviation)",
+    "gender": "feminine",
+    "example_sentence_english": "I need five more minutes.",
+    "pos": "noun",
+    "word_frequency": 293
+  },
+  {
+    "example_sentence_native": "Der Bahnhof ist ganz nah.",
+    "word": "nah",
+    "english_translation": "near;close",
+    "gender": "",
+    "example_sentence_english": "The train station is very close.",
+    "pos": "adjective",
+    "word_frequency": 294
+  },
+  {
+    "example_sentence_native": "Ich gehe ins Büro.",
+    "word": "Büro",
+    "english_translation": "office",
+    "gender": "neuter",
+    "example_sentence_english": "I am going to the office.",
+    "pos": "noun",
+    "word_frequency": 295
+  },
+  {
+    "example_sentence_native": "Welche Farbe hat dein Auto?",
+    "word": "Farbe",
+    "english_translation": "color",
+    "gender": "feminine",
+    "example_sentence_english": "What color is your car?",
+    "pos": "noun",
+    "word_frequency": 296
+  },
+  {
+    "example_sentence_native": "Wir haben einen schönen Garten hinter dem Haus.",
+    "word": "Garten",
+    "english_translation": "garden",
+    "gender": "masculine",
+    "example_sentence_english": "We have a beautiful garden behind the house.",
+    "pos": "noun",
+    "word_frequency": 297
+  },
+  {
+    "example_sentence_native": "Ich brauche 2 Kg Äpfel.",
+    "word": "Kg",
+    "english_translation": "kilogram",
+    "gender": "neuter",
+    "example_sentence_english": "I need 2 kg of apples.",
+    "pos": "noun",
+    "word_frequency": 298
+  },
+  {
+    "example_sentence_native": "Das Lied ist sehr schön.",
+    "word": "Lied",
+    "english_translation": "song",
+    "gender": "neuter",
+    "example_sentence_english": "The song is very beautiful.",
+    "pos": "noun",
+    "word_frequency": 299
+  },
+  {
+    "example_sentence_native": "Ich wohne in Berlin.",
+    "word": "wohnen",
+    "english_translation": "to live;to reside",
+    "gender": "",
+    "example_sentence_english": "I live in Berlin.",
+    "pos": "verb",
+    "word_frequency": 300
+  },
+  {
+    "example_sentence_native": "Der Bus kommt gleich.",
+    "word": "Bus",
+    "english_translation": "bus",
+    "gender": "masculine",
+    "example_sentence_english": "The bus is coming soon.",
+    "pos": "noun",
+    "word_frequency": 301
+  },
+  {
+    "example_sentence_native": "Wir gehen in den Park.",
+    "word": "Park",
+    "english_translation": "park",
+    "gender": "masculine",
+    "example_sentence_english": "We are going to the park.",
+    "pos": "noun",
+    "word_frequency": 302
+  },
+  {
+    "example_sentence_native": "Das Baby schläft friedlich.",
+    "word": "Baby",
+    "english_translation": "baby",
+    "gender": "neuter",
+    "example_sentence_english": "The baby is sleeping peacefully.",
+    "pos": "noun",
+    "word_frequency": 303
+  },
+  {
+    "example_sentence_native": "Ich habe einen Brief von meiner Familie bekommen.",
+    "word": "Brief",
+    "english_translation": "letter",
+    "gender": "masculine",
+    "example_sentence_english": "I received a letter from my family.",
+    "pos": "noun",
+    "word_frequency": 304
+  },
+  {
+    "example_sentence_native": "Wir besuchen das Museum am Wochenende.",
+    "word": "Museum",
+    "english_translation": "museum",
+    "gender": "neuter",
+    "example_sentence_english": "We are visiting the museum on the weekend.",
+    "pos": "noun",
+    "word_frequency": 305
+  },
+  {
+    "example_sentence_native": "Sie ist eine sehr nette Person.",
+    "word": "nett",
+    "english_translation": "nice;kind",
+    "gender": "",
+    "example_sentence_english": "She is a very nice person.",
+    "pos": "adjective",
+    "word_frequency": 306
+  },
+  {
+    "example_sentence_native": "Wir gehen abends oft spazieren.",
+    "word": "abends",
+    "english_translation": "in the evening;evenings",
+    "gender": "",
+    "example_sentence_english": "We often go for a walk in the evening.",
+    "pos": "adverb",
+    "word_frequency": 307
+  },
+  {
+    "example_sentence_native": "Ich gehe ins Geschäft, um Brot zu kaufen.",
+    "word": "Geschäft",
+    "english_translation": "shop;business",
+    "gender": "neuter",
+    "example_sentence_english": "I'm going to the shop to buy bread.",
+    "pos": "noun",
+    "word_frequency": 308
+  },
+  {
+    "example_sentence_native": "Ich fühle mich heute krank.",
+    "word": "krank",
+    "english_translation": "sick;ill",
+    "gender": "",
+    "example_sentence_english": "I feel sick today.",
+    "pos": "adjective",
+    "word_frequency": 309
+  },
+  {
+    "example_sentence_native": "Am Mittwoch habe ich einen Termin.",
+    "word": "Mittwoch",
+    "english_translation": "Wednesday",
+    "gender": "masculine",
+    "example_sentence_english": "On Wednesday I have an appointment.",
+    "pos": "noun",
+    "word_frequency": 310
+  },
+  {
+    "example_sentence_native": "Wie lange wird das dauern?",
+    "word": "dauern",
+    "english_translation": "to last;to take (time)",
+    "gender": "",
+    "example_sentence_english": "How long will that take?",
+    "pos": "verb",
+    "word_frequency": 311
+  },
+  {
+    "example_sentence_native": "Der Fahrer hält an der Ampel.",
+    "word": "Fahrer",
+    "english_translation": "driver",
+    "gender": "masculine",
+    "example_sentence_english": "The driver stops at the traffic light.",
+    "pos": "noun",
+    "word_frequency": 312
+  },
+  {
+    "example_sentence_native": "Das ist ein französisches Auto.",
+    "word": "französisch",
+    "english_translation": "French",
+    "gender": "",
+    "example_sentence_english": "That is a French car.",
+    "pos": "adjective",
+    "word_frequency": 313
+  },
+  {
+    "example_sentence_native": "Sprichst du Französisch?",
+    "word": "Französisch",
+    "english_translation": "French (language)",
+    "gender": "neuter",
+    "example_sentence_english": "Do you speak French?",
+    "pos": "noun",
+    "word_frequency": 314
+  },
+  {
+    "example_sentence_native": "Meine Mama kocht heute Abend.",
+    "word": "Mama",
+    "english_translation": "Mom",
+    "gender": "feminine",
+    "example_sentence_english": "My Mom is cooking tonight.",
+    "pos": "noun",
+    "word_frequency": 315
+  },
+  {
+    "example_sentence_native": "Ich höre gerne Radio am Morgen.",
+    "word": "Radio",
+    "english_translation": "radio",
+    "gender": "neuter",
+    "example_sentence_english": "I like listening to the radio in the morning.",
+    "pos": "noun",
+    "word_frequency": 316
+  },
+  {
+    "example_sentence_native": "Wir möchten nächstes Jahr nach Italien reisen.",
+    "word": "reisen",
+    "english_translation": "to travel",
+    "gender": "",
+    "example_sentence_english": "We would like to travel to Italy next year.",
+    "pos": "verb",
+    "word_frequency": 317
+  },
+  {
+    "example_sentence_native": "Der Bahnhof ist sehr groß.",
+    "word": "Bahnhof",
+    "english_translation": "train station",
+    "gender": "masculine",
+    "example_sentence_english": "The train station is very big.",
+    "pos": "noun",
+    "word_frequency": 318
+  },
+  {
+    "example_sentence_native": "Ich möchte meine Freunde besuchen.",
+    "word": "besuchen",
+    "english_translation": "to visit",
+    "gender": "",
+    "example_sentence_english": "I want to visit my friends.",
+    "pos": "verb",
+    "word_frequency": 319
+  },
+  {
+    "example_sentence_native": "Die Küche ist das Herz des Hauses.",
+    "word": "Küche",
+    "english_translation": "kitchen",
+    "gender": "feminine",
+    "example_sentence_english": "The kitchen is the heart of the house.",
+    "pos": "noun",
+    "word_frequency": 320
+  },
+  {
+    "example_sentence_native": "Der Film fängt um 20 Uhr an.",
+    "word": "anfangen",
+    "english_translation": "to begin;to start",
+    "gender": "",
+    "example_sentence_english": "The movie starts at 8 PM.",
+    "pos": "verb",
+    "word_frequency": 321
+  },
+  {
+    "example_sentence_native": "Was ist dein Beruf?",
+    "word": "Beruf",
+    "english_translation": "profession;job",
+    "gender": "masculine",
+    "example_sentence_english": "What is your profession?",
+    "pos": "noun",
+    "word_frequency": 322
+  },
+  {
+    "example_sentence_native": "Mein Computer ist neu.",
+    "word": "Computer",
+    "english_translation": "computer",
+    "gender": "masculine",
+    "example_sentence_english": "My computer is new.",
+    "pos": "noun",
+    "word_frequency": 323
+  },
+  {
+    "example_sentence_native": "Er hat fünf Finger an jeder Hand.",
+    "word": "Finger",
+    "english_translation": "finger",
+    "gender": "masculine",
+    "example_sentence_english": "He has five fingers on each hand.",
+    "pos": "noun",
+    "word_frequency": 324
+  },
+  {
+    "example_sentence_native": "Ich esse kein Fleisch.",
+    "word": "Fleisch",
+    "english_translation": "meat",
+    "gender": "neuter",
+    "example_sentence_english": "I don't eat meat.",
+    "pos": "noun",
+    "word_frequency": 325
+  },
+  {
+    "example_sentence_native": "Vögel können fliegen.",
+    "word": "fliegen",
+    "english_translation": "to fly",
+    "gender": "",
+    "example_sentence_english": "Birds can fly.",
+    "pos": "verb",
+    "word_frequency": 326
+  },
+  {
+    "example_sentence_native": "Es ist halb drei.",
+    "word": "halb",
+    "english_translation": "half",
+    "gender": "",
+    "example_sentence_english": "It's half past two.",
+    "pos": "adjective",
+    "word_frequency": 327
+  },
+  {
+    "example_sentence_native": "Der Himmel ist blau.",
+    "word": "blau",
+    "english_translation": "blue",
+    "gender": "",
+    "example_sentence_english": "The sky is blue.",
+    "pos": "adjective",
+    "word_frequency": 328
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Donnerstag.",
+    "word": "Donnerstag",
+    "english_translation": "Thursday",
+    "gender": "masculine",
+    "example_sentence_english": "We meet on Thursday.",
+    "pos": "noun",
+    "word_frequency": 329
+  },
+  {
+    "example_sentence_native": "Er ist ein Student an der Universität.",
+    "word": "Student",
+    "english_translation": "student (male)",
+    "gender": "masculine",
+    "example_sentence_english": "He is a student at the university.",
+    "pos": "noun",
+    "word_frequency": 330
+  },
+  {
+    "example_sentence_native": "Der Hund spielt mit dem Ball.",
+    "word": "Ball",
+    "english_translation": "ball",
+    "gender": "masculine",
+    "example_sentence_english": "The dog is playing with the ball.",
+    "pos": "noun",
+    "word_frequency": 331
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Dienstag.",
+    "word": "Dienstag",
+    "english_translation": "Tuesday",
+    "gender": "masculine",
+    "example_sentence_english": "We are meeting on Tuesday.",
+    "pos": "noun",
+    "word_frequency": 332
+  },
+  {
+    "example_sentence_native": "Sie spricht fließend Russisch.",
+    "word": "russisch",
+    "english_translation": "Russian",
+    "gender": "",
+    "example_sentence_english": "She speaks fluent Russian.",
+    "pos": "adjective",
+    "word_frequency": 333
+  },
+  {
+    "example_sentence_native": "Möchtest du ein Glas Wein?",
+    "word": "Wein",
+    "english_translation": "wine",
+    "gender": "masculine",
+    "example_sentence_english": "Would you like a glass of wine?",
+    "pos": "noun",
+    "word_frequency": 334
+  },
+  {
+    "example_sentence_native": "Woher kommst du?",
+    "word": "woher",
+    "english_translation": "from where",
+    "gender": "",
+    "example_sentence_english": "Where are you from?",
+    "pos": "adverb",
+    "word_frequency": 335
+  },
+  {
+    "example_sentence_native": "Wir gehen heute Abend ins Kino.",
+    "word": "Kino",
+    "english_translation": "cinema;movie theater",
+    "gender": "neuter",
+    "example_sentence_english": "We are going to the cinema tonight.",
+    "pos": "noun",
+    "word_frequency": 336
+  },
+  {
+    "example_sentence_native": "Sie hat eine kleine Nase.",
+    "word": "Nase",
+    "english_translation": "nose",
+    "gender": "feminine",
+    "example_sentence_english": "She has a small nose.",
+    "pos": "noun",
+    "word_frequency": 337
+  },
+  {
+    "example_sentence_native": "Machen wir eine kurze Pause.",
+    "word": "Pause",
+    "english_translation": "break;pause",
+    "gender": "feminine",
+    "example_sentence_english": "Let's take a short break.",
+    "pos": "noun",
+    "word_frequency": 338
+  },
+  {
+    "example_sentence_native": "Der Regen fällt den ganzen Tag.",
+    "word": "Regen",
+    "english_translation": "rain",
+    "gender": "masculine",
+    "example_sentence_english": "The rain is falling all day.",
+    "pos": "noun",
+    "word_frequency": 339
+  },
+  {
+    "example_sentence_native": "Bitte öffnen Sie die Tür.",
+    "word": "öffnen",
+    "english_translation": "to open",
+    "gender": "",
+    "example_sentence_english": "Please open the door.",
+    "pos": "verb",
+    "word_frequency": 340
+  },
+  {
+    "example_sentence_native": "Der Baum ist sehr alt.",
+    "word": "Baum",
+    "english_translation": "tree",
+    "gender": "masculine",
+    "example_sentence_english": "The tree is very old.",
+    "pos": "noun",
+    "word_frequency": 341
+  },
+  {
+    "example_sentence_native": "Wir wandern auf den Berg.",
+    "word": "Berg",
+    "english_translation": "mountain;hill",
+    "gender": "masculine",
+    "example_sentence_english": "We are hiking up the mountain.",
+    "pos": "noun",
+    "word_frequency": 342
+  },
+  {
+    "example_sentence_native": "Sie hat langes blondes Haar.",
+    "word": "Haar",
+    "english_translation": "hair",
+    "gender": "neuter",
+    "example_sentence_english": "She has long blonde hair.",
+    "pos": "noun",
+    "word_frequency": 343
+  },
+  {
+    "example_sentence_native": "Ich brauche neue Schuhe.",
+    "word": "Schuh",
+    "english_translation": "shoe",
+    "gender": "masculine",
+    "example_sentence_english": "I need new shoes.",
+    "pos": "noun",
+    "word_frequency": 344
+  },
+  {
+    "example_sentence_native": "Das Glas ist voll.",
+    "word": "Glas",
+    "english_translation": "glass",
+    "gender": "neuter",
+    "example_sentence_english": "The glass is full.",
+    "pos": "noun",
+    "word_frequency": 345
+  },
+  {
+    "example_sentence_native": "Der Kaffee ist heiss.",
+    "word": "heiss",
+    "english_translation": "hot",
+    "gender": "",
+    "example_sentence_english": "The coffee is hot.",
+    "pos": "adjective",
+    "word_frequency": 346
+  },
+  {
+    "example_sentence_native": "Das Konzert war fantastisch.",
+    "word": "Konzert",
+    "english_translation": "concert",
+    "gender": "neuter",
+    "example_sentence_english": "The concert was fantastic.",
+    "pos": "noun",
+    "word_frequency": 347
+  },
+  {
+    "example_sentence_native": "Mein Nachbar ist sehr freundlich.",
+    "word": "Nachbar",
+    "english_translation": "neighbor",
+    "gender": "masculine",
+    "example_sentence_english": "My neighbor is very friendly.",
+    "pos": "noun",
+    "word_frequency": 348
+  },
+  {
+    "example_sentence_native": "Ich möchte einen Hamburger mit Pommes.",
+    "word": "Hamburger",
+    "english_translation": "hamburger",
+    "gender": "masculine",
+    "example_sentence_english": "I would like a hamburger with fries.",
+    "pos": "noun",
+    "word_frequency": 349
+  },
+  {
+    "example_sentence_native": "Die Tasse ist leer.",
+    "word": "leer",
+    "english_translation": "empty;blank",
+    "gender": "",
+    "example_sentence_english": "The cup is empty.",
+    "pos": "adjective",
+    "word_frequency": 350
+  },
+  {
+    "example_sentence_native": "Ich möchte ein Eis essen.",
+    "word": "Eis",
+    "english_translation": "ice;ice cream",
+    "gender": "neuter",
+    "example_sentence_english": "I want to eat an ice cream.",
+    "pos": "noun",
+    "word_frequency": 351
+  },
+  {
+    "example_sentence_native": "Ich trinke morgens immer Kaffee.",
+    "word": "morgens",
+    "english_translation": "in the morning;mornings",
+    "gender": "",
+    "example_sentence_english": "I always drink coffee in the morning.",
+    "pos": "adverb",
+    "word_frequency": 352
+  },
+  {
+    "example_sentence_native": "Es ist nachts sehr ruhig hier.",
+    "word": "nachts",
+    "english_translation": "at night;nights",
+    "gender": "",
+    "example_sentence_english": "It is very quiet here at night.",
+    "pos": "adverb",
+    "word_frequency": 353
+  },
+  {
+    "example_sentence_native": "Ich brauche ein Blatt Papier.",
+    "word": "Papier",
+    "english_translation": "paper",
+    "gender": "neuter",
+    "example_sentence_english": "I need a sheet of paper.",
+    "pos": "noun",
+    "word_frequency": 354
+  },
+  {
+    "example_sentence_native": "Er hat sich das Bein gebrochen.",
+    "word": "Bein",
+    "english_translation": "leg",
+    "gender": "neuter",
+    "example_sentence_english": "He broke his leg.",
+    "pos": "noun",
+    "word_frequency": 355
+  },
+  {
+    "example_sentence_native": "Das Brot ist frisch gebacken.",
+    "word": "frisch",
+    "english_translation": "fresh",
+    "gender": "",
+    "example_sentence_english": "The bread is freshly baked.",
+    "pos": "adjective",
+    "word_frequency": 356
+  },
+  {
+    "example_sentence_native": "Sie trägt einen schönen Rock.",
+    "word": "Rock",
+    "english_translation": "skirt",
+    "gender": "masculine",
+    "example_sentence_english": "She is wearing a beautiful skirt.",
+    "pos": "noun",
+    "word_frequency": 357
+  },
+  {
+    "example_sentence_native": "Mein Handy ist kaputt.",
+    "word": "kaputt",
+    "english_translation": "broken",
+    "gender": "",
+    "example_sentence_english": "My phone is broken.",
+    "pos": "adjective",
+    "word_frequency": 358
+  },
+  {
+    "example_sentence_native": "Das Auto ist sehr teuer.",
+    "word": "teuer",
+    "english_translation": "expensive",
+    "gender": "",
+    "example_sentence_english": "The car is very expensive.",
+    "pos": "adjective",
+    "word_frequency": 359
+  },
+  {
+    "example_sentence_native": "Der Unterricht beginnt um 8 Uhr.",
+    "word": "Unterricht",
+    "english_translation": "lesson;class;instruction",
+    "gender": "masculine",
+    "example_sentence_english": "The lesson starts at 8 o'clock.",
+    "pos": "noun",
+    "word_frequency": 360
+  },
+  {
+    "example_sentence_native": "Bitte geben Sie Ihre Adresse an.",
+    "word": "Adresse",
+    "english_translation": "address",
+    "gender": "feminine",
+    "example_sentence_english": "Please provide your address.",
+    "pos": "noun",
+    "word_frequency": 361
+  },
+  {
+    "example_sentence_native": "Es ist wichtig, gesund zu bleiben.",
+    "word": "gesund",
+    "english_translation": "healthy",
+    "gender": "",
+    "example_sentence_english": "It is important to stay healthy.",
+    "pos": "adjective",
+    "word_frequency": 362
+  },
+  {
+    "example_sentence_native": "Es ist heute sehr kalt draußen.",
+    "word": "kalt",
+    "english_translation": "cold",
+    "gender": "",
+    "example_sentence_english": "It is very cold outside today.",
+    "pos": "adjective",
+    "word_frequency": 363
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Nachmittag.",
+    "word": "Nachmittag",
+    "english_translation": "afternoon",
+    "gender": "masculine",
+    "example_sentence_english": "We meet in the afternoon.",
+    "pos": "noun",
+    "word_frequency": 364
+  },
+  {
+    "example_sentence_native": "Ich rufe dich später an.",
+    "word": "rufen",
+    "english_translation": "to call",
+    "gender": "",
+    "example_sentence_english": "I will call you later.",
+    "pos": "verb",
+    "word_frequency": 365
+  },
+  {
+    "example_sentence_native": "Sie singt sehr schön.",
+    "word": "singen",
+    "english_translation": "to sing",
+    "gender": "",
+    "example_sentence_english": "She sings very beautifully.",
+    "pos": "verb",
+    "word_frequency": 366
+  },
+  {
+    "example_sentence_native": "Ich habe ein schönes Geschenk bekommen.",
+    "word": "Geschenk",
+    "english_translation": "gift;present",
+    "gender": "neuter",
+    "example_sentence_english": "I received a nice gift.",
+    "pos": "noun",
+    "word_frequency": 367
+  },
+  {
+    "example_sentence_native": "Das Ei ist gekocht.",
+    "word": "Ei",
+    "english_translation": "egg",
+    "gender": "neuter",
+    "example_sentence_english": "The egg is cooked.",
+    "pos": "noun",
+    "word_frequency": 368
+  },
+  {
+    "example_sentence_native": "Wir gehen heute Abend in ein Restaurant.",
+    "word": "Restaurant",
+    "english_translation": "restaurant",
+    "gender": "neuter",
+    "example_sentence_english": "We are going to a restaurant tonight.",
+    "pos": "noun",
+    "word_frequency": 369
+  },
+  {
+    "example_sentence_native": "Ich koche gerne Pasta.",
+    "word": "kochen",
+    "english_translation": "to cook;to boil",
+    "gender": "",
+    "example_sentence_english": "I like to cook pasta.",
+    "pos": "verb",
+    "word_frequency": 370
+  },
+  {
+    "example_sentence_native": "Meine Schlüssel sind in meiner Tasche.",
+    "word": "Tasche",
+    "english_translation": "bag",
+    "gender": "feminine",
+    "example_sentence_english": "My keys are in my bag.",
+    "pos": "noun",
+    "word_frequency": 371
+  },
+  {
+    "example_sentence_native": "Wann wird der Zug ankommen?",
+    "word": "ankommen",
+    "english_translation": "to arrive",
+    "gender": "",
+    "example_sentence_english": "When will the train arrive?",
+    "pos": "verb",
+    "word_frequency": 372
+  },
+  {
+    "example_sentence_native": "Das Pferd ist braun.",
+    "word": "braun",
+    "english_translation": "brown",
+    "gender": "",
+    "example_sentence_english": "The horse is brown.",
+    "pos": "adjective",
+    "word_frequency": 373
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne Milch zum Frühstück.",
+    "word": "Milch",
+    "english_translation": "milk",
+    "gender": "feminine",
+    "example_sentence_english": "I like to drink milk for breakfast.",
+    "pos": "noun",
+    "word_frequency": 374
+  },
+  {
+    "example_sentence_native": "Es ist heute sehr warm.",
+    "word": "warm",
+    "english_translation": "warm",
+    "gender": "",
+    "example_sentence_english": "It is very warm today.",
+    "pos": "adjective",
+    "word_frequency": 375
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Brot zum Frühstück.",
+    "word": "Brot",
+    "english_translation": "bread",
+    "gender": "neuter",
+    "example_sentence_english": "I like to eat bread for breakfast.",
+    "pos": "noun",
+    "word_frequency": 376
+  },
+  {
+    "example_sentence_native": "Das Frühstück ist meine Lieblingsmahlzeit.",
+    "word": "Frühstück",
+    "english_translation": "breakfast",
+    "gender": "neuter",
+    "example_sentence_english": "Breakfast is my favorite meal.",
+    "pos": "noun",
+    "word_frequency": 377
+  },
+  {
+    "example_sentence_native": "Ich bin sehr müde.",
+    "word": "müde",
+    "english_translation": "tired",
+    "gender": "",
+    "example_sentence_english": "I am very tired.",
+    "pos": "adjective",
+    "word_frequency": 378
+  },
+  {
+    "example_sentence_native": "Am Nachthimmel leuchten viele Sterne.",
+    "word": "Stern",
+    "english_translation": "star",
+    "gender": "masculine",
+    "example_sentence_english": "Many stars shine in the night sky.",
+    "pos": "noun",
+    "word_frequency": 379
+  },
+  {
+    "example_sentence_native": "Wohin gehst du?",
+    "word": "wohin",
+    "english_translation": "where to",
+    "gender": "",
+    "example_sentence_english": "Where are you going?",
+    "pos": "adverb",
+    "word_frequency": 380
+  },
+  {
+    "example_sentence_native": "Die Katze schläft auf dem Sofa.",
+    "word": "Katze",
+    "english_translation": "cat",
+    "gender": "feminine",
+    "example_sentence_english": "The cat is sleeping on the sofa.",
+    "pos": "noun",
+    "word_frequency": 381
+  },
+  {
+    "example_sentence_native": "Das Messer ist scharf.",
+    "word": "Messer",
+    "english_translation": "knife",
+    "gender": "neuter",
+    "example_sentence_english": "The knife is sharp.",
+    "pos": "noun",
+    "word_frequency": 382
+  },
+  {
+    "example_sentence_native": "Meine Oma backt die besten Kuchen.",
+    "word": "Oma",
+    "english_translation": "grandma",
+    "gender": "feminine",
+    "example_sentence_english": "My grandma bakes the best cakes.",
+    "pos": "noun",
+    "word_frequency": 383
+  },
+  {
+    "example_sentence_native": "Ich fahre mit dem Fahrrad zur Arbeit.",
+    "word": "Fahrrad",
+    "english_translation": "bicycle",
+    "gender": "neuter",
+    "example_sentence_english": "I ride my bicycle to work.",
+    "pos": "noun",
+    "word_frequency": 384
+  },
+  {
+    "example_sentence_native": "Ich möchte ein Stück Kuchen.",
+    "word": "Kuchen",
+    "english_translation": "cake",
+    "gender": "masculine",
+    "example_sentence_english": "I would like a piece of cake.",
+    "pos": "noun",
+    "word_frequency": 385
+  },
+  {
+    "example_sentence_native": "Er hat große Ohren.",
+    "word": "Ohr",
+    "english_translation": "ear",
+    "gender": "neuter",
+    "example_sentence_english": "He has big ears.",
+    "pos": "noun",
+    "word_frequency": 386
+  },
+  {
+    "example_sentence_native": "Das ist der beste Kuchen, den ich je gegessen habe.",
+    "word": "best",
+    "english_translation": "best",
+    "gender": "",
+    "example_sentence_english": "That is the best cake I have ever eaten.",
+    "pos": "adjective",
+    "word_frequency": 387
+  },
+  {
+    "example_sentence_native": "Das Flugzeug landet in zehn Minuten.",
+    "word": "Flugzeug",
+    "english_translation": "airplane",
+    "gender": "neuter",
+    "example_sentence_english": "The airplane lands in ten minutes.",
+    "pos": "noun",
+    "word_frequency": 388
+  },
+  {
+    "example_sentence_native": "Die Sonne ist gelb.",
+    "word": "gelb",
+    "english_translation": "yellow",
+    "gender": "",
+    "example_sentence_english": "The sun is yellow.",
+    "pos": "adjective",
+    "word_frequency": 389
+  },
+  {
+    "example_sentence_native": "Ich habe großen Hunger.",
+    "word": "Hunger",
+    "english_translation": "hunger",
+    "gender": "masculine",
+    "example_sentence_english": "I am very hungry.",
+    "pos": "noun",
+    "word_frequency": 390
+  },
+  {
+    "example_sentence_native": "Mein Papa liest mir jeden Abend eine Geschichte vor.",
+    "word": "Papa",
+    "english_translation": "dad;daddy",
+    "gender": "masculine",
+    "example_sentence_english": "My dad reads me a story every evening.",
+    "pos": "noun",
+    "word_frequency": 391
+  },
+  {
+    "example_sentence_native": "Der Koch bereitet das Essen zu.",
+    "word": "Koch",
+    "english_translation": "cook (person)",
+    "gender": "masculine",
+    "example_sentence_english": "The cook prepares the food.",
+    "pos": "noun",
+    "word_frequency": 392
+  },
+  {
+    "example_sentence_native": "Der Schnee fällt leise.",
+    "word": "Schnee",
+    "english_translation": "snow",
+    "gender": "masculine",
+    "example_sentence_english": "The snow falls quietly.",
+    "pos": "noun",
+    "word_frequency": 393
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne warmen Tee.",
+    "word": "Tee",
+    "english_translation": "tea",
+    "gender": "masculine",
+    "example_sentence_english": "I like to drink warm tea.",
+    "pos": "noun",
+    "word_frequency": 394
+  },
+  {
+    "example_sentence_native": "Der Rhein ist ein langer Fluss.",
+    "word": "Fluss",
+    "english_translation": "river",
+    "gender": "masculine",
+    "example_sentence_english": "The Rhine is a long river.",
+    "pos": "noun",
+    "word_frequency": 395
+  },
+  {
+    "example_sentence_native": "Sie ist eine sehr freundliche Person.",
+    "word": "freundlich",
+    "english_translation": "friendly;kind",
+    "gender": "",
+    "example_sentence_english": "She is a very friendly person.",
+    "pos": "adjective",
+    "word_frequency": 396
+  },
+  {
+    "example_sentence_native": "Ich brauche eine neue Hose.",
+    "word": "Hose",
+    "english_translation": "trousers;pants",
+    "gender": "feminine",
+    "example_sentence_english": "I need new trousers.",
+    "pos": "noun",
+    "word_frequency": 397
+  },
+  {
+    "example_sentence_native": "Das erste Kapitel des Buches ist sehr interessant.",
+    "word": "Kapitel",
+    "english_translation": "chapter",
+    "gender": "neuter",
+    "example_sentence_english": "The first chapter of the book is very interesting.",
+    "pos": "noun",
+    "word_frequency": 398
+  },
+  {
+    "example_sentence_native": "Die Blume ist sehr schön.",
+    "word": "Blume",
+    "english_translation": "flower",
+    "gender": "feminine",
+    "example_sentence_english": "The flower is very beautiful.",
+    "pos": "noun",
+    "word_frequency": 399
+  },
+  {
+    "example_sentence_native": "Es ist schon dunkel draußen.",
+    "word": "dunkel",
+    "english_translation": "dark",
+    "gender": "",
+    "example_sentence_english": "It's already dark outside.",
+    "pos": "adjective",
+    "word_frequency": 400
+  },
+  {
+    "example_sentence_native": "Mein Fuß tut weh.",
+    "word": "Fuß",
+    "english_translation": "foot",
+    "gender": "masculine",
+    "example_sentence_english": "My foot hurts.",
+    "pos": "noun",
+    "word_frequency": 401
+  },
+  {
+    "example_sentence_native": "Das Pferd frisst Gras auf der Weide.",
+    "word": "Pferd",
+    "english_translation": "horse",
+    "gender": "neuter",
+    "example_sentence_english": "The horse eats grass in the pasture.",
+    "pos": "noun",
+    "word_frequency": 402
+  },
+  {
+    "example_sentence_native": "Ich trinke meinen Kaffee ohne Zucker.",
+    "word": "Zucker",
+    "english_translation": "sugar",
+    "gender": "masculine",
+    "example_sentence_english": "I drink my coffee without sugar.",
+    "pos": "noun",
+    "word_frequency": 403
+  },
+  {
+    "example_sentence_native": "Ich hätte gerne einen Liter Milch.",
+    "word": "Liter",
+    "english_translation": "liter",
+    "gender": "masculine",
+    "example_sentence_english": "I would like one liter of milk.",
+    "pos": "noun",
+    "word_frequency": 404
+  },
+  {
+    "example_sentence_native": "Wo ist mein Schlüssel?",
+    "word": "Schlüssel",
+    "english_translation": "key",
+    "gender": "masculine",
+    "example_sentence_english": "Where is my key?",
+    "pos": "noun",
+    "word_frequency": 405
+  },
+  {
+    "example_sentence_native": "Die Flasche ist leer.",
+    "word": "Flasche",
+    "english_translation": "bottle",
+    "gender": "feminine",
+    "example_sentence_english": "The bottle is empty.",
+    "pos": "noun",
+    "word_frequency": 406
+  },
+  {
+    "example_sentence_native": "Ich gehe oft in die Bibliothek.",
+    "word": "Bibliothek",
+    "english_translation": "library",
+    "gender": "feminine",
+    "example_sentence_english": "I often go to the library.",
+    "pos": "noun",
+    "word_frequency": 407
+  },
+  {
+    "example_sentence_native": "Der Eingang ist auf der rechten Seite.",
+    "word": "Eingang",
+    "english_translation": "entrance",
+    "gender": "masculine",
+    "example_sentence_english": "The entrance is on the right side.",
+    "pos": "noun",
+    "word_frequency": 408
+  },
+  {
+    "example_sentence_native": "Wir tanzen gerne.",
+    "word": "tanzen",
+    "english_translation": "to dance",
+    "gender": "",
+    "example_sentence_english": "We like to dance.",
+    "pos": "verb",
+    "word_frequency": 409
+  },
+  {
+    "example_sentence_native": "Kann ich bitte zahlen?",
+    "word": "zahlen",
+    "english_translation": "to pay",
+    "gender": "",
+    "example_sentence_english": "Can I pay, please?",
+    "pos": "verb",
+    "word_frequency": 410
+  },
+  {
+    "example_sentence_native": "Er trägt einen neuen Hut.",
+    "word": "Hut",
+    "english_translation": "hat",
+    "gender": "masculine",
+    "example_sentence_english": "He is wearing a new hat.",
+    "pos": "noun",
+    "word_frequency": 411
+  },
+  {
+    "example_sentence_native": "Was machst du in deiner Freizeit?",
+    "word": "Freizeit",
+    "english_translation": "leisure time;free time",
+    "gender": "feminine",
+    "example_sentence_english": "What do you do in your free time?",
+    "pos": "noun",
+    "word_frequency": 412
+  },
+  {
+    "example_sentence_native": "Ich kann gut schwimmen.",
+    "word": "schwimmen",
+    "english_translation": "to swim",
+    "gender": "",
+    "example_sentence_english": "I can swim well.",
+    "pos": "verb",
+    "word_frequency": 413
+  },
+  {
+    "example_sentence_native": "Das kostet nur einen Cent.",
+    "word": "Cent",
+    "english_translation": "cent",
+    "gender": "masculine",
+    "example_sentence_english": "That only costs one cent.",
+    "pos": "noun",
+    "word_frequency": 414
+  },
+  {
+    "example_sentence_native": "Sie trägt ein rosa Kleid.",
+    "word": "rosa",
+    "english_translation": "pink",
+    "gender": "",
+    "example_sentence_english": "She is wearing a pink dress.",
+    "pos": "adjective",
+    "word_frequency": 415
+  },
+  {
+    "example_sentence_native": "Die Katze schläft auf der Decke.",
+    "word": "Decke",
+    "english_translation": "blanket",
+    "gender": "feminine",
+    "example_sentence_english": "The cat is sleeping on the blanket.",
+    "pos": "noun",
+    "word_frequency": 416
+  },
+  {
+    "example_sentence_native": "Die Rose duftet wunderbar.",
+    "word": "Rose",
+    "english_translation": "rose",
+    "gender": "feminine",
+    "example_sentence_english": "The rose smells wonderful.",
+    "pos": "noun",
+    "word_frequency": 417
+  },
+  {
+    "example_sentence_native": "Der Fernseher steht im Wohnzimmer.",
+    "word": "Fernseher",
+    "english_translation": "television;TV set",
+    "gender": "masculine",
+    "example_sentence_english": "The television is in the living room.",
+    "pos": "noun",
+    "word_frequency": 418
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Fisch.",
+    "word": "Fisch",
+    "english_translation": "fish",
+    "gender": "masculine",
+    "example_sentence_english": "I like to eat fish.",
+    "pos": "noun",
+    "word_frequency": 419
+  },
+  {
+    "example_sentence_native": "Ich muss mehr üben, um besser zu werden.",
+    "word": "üben",
+    "english_translation": "to practice;to exercise",
+    "gender": "",
+    "example_sentence_english": "I need to practice more to get better.",
+    "pos": "verb",
+    "word_frequency": 420
+  },
+  {
+    "example_sentence_native": "Ich muss heute einkaufen gehen.",
+    "word": "einkaufen",
+    "english_translation": "to shop;to buy",
+    "gender": "",
+    "example_sentence_english": "I have to go shopping today.",
+    "pos": "verb",
+    "word_frequency": 421
+  },
+  {
+    "example_sentence_native": "Ich esse gerne frisches Gemüse.",
+    "word": "Gemüse",
+    "english_translation": "vegetable(s)",
+    "gender": "neuter",
+    "example_sentence_english": "I like to eat fresh vegetables.",
+    "pos": "noun",
+    "word_frequency": 422
+  },
+  {
+    "example_sentence_native": "Bitte nimm dein Heft heraus.",
+    "word": "Heft",
+    "english_translation": "notebook",
+    "gender": "neuter",
+    "example_sentence_english": "Please take out your notebook.",
+    "pos": "noun",
+    "word_frequency": 423
+  },
+  {
+    "example_sentence_native": "Ich mag italienisches Essen.",
+    "word": "italienisch",
+    "english_translation": "Italian",
+    "gender": "",
+    "example_sentence_english": "I like Italian food.",
+    "pos": "adjective",
+    "word_frequency": 424
+  },
+  {
+    "example_sentence_native": "Ich mag Käse sehr gerne.",
+    "word": "Käse",
+    "english_translation": "cheese",
+    "gender": "masculine",
+    "example_sentence_english": "I like cheese very much.",
+    "pos": "noun",
+    "word_frequency": 425
+  },
+  {
+    "example_sentence_native": "Bitte gib mir das Salz.",
+    "word": "Salz",
+    "english_translation": "salt",
+    "gender": "neuter",
+    "example_sentence_english": "Please give me the salt.",
+    "pos": "noun",
+    "word_frequency": 426
+  },
+  {
+    "example_sentence_native": "Ich trage ein neues Shirt.",
+    "word": "Shirt",
+    "english_translation": "shirt",
+    "gender": "neuter",
+    "example_sentence_english": "I am wearing a new shirt.",
+    "pos": "noun",
+    "word_frequency": 427
+  },
+  {
+    "example_sentence_native": "Wieviel kostet das?",
+    "word": "wieviel",
+    "english_translation": "how much;many",
+    "gender": "",
+    "example_sentence_english": "How much does that cost?",
+    "pos": "adverb",
+    "word_frequency": 428
+  },
+  {
+    "example_sentence_native": "Das Essen ist sehr lecker.",
+    "word": "lecker",
+    "english_translation": "delicious;tasty",
+    "gender": "",
+    "example_sentence_english": "The food is very delicious.",
+    "pos": "adjective",
+    "word_frequency": 429
+  },
+  {
+    "example_sentence_native": "Mir tut der Zahn weh.",
+    "word": "Zahn",
+    "english_translation": "tooth",
+    "gender": "masculine",
+    "example_sentence_english": "My tooth hurts.",
+    "pos": "noun",
+    "word_frequency": 430
+  },
+  {
+    "example_sentence_native": "Das Zimmer ist sehr hell.",
+    "word": "hell",
+    "english_translation": "bright;light",
+    "gender": "",
+    "example_sentence_english": "The room is very bright.",
+    "pos": "adjective",
+    "word_frequency": 431
+  },
+  {
+    "example_sentence_native": "Sie trägt ein schönes Kleid.",
+    "word": "Kleid",
+    "english_translation": "dress",
+    "gender": "neuter",
+    "example_sentence_english": "She is wearing a beautiful dress.",
+    "pos": "noun",
+    "word_frequency": 432
+  },
+  {
+    "example_sentence_native": "Ich habe eine gute Note in Mathematik bekommen.",
+    "word": "Note",
+    "english_translation": "note;grade",
+    "gender": "feminine",
+    "example_sentence_english": "I got a good grade in math.",
+    "pos": "noun",
+    "word_frequency": 433
+  },
+  {
+    "example_sentence_native": "Wir bestellen heute Abend eine Pizza.",
+    "word": "Pizza",
+    "english_translation": "pizza",
+    "gender": "feminine",
+    "example_sentence_english": "We are ordering a pizza tonight.",
+    "pos": "noun",
+    "word_frequency": 434
+  },
+  {
+    "example_sentence_native": "Ich werde dich später anrufen.",
+    "word": "anrufen",
+    "english_translation": "to call",
+    "gender": "",
+    "example_sentence_english": "I will call you later.",
+    "pos": "verb",
+    "word_frequency": 435
+  },
+  {
+    "example_sentence_native": "Jeder Buchstabe hat einen eigenen Klang.",
+    "word": "Buchstabe",
+    "english_translation": "letter (of the alphabet)",
+    "gender": "masculine",
+    "example_sentence_english": "Every letter has its own sound.",
+    "pos": "noun",
+    "word_frequency": 436
+  },
+  {
+    "example_sentence_native": "Wir essen zu Mittag um zwölf Uhr.",
+    "word": "Mittag",
+    "english_translation": "noon;midday",
+    "gender": "masculine",
+    "example_sentence_english": "We eat lunch at twelve o'clock.",
+    "pos": "noun",
+    "word_frequency": 437
+  },
+  {
+    "example_sentence_native": "Ich schulde dir eine Entschuldigung.",
+    "word": "Entschuldigung",
+    "english_translation": "apology;excuse",
+    "gender": "feminine",
+    "example_sentence_english": "I owe you an apology.",
+    "pos": "noun",
+    "word_frequency": 438
+  },
+  {
+    "example_sentence_native": "Mein Kind geht in den Kindergarten.",
+    "word": "Kindergarten",
+    "english_translation": "kindergarten",
+    "gender": "masculine",
+    "example_sentence_english": "My child goes to kindergarten.",
+    "pos": "noun",
+    "word_frequency": 439
+  },
+  {
+    "example_sentence_native": "Mein Onkel kommt uns nächste Woche besuchen.",
+    "word": "Onkel",
+    "english_translation": "uncle",
+    "gender": "masculine",
+    "example_sentence_english": "My uncle is coming to visit us next week.",
+    "pos": "noun",
+    "word_frequency": 440
+  },
+  {
+    "example_sentence_native": "Bitte setzen Sie sich auf den Stuhl.",
+    "word": "Stuhl",
+    "english_translation": "chair",
+    "gender": "masculine",
+    "example_sentence_english": "Please sit on the chair.",
+    "pos": "noun",
+    "word_frequency": 441
+  },
+  {
+    "example_sentence_native": "Ich habe einen Anruf von meiner Mutter bekommen.",
+    "word": "Anruf",
+    "english_translation": "call;phone call",
+    "gender": "masculine",
+    "example_sentence_english": "I received a call from my mother.",
+    "pos": "noun",
+    "word_frequency": 442
+  },
+  {
+    "example_sentence_native": "Der Frühling ist meine Lieblingsjahreszeit.",
+    "word": "Frühling",
+    "english_translation": "spring",
+    "gender": "masculine",
+    "example_sentence_english": "Spring is my favorite season.",
+    "pos": "noun",
+    "word_frequency": 443
+  },
+  {
+    "example_sentence_native": "Mein Hobby ist Lesen.",
+    "word": "Hobby",
+    "english_translation": "hobby",
+    "gender": "neuter",
+    "example_sentence_english": "My hobby is reading.",
+    "pos": "noun",
+    "word_frequency": 444
+  },
+  {
+    "example_sentence_native": "Das Haus ist sehr groß.",
+    "word": "groß",
+    "english_translation": "big",
+    "gender": "",
+    "example_sentence_english": "The house is very big.",
+    "pos": "adjective",
+    "word_frequency": 445
+  },
+  {
+    "example_sentence_native": "Meine Jacke ist blau.",
+    "word": "Jacke",
+    "english_translation": "jacket",
+    "gender": "feminine",
+    "example_sentence_english": "My jacket is blue.",
+    "pos": "noun",
+    "word_frequency": 446
+  },
+  {
+    "example_sentence_native": "Meine Lehrerin ist sehr nett.",
+    "word": "Lehrerin",
+    "english_translation": "female teacher",
+    "gender": "feminine",
+    "example_sentence_english": "My teacher is very nice.",
+    "pos": "noun",
+    "word_frequency": 447
+  },
+  {
+    "example_sentence_native": "Ich studiere Deutsch an der Universität.",
+    "word": "studieren",
+    "english_translation": "to study",
+    "gender": "",
+    "example_sentence_english": "I study German at the university.",
+    "pos": "verb",
+    "word_frequency": 448
+  },
+  {
+    "example_sentence_native": "Ich muss früh aufstehen.",
+    "word": "aufstehen",
+    "english_translation": "To get up;to stand up",
+    "gender": "",
+    "example_sentence_english": "I have to get up early.",
+    "pos": "verb",
+    "word_frequency": 449
+  },
+  {
+    "example_sentence_native": "Wir treffen uns im Café.",
+    "word": "Café",
+    "english_translation": "cafe;coffee shop",
+    "gender": "neuter",
+    "example_sentence_english": "We meet at the cafe.",
+    "pos": "noun",
+    "word_frequency": 450
+  },
+  {
+    "example_sentence_native": "Die Katze ist grau.",
+    "word": "grau",
+    "english_translation": "grey",
+    "gender": "",
+    "example_sentence_english": "The cat is grey.",
+    "pos": "adjective",
+    "word_frequency": 451
+  },
+  {
+    "example_sentence_native": "Ich möchte dich besser kennenlernen.",
+    "word": "kennenlernen",
+    "english_translation": "to get to know;to meet",
+    "gender": "",
+    "example_sentence_english": "I would like to get to know you better.",
+    "pos": "verb",
+    "word_frequency": 452
+  },
+  {
+    "example_sentence_native": "Ich esse gerne frisches Obst.",
+    "word": "Obst",
+    "english_translation": "fruit",
+    "gender": "neuter",
+    "example_sentence_english": "I like to eat fresh fruit.",
+    "pos": "noun",
+    "word_frequency": 453
+  },
+  {
+    "example_sentence_native": "Sie spricht Spanisch.",
+    "word": "spanisch",
+    "english_translation": "Spanish",
+    "gender": "",
+    "example_sentence_english": "She speaks Spanish.",
+    "pos": "adjective",
+    "word_frequency": 454
+  },
+  {
+    "example_sentence_native": "Ich spreche ein bisschen Spanisch.",
+    "word": "Spanisch",
+    "english_translation": "Spanish (language)",
+    "gender": "neuter",
+    "example_sentence_english": "I speak a little Spanish.",
+    "pos": "noun",
+    "word_frequency": 455
+  },
+  {
+    "example_sentence_native": "Die Übung ist wichtig für den Fortschritt.",
+    "word": "Übung",
+    "english_translation": "exercise;practice",
+    "gender": "feminine",
+    "example_sentence_english": "The exercise is important for progress.",
+    "pos": "noun",
+    "word_frequency": 456
+  },
+  {
+    "example_sentence_native": "Ich nehme jeden Morgen eine Dusche.",
+    "word": "Dusche",
+    "english_translation": "shower",
+    "gender": "feminine",
+    "example_sentence_english": "I take a shower every morning.",
+    "pos": "noun",
+    "word_frequency": 457
+  },
+  {
+    "example_sentence_native": "Die Maus versteckte sich unter dem Tisch.",
+    "word": "Maus",
+    "english_translation": "mouse",
+    "gender": "feminine",
+    "example_sentence_english": "The mouse hid under the table.",
+    "pos": "noun",
+    "word_frequency": 458
+  },
+  {
+    "example_sentence_native": "Sie spielt gerne Gitarre.",
+    "word": "Gitarre",
+    "english_translation": "guitar",
+    "gender": "feminine",
+    "example_sentence_english": "She likes to play guitar.",
+    "pos": "noun",
+    "word_frequency": 459
+  },
+  {
+    "example_sentence_native": "Ich brauche ein Kilo Äpfel.",
+    "word": "Kilo",
+    "english_translation": "kilogram;kilo",
+    "gender": "neuter",
+    "example_sentence_english": "I need a kilo of apples.",
+    "pos": "noun",
+    "word_frequency": 460
+  },
+  {
+    "example_sentence_native": "Mein Opa erzählt gerne Geschichten.",
+    "word": "Opa",
+    "english_translation": "grandpa",
+    "gender": "masculine",
+    "example_sentence_english": "My grandpa likes to tell stories.",
+    "pos": "noun",
+    "word_frequency": 461
+  },
+  {
+    "example_sentence_native": "Ich möchte einen Käseburger.",
+    "word": "Burger",
+    "english_translation": "burger",
+    "gender": "masculine",
+    "example_sentence_english": "I would like a cheeseburger.",
+    "pos": "noun",
+    "word_frequency": 462
+  },
+  {
+    "example_sentence_native": "Ich möchte dir für deine Hilfe danken.",
+    "word": "danken",
+    "english_translation": "to thank",
+    "gender": "",
+    "example_sentence_english": "I would like to thank you for your help.",
+    "pos": "verb",
+    "word_frequency": 463
+  },
+  {
+    "example_sentence_native": "Ich liebe Schokolade.",
+    "word": "Schokolade",
+    "english_translation": "chocolate",
+    "gender": "feminine",
+    "example_sentence_english": "I love chocolate.",
+    "pos": "noun",
+    "word_frequency": 464
+  },
+  {
+    "example_sentence_native": "Ich muss meine Kleidung waschen.",
+    "word": "waschen",
+    "english_translation": "to wash",
+    "gender": "",
+    "example_sentence_english": "I need to wash my clothes.",
+    "pos": "verb",
+    "word_frequency": 465
+  },
+  {
+    "example_sentence_native": "Das Wohnzimmer ist sehr gemütlich.",
+    "word": "Wohnzimmer",
+    "english_translation": "living room",
+    "gender": "neuter",
+    "example_sentence_english": "The living room is very cozy.",
+    "pos": "noun",
+    "word_frequency": 466
+  },
+  {
+    "example_sentence_native": "Mein Koffer ist sehr schwer.",
+    "word": "Koffer",
+    "english_translation": "suitcase",
+    "gender": "masculine",
+    "example_sentence_english": "My suitcase is very heavy.",
+    "pos": "noun",
+    "word_frequency": 467
+  },
+  {
+    "example_sentence_native": "Das Schlafzimmer ist sehr gemütlich.",
+    "word": "Schlafzimmer",
+    "english_translation": "bedroom",
+    "gender": "neuter",
+    "example_sentence_english": "The bedroom is very cozy.",
+    "pos": "noun",
+    "word_frequency": 468
+  },
+  {
+    "example_sentence_native": "Ich brauche Butter für das Brot.",
+    "word": "Butter",
+    "english_translation": "butter",
+    "gender": "feminine",
+    "example_sentence_english": "I need butter for the bread.",
+    "pos": "noun",
+    "word_frequency": 469
+  },
+  {
+    "example_sentence_native": "Mein Schreibtisch ist sehr ordentlich.",
+    "word": "Schreibtisch",
+    "english_translation": "desk",
+    "gender": "masculine",
+    "example_sentence_english": "My desk is very tidy.",
+    "pos": "noun",
+    "word_frequency": 470
+  },
+  {
+    "example_sentence_native": "Meine Tante kommt uns besuchen.",
+    "word": "Tante",
+    "english_translation": "aunt",
+    "gender": "feminine",
+    "example_sentence_english": "My aunt is coming to visit us.",
+    "pos": "noun",
+    "word_frequency": 471
+  },
+  {
+    "example_sentence_native": "Ich gehe zum Supermarkt, um einzukaufen.",
+    "word": "Supermarkt",
+    "english_translation": "supermarket",
+    "gender": "masculine",
+    "example_sentence_english": "I'm going to the supermarket to shop.",
+    "pos": "noun",
+    "word_frequency": 472
+  },
+  {
+    "example_sentence_native": "Spielen wir heute Tennis?",
+    "word": "Tennis",
+    "english_translation": "tennis",
+    "gender": "neuter",
+    "example_sentence_english": "Shall we play tennis today?",
+    "pos": "noun",
+    "word_frequency": 473
+  },
+  {
+    "example_sentence_native": "Du musst aufpassen, wenn du die Straße überquerst.",
+    "word": "aufpassen",
+    "english_translation": "to pay attention;to be careful",
+    "gender": "",
+    "example_sentence_english": "You have to pay attention when you cross the street.",
+    "pos": "verb",
+    "word_frequency": 474
+  },
+  {
+    "example_sentence_native": "Ich möchte mich entschuldigen.",
+    "word": "entschuldigen",
+    "english_translation": "to apologize;to excuse",
+    "gender": "",
+    "example_sentence_english": "I would like to apologize.",
+    "pos": "verb",
+    "word_frequency": 475
+  },
+  {
+    "example_sentence_native": "Das Auto ist orange.",
+    "word": "orange",
+    "english_translation": "orange",
+    "gender": "",
+    "example_sentence_english": "The car is orange.",
+    "pos": "adjective",
+    "word_frequency": 476
+  },
+  {
+    "example_sentence_native": "Ich nehme ein Taxi zum Bahnhof.",
+    "word": "Taxi",
+    "english_translation": "taxi",
+    "gender": "neuter",
+    "example_sentence_english": "I'll take a taxi to the station.",
+    "pos": "noun",
+    "word_frequency": 477
+  },
+  {
+    "example_sentence_native": "Ich trainiere jeden Tag.",
+    "word": "trainieren",
+    "english_translation": "to train;to practice",
+    "gender": "",
+    "example_sentence_english": "I train every day.",
+    "pos": "verb",
+    "word_frequency": 478
+  },
+  {
+    "example_sentence_native": "Wir gehen am Wochenende in den Zoo.",
+    "word": "Zoo",
+    "english_translation": "zoo",
+    "gender": "masculine",
+    "example_sentence_english": "We are going to the zoo on the weekend.",
+    "pos": "noun",
+    "word_frequency": 479
+  },
+  {
+    "example_sentence_native": "Das Abendessen ist um sieben Uhr.",
+    "word": "Abendessen",
+    "english_translation": "dinner",
+    "gender": "neuter",
+    "example_sentence_english": "Dinner is at seven o'clock.",
+    "pos": "noun",
+    "word_frequency": 480
+  },
+  {
+    "example_sentence_native": "Was gibt es zum Mittagessen?",
+    "word": "Mittagessen",
+    "english_translation": "lunch",
+    "gender": "neuter",
+    "example_sentence_english": "What's for lunch?",
+    "pos": "noun",
+    "word_frequency": 481
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Reis mit Gemüse.",
+    "word": "Reis",
+    "english_translation": "rice",
+    "gender": "masculine",
+    "example_sentence_english": "I like to eat rice with vegetables.",
+    "pos": "noun",
+    "word_frequency": 482
+  },
+  {
+    "example_sentence_native": "Der Schrank ist voll mit Kleidung.",
+    "word": "Schrank",
+    "english_translation": "cupboard;wardrobe",
+    "gender": "masculine",
+    "example_sentence_english": "The wardrobe is full of clothes.",
+    "pos": "noun",
+    "word_frequency": 483
+  },
+  {
+    "example_sentence_native": "Das Kind spielt mit seinem neuen Spielzeug.",
+    "word": "Spielzeug",
+    "english_translation": "toy",
+    "gender": "neuter",
+    "example_sentence_english": "The child is playing with their new toy.",
+    "pos": "noun",
+    "word_frequency": 484
+  },
+  {
+    "example_sentence_native": "Wo ist die Toilette, bitte?",
+    "word": "Toilette",
+    "english_translation": "toilet;restroom",
+    "gender": "feminine",
+    "example_sentence_english": "Where is the restroom, please?",
+    "pos": "noun",
+    "word_frequency": 485
+  },
+  {
+    "example_sentence_native": "Ich brauche 200 Gramm Mehl.",
+    "word": "Gramm",
+    "english_translation": "gram",
+    "gender": "neuter",
+    "example_sentence_english": "I need 200 grams of flour.",
+    "pos": "noun",
+    "word_frequency": 486
+  },
+  {
+    "example_sentence_native": "Heut Abend gehen wir ins Kino.",
+    "word": "heut",
+    "english_translation": "today",
+    "gender": "",
+    "example_sentence_english": "Tonight we are going to the cinema.",
+    "pos": "adverb",
+    "word_frequency": 487
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Kartoffeln.",
+    "word": "Kartoffel",
+    "english_translation": "potato",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat potatoes.",
+    "pos": "noun",
+    "word_frequency": 488
+  },
+  {
+    "example_sentence_native": "Ich mag Mathe nicht.",
+    "word": "Mathe",
+    "english_translation": "math",
+    "gender": "feminine",
+    "example_sentence_english": "I don't like math.",
+    "pos": "noun",
+    "word_frequency": 489
+  },
+  {
+    "example_sentence_native": "Sie malt gerne Landschaften.",
+    "word": "malen",
+    "english_translation": "to paint;to draw",
+    "gender": "",
+    "example_sentence_english": "She likes to paint landscapes.",
+    "pos": "verb",
+    "word_frequency": 490
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Salat zum Abendessen.",
+    "word": "Salat",
+    "english_translation": "salad;lettuce",
+    "gender": "masculine",
+    "example_sentence_english": "I like to eat salad for dinner.",
+    "pos": "noun",
+    "word_frequency": 491
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Wurst zum Frühstück.",
+    "word": "Wurst",
+    "english_translation": "sausage",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat sausage for breakfast.",
+    "pos": "noun",
+    "word_frequency": 492
+  },
+  {
+    "example_sentence_native": "Ich möchte eine Cola, bitte.",
+    "word": "Cola",
+    "english_translation": "cola",
+    "gender": "feminine",
+    "example_sentence_english": "I would like a cola, please.",
+    "pos": "noun",
+    "word_frequency": 493
+  },
+  {
+    "example_sentence_native": "Möchtest du ein kaltes Getränk?",
+    "word": "Getränk",
+    "english_translation": "drink;beverage",
+    "gender": "neuter",
+    "example_sentence_english": "Would you like a cold drink?",
+    "pos": "noun",
+    "word_frequency": 494
+  },
+  {
+    "example_sentence_native": "Der Teller ist leer.",
+    "word": "Teller",
+    "english_translation": "plate",
+    "gender": "masculine",
+    "example_sentence_english": "The plate is empty.",
+    "pos": "noun",
+    "word_frequency": 495
+  },
+  {
+    "example_sentence_native": "Bitte antworte mir schnell.",
+    "word": "antworten",
+    "english_translation": "to answer;to reply",
+    "gender": "",
+    "example_sentence_english": "Please answer me quickly.",
+    "pos": "verb",
+    "word_frequency": 496
+  },
+  {
+    "example_sentence_native": "Ich brauche einen Stift, um das zu schreiben.",
+    "word": "Stift",
+    "english_translation": "pen;pencil",
+    "gender": "masculine",
+    "example_sentence_english": "I need a pen to write that.",
+    "pos": "noun",
+    "word_frequency": 497
+  },
+  {
+    "example_sentence_native": "Was ist deine Telefonnummer?",
+    "word": "Telefonnummer",
+    "english_translation": "phone number",
+    "gender": "feminine",
+    "example_sentence_english": "What is your phone number?",
+    "pos": "noun",
+    "word_frequency": 498
+  },
+  {
+    "example_sentence_native": "Ich habe zwei Geschwister.",
+    "word": "Geschwister",
+    "english_translation": "siblings",
+    "gender": "Unknown",
+    "example_sentence_english": "I have two siblings.",
+    "pos": "noun",
+    "word_frequency": 499
+  },
+  {
+    "example_sentence_native": "Mein Grossvater erzählt gerne Geschichten.",
+    "word": "Grossvater",
+    "english_translation": "grandfather",
+    "gender": "masculine",
+    "example_sentence_english": "My grandfather likes to tell stories.",
+    "pos": "noun",
+    "word_frequency": 500
+  },
+  {
+    "example_sentence_native": "Sie ist eine fleißige Schülerin.",
+    "word": "Schülerin",
+    "english_translation": "female student",
+    "gender": "feminine",
+    "example_sentence_english": "She is a diligent female student.",
+    "pos": "noun",
+    "word_frequency": 501
+  },
+  {
+    "example_sentence_native": "Der Vogel ist sehr bunt.",
+    "word": "bunt",
+    "english_translation": "colorful",
+    "gender": "",
+    "example_sentence_english": "The bird is very colorful.",
+    "pos": "adjective",
+    "word_frequency": 502
+  },
+  {
+    "example_sentence_native": "Ich brauche ein Paar Socken.",
+    "word": "Socke",
+    "english_translation": "sock",
+    "gender": "feminine",
+    "example_sentence_english": "I need a pair of socks.",
+    "pos": "noun",
+    "word_frequency": 503
+  },
+  {
+    "example_sentence_native": "Ich trinke Kaffee aus einer Tasse.",
+    "word": "Tasse",
+    "english_translation": "cup",
+    "gender": "feminine",
+    "example_sentence_english": "I drink coffee from a cup.",
+    "pos": "noun",
+    "word_frequency": 504
+  },
+  {
+    "example_sentence_native": "Mein Auto steht in der Garage.",
+    "word": "Garage",
+    "english_translation": "garage",
+    "gender": "feminine",
+    "example_sentence_english": "My car is in the garage.",
+    "pos": "noun",
+    "word_frequency": 505
+  },
+  {
+    "example_sentence_native": "Ich möchte meine Freunde grüßen.",
+    "word": "grüßen",
+    "english_translation": "to greet",
+    "gender": "",
+    "example_sentence_english": "I would like to greet my friends.",
+    "pos": "verb",
+    "word_frequency": 506
+  },
+  {
+    "example_sentence_native": "Ich dusche jeden Morgen.",
+    "word": "duschen",
+    "english_translation": "to shower",
+    "gender": "",
+    "example_sentence_english": "I shower every morning.",
+    "pos": "verb",
+    "word_frequency": 507
+  },
+  {
+    "example_sentence_native": "Ich bin ein Anfänger in Deutsch.",
+    "word": "Anfänger",
+    "english_translation": "beginner",
+    "gender": "masculine",
+    "example_sentence_english": "I am a beginner in German.",
+    "pos": "noun",
+    "word_frequency": 508
+  },
+  {
+    "example_sentence_native": "Ich esse einen Apfel.",
+    "word": "Apfel",
+    "english_translation": "apple",
+    "gender": "masculine",
+    "example_sentence_english": "I am eating an apple.",
+    "pos": "noun",
+    "word_frequency": 509
+  },
+  {
+    "example_sentence_native": "Ich trage ein blaues Hemd.",
+    "word": "Hemd",
+    "english_translation": "shirt",
+    "gender": "neuter",
+    "example_sentence_english": "I am wearing a blue shirt.",
+    "pos": "noun",
+    "word_frequency": 510
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Vormittag.",
+    "word": "Vormittag",
+    "english_translation": "morning (before noon)",
+    "gender": "masculine",
+    "example_sentence_english": "We meet in the morning.",
+    "pos": "noun",
+    "word_frequency": 511
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne Apfelsaft.",
+    "word": "Saft",
+    "english_translation": "juice",
+    "gender": "masculine",
+    "example_sentence_english": "I like to drink apple juice.",
+    "pos": "noun",
+    "word_frequency": 512
+  },
+  {
+    "example_sentence_native": "Ich esse ein Brötchen zum Frühstück.",
+    "word": "Brötchen",
+    "english_translation": "roll (bread roll)",
+    "gender": "neuter",
+    "example_sentence_english": "I eat a roll for breakfast.",
+    "pos": "noun",
+    "word_frequency": 513
+  },
+  {
+    "example_sentence_native": "Wir müssen schnell in den Zug einsteigen.",
+    "word": "einsteigen",
+    "english_translation": "to get in;to board",
+    "gender": "",
+    "example_sentence_english": "We have to get on the train quickly.",
+    "pos": "verb",
+    "word_frequency": 514
+  },
+  {
+    "example_sentence_native": "Die deutsche Grammatik ist komplex.",
+    "word": "Grammatik",
+    "english_translation": "grammar",
+    "gender": "feminine",
+    "example_sentence_english": "German grammar is complex.",
+    "pos": "noun",
+    "word_frequency": 515
+  },
+  {
+    "example_sentence_native": "Die nächste Haltestelle ist am Marktplatz.",
+    "word": "Haltestelle",
+    "english_translation": "bus stop",
+    "gender": "feminine",
+    "example_sentence_english": "The next stop is at the market square.",
+    "pos": "noun",
+    "word_frequency": 516
+  },
+  {
+    "example_sentence_native": "Die Lampe ist kaputt.",
+    "word": "Lampe",
+    "english_translation": "lamp",
+    "gender": "feminine",
+    "example_sentence_english": "The lamp is broken.",
+    "pos": "noun",
+    "word_frequency": 517
+  },
+  {
+    "example_sentence_native": "Ich muss mein Zimmer putzen.",
+    "word": "putzen",
+    "english_translation": "to clean",
+    "gender": "",
+    "example_sentence_english": "I have to clean my room.",
+    "pos": "verb",
+    "word_frequency": 518
+  },
+  {
+    "example_sentence_native": "Ich esse gerne heiße Suppe im Winter.",
+    "word": "Suppe",
+    "english_translation": "soup",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat hot soup in winter.",
+    "pos": "noun",
+    "word_frequency": 519
+  },
+  {
+    "example_sentence_native": "Meine Großmutter erzählt gerne Geschichten.",
+    "word": "Grossmutter",
+    "english_translation": "grandmother",
+    "gender": "feminine",
+    "example_sentence_english": "My grandmother likes to tell stories.",
+    "pos": "noun",
+    "word_frequency": 520
+  },
+  {
+    "example_sentence_native": "Ich muss noch mit meiner Mutter telefonieren.",
+    "word": "telefonieren",
+    "english_translation": "to telephone;to call",
+    "gender": "",
+    "example_sentence_english": "I still need to call my mother.",
+    "pos": "verb",
+    "word_frequency": 521
+  },
+  {
+    "example_sentence_native": "Die Ampel ist rot.",
+    "word": "Ampel",
+    "english_translation": "traffic light",
+    "gender": "feminine",
+    "example_sentence_english": "The traffic light is red.",
+    "pos": "noun",
+    "word_frequency": 522
+  },
+  {
+    "example_sentence_native": "Ich muss meine Hausaufgaben machen.",
+    "word": "Hausaufgabe",
+    "english_translation": "homework",
+    "gender": "feminine",
+    "example_sentence_english": "I have to do my homework.",
+    "pos": "noun",
+    "word_frequency": 523
+  },
+  {
+    "example_sentence_native": "Die Läden sind am Sonntag geschlossen.",
+    "word": "Läden",
+    "english_translation": "shops;stores",
+    "gender": "masculine",
+    "example_sentence_english": "The shops are closed on Sunday.",
+    "pos": "noun",
+    "word_frequency": 524
+  },
+  {
+    "example_sentence_native": "Ich gehe nachmittags spazieren.",
+    "word": "nachmittags",
+    "english_translation": "in the afternoon",
+    "gender": "",
+    "example_sentence_english": "I go for a walk in the afternoon.",
+    "pos": "adverb",
+    "word_frequency": 525
+  },
+  {
+    "example_sentence_native": "Du kannst hier parken.",
+    "word": "parken",
+    "english_translation": "to park",
+    "gender": "",
+    "example_sentence_english": "You can park here.",
+    "pos": "verb",
+    "word_frequency": 526
+  },
+  {
+    "example_sentence_native": "Das Kleid ist pink.",
+    "word": "pink",
+    "english_translation": "pink",
+    "gender": "",
+    "example_sentence_english": "The dress is pink.",
+    "pos": "adjective",
+    "word_frequency": 527
+  },
+  {
+    "example_sentence_native": "Kannst du mir bitte die Uhrzeit sagen?",
+    "word": "Uhrzeit",
+    "english_translation": "time (of day)",
+    "gender": "feminine",
+    "example_sentence_english": "Can you please tell me the time?",
+    "pos": "noun",
+    "word_frequency": 528
+  },
+  {
+    "example_sentence_native": "Mutti hat uns Kuchen gebacken.",
+    "word": "Mutti",
+    "english_translation": "mommy;mum",
+    "gender": "feminine",
+    "example_sentence_english": "Mommy baked us a cake.",
+    "pos": "noun",
+    "word_frequency": 529
+  },
+  {
+    "example_sentence_native": "Ich brauche ein weiches Kissen.",
+    "word": "Kissen",
+    "english_translation": "pillow",
+    "gender": "neuter",
+    "example_sentence_english": "I need a soft pillow.",
+    "pos": "noun",
+    "word_frequency": 530
+  },
+  {
+    "example_sentence_native": "Ich brauche eine Tomate für den Salat.",
+    "word": "Tomate",
+    "english_translation": "tomato",
+    "gender": "feminine",
+    "example_sentence_english": "I need a tomato for the salad.",
+    "pos": "noun",
+    "word_frequency": 531
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Nudeln mit Tomatensoße.",
+    "word": "Nudel",
+    "english_translation": "noodle",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat noodles with tomato sauce.",
+    "pos": "noun",
+    "word_frequency": 532
+  },
+  {
+    "example_sentence_native": "Ich trinke meinen Kaffee aus einem großen Becher.",
+    "word": "Becher",
+    "english_translation": "cup;mug",
+    "gender": "masculine",
+    "example_sentence_english": "I drink my coffee from a large mug.",
+    "pos": "noun",
+    "word_frequency": 533
+  },
+  {
+    "example_sentence_native": "Meine Großeltern besuchen uns am Wochenende.",
+    "word": "Grosseltern",
+    "english_translation": "grandparents",
+    "gender": "Unknown",
+    "example_sentence_english": "My grandparents are visiting us on the weekend.",
+    "pos": "noun",
+    "word_frequency": 534
+  },
+  {
+    "example_sentence_native": "Der Kaffee ist sehr heiß.",
+    "word": "heiß",
+    "english_translation": "hot",
+    "gender": "",
+    "example_sentence_english": "The coffee is very hot.",
+    "pos": "adjective",
+    "word_frequency": 535
+  },
+  {
+    "example_sentence_native": "Der Kuchen ist sehr süß.",
+    "word": "süß",
+    "english_translation": "sweet;cute",
+    "gender": "",
+    "example_sentence_english": "The cake is very sweet.",
+    "pos": "adjective",
+    "word_frequency": 536
+  },
+  {
+    "example_sentence_native": "Ich muss früh aufwachen.",
+    "word": "aufwachen",
+    "english_translation": "to wake up",
+    "gender": "",
+    "example_sentence_english": "I have to wake up early.",
+    "pos": "verb",
+    "word_frequency": 537
+  },
+  {
+    "example_sentence_native": "Der Bäcker backt frisches Brot.",
+    "word": "Bäcker",
+    "english_translation": "baker",
+    "gender": "masculine",
+    "example_sentence_english": "The baker bakes fresh bread.",
+    "pos": "noun",
+    "word_frequency": 538
+  },
+  {
+    "example_sentence_native": "Das Badezimmer ist im ersten Stock.",
+    "word": "Badezimmer",
+    "english_translation": "bathroom",
+    "gender": "neuter",
+    "example_sentence_english": "The bathroom is on the first floor.",
+    "pos": "noun",
+    "word_frequency": 539
+  },
+  {
+    "example_sentence_native": "Sie hat blonde Haare.",
+    "word": "blond",
+    "english_translation": "blond",
+    "gender": "",
+    "example_sentence_english": "She has blond hair.",
+    "pos": "adjective",
+    "word_frequency": 540
+  },
+  {
+    "example_sentence_native": "Ich brauche ein Kilogramm Äpfel.",
+    "word": "Kilogramm",
+    "english_translation": "kilogram",
+    "gender": "neuter",
+    "example_sentence_english": "I need one kilogram of apples.",
+    "pos": "noun",
+    "word_frequency": 541
+  },
+  {
+    "example_sentence_native": "Das Kleid ist lila.",
+    "word": "lila",
+    "english_translation": "purple;lilac",
+    "gender": "",
+    "example_sentence_english": "The dress is purple.",
+    "pos": "adjective",
+    "word_frequency": 542
+  },
+  {
+    "example_sentence_native": "Ich benutze ein Wörterbuch, um neue Wörter zu lernen.",
+    "word": "Wörterbuch",
+    "english_translation": "dictionary",
+    "gender": "neuter",
+    "example_sentence_english": "I use a dictionary to learn new words.",
+    "pos": "noun",
+    "word_frequency": 543
+  },
+  {
+    "example_sentence_native": "Das Buch steht im Regal.",
+    "word": "Regal",
+    "english_translation": "shelf;bookcase",
+    "gender": "neuter",
+    "example_sentence_english": "The book is on the shelf.",
+    "pos": "noun",
+    "word_frequency": 544
+  },
+  {
+    "example_sentence_native": "Der Bus machte einen Stopp an der Haltestelle.",
+    "word": "Stopp",
+    "english_translation": "stop",
+    "gender": "masculine",
+    "example_sentence_english": "The bus made a stop at the bus stop.",
+    "pos": "noun",
+    "word_frequency": 545
+  },
+  {
+    "example_sentence_native": "Sie trägt eine warme Mütze.",
+    "word": "Mütze",
+    "english_translation": "cap",
+    "gender": "feminine",
+    "example_sentence_english": "She is wearing a warm cap.",
+    "pos": "noun",
+    "word_frequency": 546
+  },
+  {
+    "example_sentence_native": "Es wird heute regnen.",
+    "word": "regnen",
+    "english_translation": "to rain",
+    "gender": "",
+    "example_sentence_english": "It will rain today.",
+    "pos": "verb",
+    "word_frequency": 547
+  },
+  {
+    "example_sentence_native": "Mein Vorname ist Anna.",
+    "word": "Vorname",
+    "english_translation": "first name;given name",
+    "gender": "masculine",
+    "example_sentence_english": "My first name is Anna.",
+    "pos": "noun",
+    "word_frequency": 548
+  },
+  {
+    "example_sentence_native": "Das Huhn legt Eier.",
+    "word": "Huhn",
+    "english_translation": "chicken;hen",
+    "gender": "neuter",
+    "example_sentence_english": "The chicken lays eggs.",
+    "pos": "noun",
+    "word_frequency": 549
+  },
+  {
+    "example_sentence_native": "Bitte gib mir einen Löffel für die Suppe.",
+    "word": "Löffel",
+    "english_translation": "spoon",
+    "gender": "masculine",
+    "example_sentence_english": "Please give me a spoon for the soup.",
+    "pos": "noun",
+    "word_frequency": 550
+  },
+  {
+    "example_sentence_native": "Sie ist eine fleißige Studentin.",
+    "word": "Studentin",
+    "english_translation": "female student",
+    "gender": "feminine",
+    "example_sentence_english": "She is a diligent female student.",
+    "pos": "noun",
+    "word_frequency": 551
+  },
+  {
+    "example_sentence_native": "Kinder lernen das Abc in der Schule.",
+    "word": "Abc",
+    "english_translation": "alphabet",
+    "gender": "neuter",
+    "example_sentence_english": "Children learn the alphabet in school.",
+    "pos": "noun",
+    "word_frequency": 552
+  },
+  {
+    "example_sentence_native": "Ich kaufe Brötchen in der Bäckerei.",
+    "word": "Bäckerei",
+    "english_translation": "bakery",
+    "gender": "feminine",
+    "example_sentence_english": "I buy rolls at the bakery.",
+    "pos": "noun",
+    "word_frequency": 553
+  },
+  {
+    "example_sentence_native": "Meine Mom kommt morgen.",
+    "word": "Mom",
+    "english_translation": "Mom",
+    "gender": "feminine",
+    "example_sentence_english": "My Mom is coming tomorrow.",
+    "pos": "noun",
+    "word_frequency": 554
+  },
+  {
+    "example_sentence_native": "Das kleine Mädchen spielt mit ihrer Puppe.",
+    "word": "Puppe",
+    "english_translation": "doll",
+    "gender": "feminine",
+    "example_sentence_english": "The little girl is playing with her doll.",
+    "pos": "noun",
+    "word_frequency": 555
+  },
+  {
+    "example_sentence_native": "Bitte schließen Sie die Tür.",
+    "word": "schließen",
+    "english_translation": "to close;to shut",
+    "gender": "",
+    "example_sentence_english": "Please close the door.",
+    "pos": "verb",
+    "word_frequency": 556
+  },
+  {
+    "example_sentence_native": "Ich habe großen Durst.",
+    "word": "Durst",
+    "english_translation": "thirst",
+    "gender": "masculine",
+    "example_sentence_english": "I am very thirsty.",
+    "pos": "noun",
+    "word_frequency": 557
+  },
+  {
+    "example_sentence_native": "Bitte gib mir ein sauberes Handtuch.",
+    "word": "Handtuch",
+    "english_translation": "towel",
+    "gender": "neuter",
+    "example_sentence_english": "Please give me a clean towel.",
+    "pos": "noun",
+    "word_frequency": 558
+  },
+  {
+    "example_sentence_native": "Bitte füllen Sie das Formular aus.",
+    "word": "Formular",
+    "english_translation": "form (document)",
+    "gender": "neuter",
+    "example_sentence_english": "Please fill out the form.",
+    "pos": "noun",
+    "word_frequency": 559
+  },
+  {
+    "example_sentence_native": "Ich esse gerne eine Banane zum Frühstück.",
+    "word": "Banane",
+    "english_translation": "banana",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat a banana for breakfast.",
+    "pos": "noun",
+    "word_frequency": 560
+  },
+  {
+    "example_sentence_native": "Ich trage einen warmen Pullover.",
+    "word": "Pullover",
+    "english_translation": "sweater;pullover",
+    "gender": "masculine",
+    "example_sentence_english": "I am wearing a warm sweater.",
+    "pos": "noun",
+    "word_frequency": 561
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Würstchen mit Senf.",
+    "word": "Würstchen",
+    "english_translation": "sausage (small)",
+    "gender": "neuter",
+    "example_sentence_english": "I like to eat sausages with mustard.",
+    "pos": "noun",
+    "word_frequency": 562
+  },
+  {
+    "example_sentence_native": "Ich esse jeden Morgen einen Joghurt.",
+    "word": "Joghurt",
+    "english_translation": "yogurt",
+    "gender": "masculine",
+    "example_sentence_english": "I eat a yogurt every morning.",
+    "pos": "noun",
+    "word_frequency": 563
+  },
+  {
+    "example_sentence_native": "Das Hotelzimmer war sehr sauber.",
+    "word": "Hotelzimmer",
+    "english_translation": "hotel room",
+    "gender": "neuter",
+    "example_sentence_english": "The hotel room was very clean.",
+    "pos": "noun",
+    "word_frequency": 564
+  },
+  {
+    "example_sentence_native": "Wo ist die Gabel?",
+    "word": "Gabel",
+    "english_translation": "fork",
+    "gender": "feminine",
+    "example_sentence_english": "Where is the fork?",
+    "pos": "noun",
+    "word_frequency": 565
+  },
+  {
+    "example_sentence_native": "Wir haben heute eine neue Lektion gelernt.",
+    "word": "Lektion",
+    "english_translation": "lesson",
+    "gender": "feminine",
+    "example_sentence_english": "We learned a new lesson today.",
+    "pos": "noun",
+    "word_frequency": 566
+  },
+  {
+    "example_sentence_native": "Ich muss mich jetzt ausruhen.",
+    "word": "ausruhen",
+    "english_translation": "to rest",
+    "gender": "",
+    "example_sentence_english": "I need to rest now.",
+    "pos": "verb",
+    "word_frequency": 567
+  },
+  {
+    "example_sentence_native": "Mein Haustier ist eine Katze.",
+    "word": "Haustier",
+    "english_translation": "pet",
+    "gender": "neuter",
+    "example_sentence_english": "My pet is a cat.",
+    "pos": "noun",
+    "word_frequency": 568
+  },
+  {
+    "example_sentence_native": "Ich habe ein schönes Photo gemacht.",
+    "word": "Photo",
+    "english_translation": "photo",
+    "gender": "neuter",
+    "example_sentence_english": "I took a beautiful photo.",
+    "pos": "noun",
+    "word_frequency": 569
+  },
+  {
+    "example_sentence_native": "Wir gehen Samstagabend ins Kino.",
+    "word": "Samstagabend",
+    "english_translation": "Saturday evening",
+    "gender": "masculine",
+    "example_sentence_english": "We are going to the cinema on Saturday evening.",
+    "pos": "noun",
+    "word_frequency": 570
+  },
+  {
+    "example_sentence_native": "Ich liebe frische Erdbeeren im Sommer.",
+    "word": "Erdbeere",
+    "english_translation": "strawberry",
+    "gender": "feminine",
+    "example_sentence_english": "I love fresh strawberries in summer.",
+    "pos": "noun",
+    "word_frequency": 571
+  },
+  {
+    "example_sentence_native": "Mami, ich habe Hunger!",
+    "word": "Mami",
+    "english_translation": "mommy",
+    "gender": "feminine",
+    "example_sentence_english": "Mommy, I'm hungry!",
+    "pos": "noun",
+    "word_frequency": 572
+  },
+  {
+    "example_sentence_native": "Ich esse gerne eine Birne zum Frühstück.",
+    "word": "Birne",
+    "english_translation": "pear;light bulb",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat a pear for breakfast.",
+    "pos": "noun",
+    "word_frequency": 573
+  },
+  {
+    "example_sentence_native": "Die Bushaltestelle ist gleich um die Ecke.",
+    "word": "Bushaltestelle",
+    "english_translation": "bus stop",
+    "gender": "feminine",
+    "example_sentence_english": "The bus stop is just around the corner.",
+    "pos": "noun",
+    "word_frequency": 574
+  },
+  {
+    "example_sentence_native": "Mein deutscher Wortschatz wächst jeden Tag.",
+    "word": "Wortschatz",
+    "english_translation": "vocabulary",
+    "gender": "masculine",
+    "example_sentence_english": "My German vocabulary grows every day.",
+    "pos": "noun",
+    "word_frequency": 575
+  },
+  {
+    "example_sentence_native": "Am Sonnabend gehen wir ins Kino.",
+    "word": "Sonnabend",
+    "english_translation": "Saturday",
+    "gender": "masculine",
+    "example_sentence_english": "On Saturday we go to the cinema.",
+    "pos": "noun",
+    "word_frequency": 576
+  },
+  {
+    "example_sentence_native": "Wir frühstücken jeden Morgen um sieben Uhr.",
+    "word": "frühstücken",
+    "english_translation": "to have breakfast",
+    "gender": "",
+    "example_sentence_english": "We have breakfast every morning at seven o'clock.",
+    "pos": "verb",
+    "word_frequency": 577
+  },
+  {
+    "example_sentence_native": "Das ist ein hausgemachtes Brot.",
+    "word": "gemacht",
+    "english_translation": "made;done",
+    "gender": "",
+    "example_sentence_english": "That is a homemade bread.",
+    "pos": "adjective",
+    "word_frequency": 578
+  },
+  {
+    "example_sentence_native": "Gehen Sie einfach geradeaus.",
+    "word": "geradeaus",
+    "english_translation": "straight ahead",
+    "gender": "",
+    "example_sentence_english": "Just go straight ahead.",
+    "pos": "adverb",
+    "word_frequency": 579
+  },
+  {
+    "example_sentence_native": "Heute ist es sehr sonnig.",
+    "word": "sonnig",
+    "english_translation": "sunny",
+    "gender": "",
+    "example_sentence_english": "It is very sunny today.",
+    "pos": "adjective",
+    "word_frequency": 580
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Toast zum Frühstück.",
+    "word": "Toast",
+    "english_translation": "toast",
+    "gender": "masculine",
+    "example_sentence_english": "I like to eat toast for breakfast.",
+    "pos": "noun",
+    "word_frequency": 581
+  },
+  {
+    "example_sentence_native": "Das deutsche Alphabet hat 26 Buchstaben.",
+    "word": "Alphabet",
+    "english_translation": "alphabet",
+    "gender": "neuter",
+    "example_sentence_english": "The German alphabet has 26 letters.",
+    "pos": "noun",
+    "word_frequency": 582
+  },
+  {
+    "example_sentence_native": "Ich brauche eine Zitrone für den Tee.",
+    "word": "Zitrone",
+    "english_translation": "lemon",
+    "gender": "feminine",
+    "example_sentence_english": "I need a lemon for the tea.",
+    "pos": "noun",
+    "word_frequency": 583
+  },
+  {
+    "example_sentence_native": "Das Klassenzimmer ist groß und hell.",
+    "word": "Klassenzimmer",
+    "english_translation": "classroom",
+    "gender": "neuter",
+    "example_sentence_english": "The classroom is big and bright.",
+    "pos": "noun",
+    "word_frequency": 584
+  },
+  {
+    "example_sentence_native": "Sie trug eine elegante blaue Bluse.",
+    "word": "Bluse",
+    "english_translation": "blouse",
+    "gender": "feminine",
+    "example_sentence_english": "She wore an elegant blue blouse.",
+    "pos": "noun",
+    "word_frequency": 585
+  },
+  {
+    "example_sentence_native": "Ich esse gerne eine Bratwurst mit Senf.",
+    "word": "Bratwurst",
+    "english_translation": "fried sausage;bratwurst",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat a bratwurst with mustard.",
+    "pos": "noun",
+    "word_frequency": 586
+  },
+  {
+    "example_sentence_native": "Ich brauche einen Bleistift.",
+    "word": "Bleistift",
+    "english_translation": "pencil",
+    "gender": "masculine",
+    "example_sentence_english": "I need a pencil.",
+    "pos": "noun",
+    "word_frequency": 587
+  },
+  {
+    "example_sentence_native": "Ich koche heute Abend Pasta mit Tomatensoße.",
+    "word": "Pasta",
+    "english_translation": "pasta",
+    "gender": "feminine",
+    "example_sentence_english": "I'm cooking pasta with tomato sauce tonight.",
+    "pos": "noun",
+    "word_frequency": 588
+  },
+  {
+    "example_sentence_native": "Ich esse ein Sandwich zum Mittagessen.",
+    "word": "Sandwich",
+    "english_translation": "sandwich",
+    "gender": "neuter",
+    "example_sentence_english": "I eat a sandwich for lunch.",
+    "pos": "noun",
+    "word_frequency": 589
+  },
+  {
+    "example_sentence_native": "Möchtest du Ketchup zu deinen Pommes?",
+    "word": "Ketchup",
+    "english_translation": "ketchup",
+    "gender": "neuter",
+    "example_sentence_english": "Do you want ketchup with your fries?",
+    "pos": "noun",
+    "word_frequency": 590
+  },
+  {
+    "example_sentence_native": "Die Verkäuferin half mir bei der Auswahl.",
+    "word": "Verkäuferin",
+    "english_translation": "saleswoman",
+    "gender": "feminine",
+    "example_sentence_english": "The saleswoman helped me with the selection.",
+    "pos": "noun",
+    "word_frequency": 591
+  },
+  {
+    "example_sentence_native": "Ich schicke dir eine Postkarte aus dem Urlaub.",
+    "word": "Postkarte",
+    "english_translation": "postcard",
+    "gender": "feminine",
+    "example_sentence_english": "I'll send you a postcard from vacation.",
+    "pos": "noun",
+    "word_frequency": 592
+  },
+  {
+    "example_sentence_native": "Ich heiße Anna.",
+    "word": "heißen",
+    "english_translation": "to be called;to be named",
+    "gender": "",
+    "example_sentence_english": "My name is Anna.",
+    "pos": "verb",
+    "word_frequency": 593
+  },
+  {
+    "example_sentence_native": "Ich brauche eine neue Zahnbürste.",
+    "word": "Zahnbürste",
+    "english_translation": "toothbrush",
+    "gender": "feminine",
+    "example_sentence_english": "I need a new toothbrush.",
+    "pos": "noun",
+    "word_frequency": 594
+  },
+  {
+    "example_sentence_native": "Wir essen heute Abend Hähnchen.",
+    "word": "Hähnchen",
+    "english_translation": "chicken (food)",
+    "gender": "neuter",
+    "example_sentence_english": "We are eating chicken tonight.",
+    "pos": "noun",
+    "word_frequency": 595
+  },
+  {
+    "example_sentence_native": "Sie ist eine Amerikanerin.",
+    "word": "Amerikanerin",
+    "english_translation": "American woman",
+    "gender": "feminine",
+    "example_sentence_english": "She is an American woman.",
+    "pos": "noun",
+    "word_frequency": 596
+  },
+  {
+    "example_sentence_native": "Ich brauche einen Kugelschreiber, um das zu unterschreiben.",
+    "word": "Kugelschreiber",
+    "english_translation": "ballpoint pen",
+    "gender": "masculine",
+    "example_sentence_english": "I need a ballpoint pen to sign that.",
+    "pos": "noun",
+    "word_frequency": 597
+  },
+  {
+    "example_sentence_native": "Zum Nachtisch gibt es Eis.",
+    "word": "Nachtisch",
+    "english_translation": "dessert",
+    "gender": "masculine",
+    "example_sentence_english": "For dessert there is ice cream.",
+    "pos": "noun",
+    "word_frequency": 598
+  },
+  {
+    "example_sentence_native": "Bitte mach die Tür zu.",
+    "word": "zumachen",
+    "english_translation": "to close",
+    "gender": "",
+    "example_sentence_english": "Please close the door.",
+    "pos": "verb",
+    "word_frequency": 599
+  },
+  {
+    "example_sentence_native": "Ich lerne neue Vokabeln.",
+    "word": "Vokabel",
+    "english_translation": "vocabulary word",
+    "gender": "feminine",
+    "example_sentence_english": "I am learning new vocabulary words.",
+    "pos": "noun",
+    "word_frequency": 600
+  },
+  {
+    "example_sentence_native": "Der Feb ist ein kurzer Monat.",
+    "word": "Feb",
+    "english_translation": "Feb (February)",
+    "gender": "masculine",
+    "example_sentence_english": "Feb is a short month.",
+    "pos": "noun",
+    "word_frequency": 601
+  },
+  {
+    "example_sentence_native": "Es wird heute Abend schneien.",
+    "word": "schneien",
+    "english_translation": "to snow",
+    "gender": "",
+    "example_sentence_english": "It will snow tonight.",
+    "pos": "verb",
+    "word_frequency": 602
+  },
+  {
+    "example_sentence_native": "Mir friert es an den Füßen.",
+    "word": "frieren",
+    "english_translation": "to freeze;to be cold",
+    "gender": "",
+    "example_sentence_english": "My feet are freezing.",
+    "pos": "verb",
+    "word_frequency": 603
+  },
+  {
+    "example_sentence_native": "Ich brauche neue Zahnpasta.",
+    "word": "Zahnpasta",
+    "english_translation": "toothpaste",
+    "gender": "feminine",
+    "example_sentence_english": "I need new toothpaste.",
+    "pos": "noun",
+    "word_frequency": 604
+  },
+  {
+    "example_sentence_native": "Ich esse gerne Möhren.",
+    "word": "Möhre",
+    "english_translation": "carrot",
+    "gender": "feminine",
+    "example_sentence_english": "I like to eat carrots.",
+    "pos": "noun",
+    "word_frequency": 605
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Dienstagabend.",
+    "word": "Dienstagabend",
+    "english_translation": "Tuesday evening",
+    "gender": "masculine",
+    "example_sentence_english": "We are meeting on Tuesday evening.",
+    "pos": "noun",
+    "word_frequency": 606
+  },
+  {
+    "example_sentence_native": "Papi, können wir Eis essen gehen?",
+    "word": "Papi",
+    "english_translation": "daddy",
+    "gender": "masculine",
+    "example_sentence_english": "Daddy, can we go eat ice cream?",
+    "pos": "noun",
+    "word_frequency": 607
+  },
+  {
+    "example_sentence_native": "Vergiss deinen Regenschirm nicht, es regnet.",
+    "word": "Regenschirm",
+    "english_translation": "umbrella",
+    "gender": "masculine",
+    "example_sentence_english": "Don't forget your umbrella, it's raining.",
+    "pos": "noun",
+    "word_frequency": 608
+  },
+  {
+    "example_sentence_native": "Wir essen um sieben Uhr Abendbrot.",
+    "word": "Abendbrot",
+    "english_translation": "supper;dinner (evening meal;often cold)",
+    "gender": "neuter",
+    "example_sentence_english": "We eat supper at seven o'clock.",
+    "pos": "noun",
+    "word_frequency": 609
+  },
+  {
+    "example_sentence_native": "Ich möchte einen Cappuccino, bitte.",
+    "word": "Cappuccino",
+    "english_translation": "cappuccino",
+    "gender": "masculine",
+    "example_sentence_english": "I would like a cappuccino, please.",
+    "pos": "noun",
+    "word_frequency": 610
+  },
+  {
+    "example_sentence_native": "Das Kind musste Pipi machen.",
+    "word": "Pipi",
+    "english_translation": "pee-pee;urine (childish)",
+    "gender": "neuter",
+    "example_sentence_english": "The child had to pee-pee.",
+    "pos": "noun",
+    "word_frequency": 611
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne ein Glas Orangensaft zum Frühstück.",
+    "word": "Orangensaft",
+    "english_translation": "orange juice",
+    "gender": "masculine",
+    "example_sentence_english": "I like to drink a glass of orange juice for breakfast.",
+    "pos": "noun",
+    "word_frequency": 612
+  },
+  {
+    "example_sentence_native": "Die Kellnerin brachte uns die Speisekarte.",
+    "word": "Kellnerin",
+    "english_translation": "waitress",
+    "gender": "feminine",
+    "example_sentence_english": "The waitress brought us the menu.",
+    "pos": "noun",
+    "word_frequency": 613
+  },
+  {
+    "example_sentence_native": "Ich brauche eine Bürste für meine Haare.",
+    "word": "Bürste",
+    "english_translation": "brush",
+    "gender": "feminine",
+    "example_sentence_english": "I need a brush for my hair.",
+    "pos": "noun",
+    "word_frequency": 614
+  },
+  {
+    "example_sentence_native": "Er ist gerade nach Hause gekommen.",
+    "word": "gekommen",
+    "english_translation": "come;arrived",
+    "gender": "",
+    "example_sentence_english": "He has just come home.",
+    "pos": "adjective",
+    "word_frequency": 615
+  },
+  {
+    "example_sentence_native": "Ich trinke gerne Apfelsaft zum Frühstück.",
+    "word": "Apfelsaft",
+    "english_translation": "apple juice",
+    "gender": "masculine",
+    "example_sentence_english": "I like to drink apple juice for breakfast.",
+    "pos": "noun",
+    "word_frequency": 616
+  },
+  {
+    "example_sentence_native": "Der Himmel ist heute hellblau.",
+    "word": "hellblau",
+    "english_translation": "light blue",
+    "gender": "",
+    "example_sentence_english": "The sky is light blue today.",
+    "pos": "adjective",
+    "word_frequency": 617
+  },
+  {
+    "example_sentence_native": "Ich gehe nachhause.",
+    "word": "nachhause",
+    "english_translation": "home",
+    "gender": "",
+    "example_sentence_english": "I am going home.",
+    "pos": "adverb",
+    "word_frequency": 618
+  },
+  {
+    "example_sentence_native": "Ich besuche einen Sprachkurs, um Deutsch zu lernen.",
+    "word": "Sprachkurs",
+    "english_translation": "language course",
+    "gender": "masculine",
+    "example_sentence_english": "I am attending a language course to learn German.",
+    "pos": "noun",
+    "word_frequency": 619
+  },
+  {
+    "example_sentence_native": "Wir haben heute Sportunterricht in der Turnhalle.",
+    "word": "Sportunterricht",
+    "english_translation": "physical education",
+    "gender": "masculine",
+    "example_sentence_english": "We have physical education today in the gym.",
+    "pos": "noun",
+    "word_frequency": 620
+  },
+  {
+    "example_sentence_native": "Montag ist der erste Wochentag.",
+    "word": "Wochentag",
+    "english_translation": "weekday",
+    "gender": "masculine",
+    "example_sentence_english": "Monday is the first weekday.",
+    "pos": "noun",
+    "word_frequency": 621
+  },
+  {
+    "example_sentence_native": "Ich hätte gerne eine Limonade, bitte.",
+    "word": "Limonade",
+    "english_translation": "lemonade;soda",
+    "gender": "feminine",
+    "example_sentence_english": "I would like a lemonade, please.",
+    "pos": "noun",
+    "word_frequency": 622
+  },
+  {
+    "example_sentence_native": "Die Kinder bauten einen Schneemann.",
+    "word": "Schneemann",
+    "english_translation": "snowman",
+    "gender": "masculine",
+    "example_sentence_english": "The children built a snowman.",
+    "pos": "noun",
+    "word_frequency": 623
+  },
+  {
+    "example_sentence_native": "Der Schulbus fährt um 7 Uhr ab.",
+    "word": "Schulbus",
+    "english_translation": "school bus",
+    "gender": "masculine",
+    "example_sentence_english": "The school bus departs at 7 AM.",
+    "pos": "noun",
+    "word_frequency": 624
+  },
+  {
+    "example_sentence_native": "Ich esse Cornflakes zum Frühstück.",
+    "word": "Cornflakes",
+    "english_translation": "cornflakes",
+    "gender": "Unknown",
+    "example_sentence_english": "I eat cornflakes for breakfast.",
+    "pos": "noun",
+    "word_frequency": 625
+  },
+  {
+    "example_sentence_native": "Ich liebe Apfelkuchen mit Sahne.",
+    "word": "Apfelkuchen",
+    "english_translation": "apple pie",
+    "gender": "masculine",
+    "example_sentence_english": "I love apple pie with cream.",
+    "pos": "noun",
+    "word_frequency": 626
+  },
+  {
+    "example_sentence_native": "Sie ist eine Italienerin aus Rom.",
+    "word": "Italienerin",
+    "english_translation": "Italian woman",
+    "gender": "feminine",
+    "example_sentence_english": "She is an Italian woman from Rome.",
+    "pos": "noun",
+    "word_frequency": 627
+  },
+  {
+    "example_sentence_native": "Wo sind meine Autoschlüssel?",
+    "word": "Autoschlüssel",
+    "english_translation": "car key",
+    "gender": "masculine",
+    "example_sentence_english": "Where are my car keys?",
+    "pos": "noun",
+    "word_frequency": 628
+  },
+  {
+    "example_sentence_native": "Wir wollen heute Nachmittag spazierengehen.",
+    "word": "spazierengehen",
+    "english_translation": "to go for a walk",
+    "gender": "",
+    "example_sentence_english": "We want to go for a walk this afternoon.",
+    "pos": "verb",
+    "word_frequency": 629
+  },
+  {
+    "example_sentence_native": "Meine Lieblingsfarbe ist Blau.",
+    "word": "Lieblingsfarbe",
+    "english_translation": "favorite color",
+    "gender": "feminine",
+    "example_sentence_english": "My favorite color is blue.",
+    "pos": "noun",
+    "word_frequency": 630
+  },
+  {
+    "example_sentence_native": "Bitte schalte das Licht an.",
+    "word": "anschalten",
+    "english_translation": "to switch on;to turn on",
+    "gender": "",
+    "example_sentence_english": "Please turn on the light.",
+    "pos": "verb",
+    "word_frequency": 631
+  },
+  {
+    "example_sentence_native": "Mein Vati kommt heute Abend nach Hause.",
+    "word": "Vati",
+    "english_translation": "daddy;dad",
+    "gender": "masculine",
+    "example_sentence_english": "My daddy is coming home tonight.",
+    "pos": "noun",
+    "word_frequency": 632
+  },
+  {
+    "example_sentence_native": "Wir hatten viel Spaß auf der Party.",
+    "word": "Spaß",
+    "english_translation": "fun",
+    "gender": "masculine",
+    "example_sentence_english": "We had a lot of fun at the party.",
+    "pos": "noun",
+    "word_frequency": 633
+  },
+  {
+    "example_sentence_native": "Wir treffen uns am Freitagnachmittag.",
+    "word": "Freitagnachmittag",
+    "english_translation": "Friday afternoon",
+    "gender": "masculine",
+    "example_sentence_english": "We are meeting on Friday afternoon.",
+    "pos": "noun",
+    "word_frequency": 634
+  }
+]
