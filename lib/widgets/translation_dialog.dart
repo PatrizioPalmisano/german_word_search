@@ -62,7 +62,6 @@ class _TranslationSheetState extends State<_TranslationSheet> {
   }
 
   void _submit() {
-    if (_controller.text.trim().isEmpty) return;
 
     final input = _controller.text.trim().toLowerCase();
     final stripped = _stripArticle(input);
@@ -246,7 +245,7 @@ class _TranslationSheetState extends State<_TranslationSheet> {
                 ),
               ],
               // "Typo" + "Mark as correct" buttons shown only after a wrong answer
-              if (!_correct) ...[
+              if (!_correct && _controller.text.trim().isNotEmpty) ...[
                 const SizedBox(height: 12),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
