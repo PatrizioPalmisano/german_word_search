@@ -19,6 +19,9 @@ class WordGrid extends StatefulWidget {
   final bool cleanupMode;
   final Set<(int, int)> claimedCells;
   final void Function((int, int) cell)? onCellClaimed;
+  /// When true the grid has more rows than the visible area and should be
+  /// scrollable (no zoom, vertical single-finger drag scrolls the grid).
+  final bool scrollable;
 
   const WordGrid({
     super.key,
@@ -30,6 +33,7 @@ class WordGrid extends StatefulWidget {
     this.cleanupMode = false,
     this.claimedCells = const {},
     this.onCellClaimed,
+    this.scrollable = false,
   });
 
   @override
@@ -103,10 +107,16 @@ class _WordGridState extends State<WordGrid> {
   void _initTransformIfNeeded(Size containerSize, Size gridSize) {
     _containerSize = containerSize;
 
-    // Max scale: zoom in until the grid fills the container height.
-    // Clamped to at least 1.0 (handles grids already taller than the screen).
-    _maxScale =
-        (containerSize.height / gridSize.height).clamp(1.0, 8.0).toDouble();
+    // In scrollable/overflow mode there is no zoom — grid stays at 1× scale
+    // (width-fit) and the user scrolls vertically to see all rows.
+    if (widget.scrollable) {
+      _maxScale = 1.0;
+    } else {
+      // Max scale: zoom in until the grid fills the container height.
+      // Clamped to at least 1.0 (handles grids already taller than the screen).
+      _maxScale =
+          (containerSize.height / gridSize.height).clamp(1.0, 8.0).toDouble();
+    }
 
     if (!_transformInitialized || _lastGridSize != gridSize) {
       // Grid starts at (0,0) — no vertical centering, so the grid occupies
@@ -153,8 +163,20 @@ class _WordGridState extends State<WordGrid> {
     }
 
     // ── Vertical ──────────────────────────────────────────────────
-    // Top of the grid is always pinned to the top of the viewport.
-    ty = 0.0;
+    if (widget.scrollable) {
+      // Overflow/scrollable mode: allow vertical panning so the user can
+      // reach the rows that are below the viewport.
+      if (scaledH >= vpH) {
+        // Grid taller than viewport → must cover viewport top.
+        ty = ty.clamp(vpH - scaledH, 0.0);
+      } else {
+        // Grid shorter than viewport → keep inside.
+        ty = ty.clamp(0.0, vpH - scaledH);
+      }
+    } else {
+      // Normal mode: top of the grid is always pinned to the top of the viewport.
+      ty = 0.0;
+    }
 
     // Rebuild the matrix preserving the scale but with clamped translation.
     return Matrix4.identity()
@@ -222,6 +244,8 @@ class _WordGridState extends State<WordGrid> {
 
     if (_isMultiTouch) {
       // Two fingers: pinch-to-zoom + pan.
+      // In scrollable mode _maxScale == 1.0 so zoom is clamped away while
+      // two-finger pan still moves the grid (including vertically).
       final baseScale = _baseTransform.getMaxScaleOnAxis();
       final requestedTotal = baseScale * details.scale;
       final clampedTotal =
@@ -240,7 +264,7 @@ class _WordGridState extends State<WordGrid> {
 
       setState(() => _transform = _clampTransform(newTransform));
     } else {
-      // Single finger: update word selection.
+      // Single finger: word selection.
       if (_startRow == null || _startCol == null) return;
       final gridPos = _screenToGrid(details.localFocalPoint);
       final currentRow =

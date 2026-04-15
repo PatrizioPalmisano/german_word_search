@@ -761,8 +761,18 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
           final gridRows = widget.level.grid.length;
           final cellSize = constraints.maxWidth / gridCols;
           final gridH = cellSize * gridRows;
+
+          // Detect vertical overflow: grid is taller than the available screen.
+          // In this case the WordGrid enters scrollable mode (no zoom, vertical
+          // single-finger drag scrolls the grid to reveal hidden bottom rows).
+          final overflowsBottom = gridH > constraints.maxHeight;
+
+          // The word-list panel sits at the bottom as an overlay.
+          // Minimum height raised to 200 px (≈2.5× the old 80 px floor) so that
+          // there is always enough room to read the word list even on a very tall
+          // grid where the remaining space would otherwise be tiny.
           final panelHeight =
-              (constraints.maxHeight - gridH).clamp(80.0, constraints.maxHeight * 0.6);
+              (constraints.maxHeight - gridH).clamp(200.0, constraints.maxHeight * 0.6);
 
           return Stack(
             children: [
@@ -777,6 +787,7 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
                   cleanupMode: _cleanupMode,
                   claimedCells: _claimedCells,
                   onCellClaimed: _onCellClaimed,
+                  scrollable: overflowsBottom,
                 ),
               ),
 
