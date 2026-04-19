@@ -34,6 +34,18 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
   bool _alreadyCompleted = false;
   bool _showWordList = true;
   bool _dimLines = false;
+  /// True when the word panel was hidden automatically because the grid
+  /// was zoomed to its maximum.  Used to restore it on zoom-out.
+  bool _wordListAutoHidden = false;
+
+  final ScrollController _wordListScrollController = ScrollController();
+  /// Saved scroll offset so the list resumes where the user left off when
+  /// the word panel is hidden and then re-shown.
+  double _wordListScrollOffset = 0.0;
+
+  // ── Capital state (persisted so history survives level close/reopen) ──
+  Set<(int, int)> _capitalCrossed = {};
+  Set<(int, int)> _capitalActive = {};
 
   // ── Cleanup-mode state ────────────────────────────────────────────
   /// True once all words are found and the user must tap remaining cells.
@@ -47,6 +59,42 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
     _vocabMap = widget.world.vocabMap;
     _orderedPlacements = _sortedAlphabetically(widget.level.placements);
     _loadSavedProgress();
+  }
+
+  @override
+  void dispose() {
+    _wordListScrollController.dispose();
+    super.dispose();
+  }
+
+  // ── Word-list visibility helpers ──────────────────────────────────
+
+  void _hideWordList({bool auto = false}) {
+    if (_wordListScrollController.hasClients) {
+      _wordListScrollOffset = _wordListScrollController.offset;
+    }
+    setState(() {
+      _showWordList = false;
+      if (auto) _wordListAutoHidden = true;
+    });
+  }
+
+  void _showWordListPanel({bool auto = false}) {
+    setState(() {
+      _showWordList = true;
+      if (auto) _wordListAutoHidden = false;
+    });
+    // Restore position after the new ScrollView has been laid out.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (_wordListScrollController.hasClients && _wordListScrollOffset > 0) {
+        _wordListScrollController.jumpTo(
+          _wordListScrollOffset.clamp(
+            0.0,
+            _wordListScrollController.position.maxScrollExtent,
+          ),
+        );
+      }
+    });
   }
 
   // ── Ordering helpers ──────────────────────────────────────────────
@@ -79,6 +127,8 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
         for (final cell in saved.claimedCells) {
           _claimedCells.add(cell);
         }
+        _capitalCrossed = saved.crossedCapitals.toSet();
+        _capitalActive = saved.activeCapitals.toSet();
         // For completed levels where claimedCells were never saved (finished
         // before this feature existed), derive them: completing the level
         // requires ALL alive (non-word) cells to have been claimed.
@@ -99,7 +149,9 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
   Set<(int, int)> _computeAliveCells() {
     final deadCells = <(int, int)>{};
     for (final p in widget.level.placements) {
-      for (final cell in p.cells) deadCells.add(cell);
+      for (final cell in p.cells) {
+        deadCells.add(cell);
+      }
     }
     final rows = widget.level.grid.length;
     final cols = widget.level.grid.isEmpty ? 0 : widget.level.grid.first.length;
@@ -136,6 +188,8 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
         foundWordIds: _foundWordIds.toList(),
         translationResults: Map<String, bool>.from(_translationResults),
         claimedCells: _claimedCells.toList(),
+        crossedCapitals: _capitalCrossed.toList(),
+        activeCapitals: _capitalActive.toList(),
       ),
     );
   }
@@ -175,7 +229,9 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
         _cleanupMode = false;
         _claimedCells.clear();
         _aliveCells = {};
-        _orderedPlacements = shuffled; // random order after replay
+        _capitalCrossed = {};
+        _capitalActive = {};
+        _orderedPlacements = shuffled;
       });
     }
   }
@@ -186,7 +242,9 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
     if (_foundWordIds.contains(placement.wordId)) return;
 
     // Mark found immediately so the strikethrough draws at once.
-    setState(() => _foundWordIds.add(placement.wordId));
+    setState(() {
+      _foundWordIds.add(placement.wordId);
+    });
 
     final vocab = _vocabMap[placement.wordId]!;
     if (!mounted) return;
@@ -420,8 +478,17 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
                 ),
               ],
               const SizedBox(height: 20),
+              FilledButton.icon(
+                icon: const Icon(Icons.arrow_forward_rounded),
+                label: const Text('Continue'),
+                onPressed: () {
+                  Navigator.pop(ctx); // close sheet
+                  if (mounted) Navigator.pop(context); // back to level list
+                },
+              ),
+              const SizedBox(height: 8),
               Text(
-                'Tap outside to close',
+                'or tap outside to stay',
                 style: theme.textTheme.bodySmall?.copyWith(
                   color:
                       theme.colorScheme.onSurface.withValues(alpha: 0.38),
@@ -729,8 +796,16 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
             ),
           // "W" button toggles the word-list overlay.
           TextButton(
-            onPressed: () =>
-                setState(() => _showWordList = !_showWordList),
+            onPressed: () {
+              // A manual toggle clears the auto-hide flag so the zoom/scroll
+              // callbacks don't fight the user's explicit choice.
+              _wordListAutoHidden = false;
+              if (_showWordList) {
+                _hideWordList();
+              } else {
+                _showWordListPanel();
+              }
+            },
             style: TextButton.styleFrom(
               foregroundColor: Theme.of(context).colorScheme.onSurface,
               minimumSize: const Size(44, 44),
@@ -788,6 +863,24 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
                   claimedCells: _claimedCells,
                   onCellClaimed: _onCellClaimed,
                   scrollable: overflowsBottom,
+                  initialCrossedCapitals: _capitalCrossed,
+                  initialActiveCapitals: _capitalActive,
+                  onCapitalsUpdated: (crossed, active) {
+                    _capitalCrossed = crossed;
+                    _capitalActive = active;
+                  },
+                  onReachedMaxZoom: () {
+                    if (_showWordList) _hideWordList(auto: true);
+                  },
+                  onReachedMinZoom: () {
+                    if (!_showWordList && _wordListAutoHidden) _showWordListPanel(auto: true);
+                  },
+                  onReachedMaxScroll: () {
+                    if (_showWordList) _hideWordList(auto: true);
+                  },
+                  onReachedMinScroll: () {
+                    if (!_showWordList && _wordListAutoHidden) _showWordListPanel(auto: true);
+                  },
                 ),
               ),
 
@@ -864,6 +957,7 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
                             // Scrollable word list
                             Expanded(
                               child: SingleChildScrollView(
+                                controller: _wordListScrollController,
                                 padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
                                 child: _buildWordColumns(),
                               ),

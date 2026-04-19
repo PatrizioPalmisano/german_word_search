@@ -14,8 +14,9 @@ class WorldListScreen extends StatefulWidget {
 }
 
 class _WorldListScreenState extends State<WorldListScreen> {
-  List<WorldData>? _worlds;
+  List<WorldSummary>? _worlds;
   Map<String, LevelProgress> _progress = {};
+  String? _openingWorldId;
 
   @override
   void initState() {
@@ -24,7 +25,7 @@ class _WorldListScreenState extends State<WorldListScreen> {
   }
 
   Future<void> _load() async {
-    final worlds = await ContentRepository.instance.getWorlds();
+    final worlds = await ContentRepository.instance.getWorldSummaries();
     final progress = await ProgressRepository.instance.loadAll();
     if (mounted) {
       setState(() {
@@ -34,11 +35,41 @@ class _WorldListScreenState extends State<WorldListScreen> {
     }
   }
 
-  int _completedLevels(WorldData world) {
-    return world.levels.where((l) {
-      final key = '${world.id}_${l.number}';
-      return _progress[key]?.completed ?? false;
-    }).length;
+  int _completedLevels(WorldSummary world) {
+    var completed = 0;
+    for (var levelNumber = 1; levelNumber <= world.levelCount; levelNumber++) {
+      final key = '${world.id}_$levelNumber';
+      if (_progress[key]?.completed ?? false) {
+        completed++;
+      }
+    }
+    return completed;
+  }
+
+  Future<void> _openWorld(WorldSummary summary) async {
+    if (_openingWorldId != null) return;
+
+    setState(() => _openingWorldId = summary.id);
+
+    try {
+      final world = await ContentRepository.instance.getWorld(summary.id);
+      if (!mounted) return;
+
+      await Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => LevelListScreen(world: world)),
+      );
+      await _load();
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Could not open this world.')),
+      );
+    } finally {
+      if (mounted) {
+        setState(() => _openingWorldId = null);
+      }
+    }
   }
 
   IconData _iconFor(String name) {
@@ -70,8 +101,9 @@ class _WorldListScreenState extends State<WorldListScreen> {
               itemBuilder: (context, index) {
                 final world = _worlds![index];
                 final completed = _completedLevels(world);
-                final total = world.levels.length;
+                final total = world.levelCount;
                 final color = parseHexColor(world.color);
+                final isOpening = _openingWorldId == world.id;
 
                 return Card(
                   elevation: 2,
@@ -81,14 +113,7 @@ class _WorldListScreenState extends State<WorldListScreen> {
                   ),
                   child: InkWell(
                     borderRadius: BorderRadius.circular(16),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => LevelListScreen(world: world),
-                        ),
-                      ).then((_) => _load());
-                    },
+                    onTap: isOpening ? null : () => _openWorld(world),
                     child: Padding(
                       padding: const EdgeInsets.all(20),
                       child: Row(
@@ -142,7 +167,18 @@ class _WorldListScreenState extends State<WorldListScreen> {
                               ],
                             ),
                           ),
-                          const Icon(Icons.chevron_right),
+                          isOpening
+                              ? SizedBox(
+                                  width: 20,
+                                  height: 20,
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2.2,
+                                    valueColor: AlwaysStoppedAnimation<Color>(
+                                      color,
+                                    ),
+                                  ),
+                                )
+                              : const Icon(Icons.chevron_right),
                         ],
                       ),
                     ),

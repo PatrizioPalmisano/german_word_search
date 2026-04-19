@@ -6,26 +6,38 @@ class ContentRepository {
   ContentRepository._();
   static final instance = ContentRepository._();
 
-  List<WorldData>? _worlds;
+  List<WorldSummary>? _worldSummaries;
+  final Map<String, WorldData> _worldCache = {};
 
-  Future<List<WorldData>> getWorlds() async {
-    if (_worlds != null) return _worlds!;
+  Future<List<WorldSummary>> getWorldSummaries() async {
+    if (_worldSummaries != null) return _worldSummaries!;
 
     final indexStr = await rootBundle.loadString('assets/data/worlds.json');
-    final List<dynamic> index = jsonDecode(indexStr);
+    final List<dynamic> index = jsonDecode(indexStr) as List<dynamic>;
 
-    _worlds = [];
-    for (final entry in index) {
-      final id = entry['id'] as String;
-      final worldStr = await rootBundle.loadString('assets/data/$id.json');
-      _worlds!.add(WorldData.fromJson(jsonDecode(worldStr)));
-    }
-    return _worlds!;
+    _worldSummaries = index
+        .map((entry) => WorldSummary.fromJson(entry as Map<String, dynamic>))
+        .toList(growable: false);
+    return _worldSummaries!;
+  }
+
+  Future<List<WorldData>> getWorlds() async {
+    final summaries = await getWorldSummaries();
+    return Future.wait([
+      for (final summary in summaries) getWorld(summary.id),
+    ]);
   }
 
   Future<WorldData> getWorld(String id) async {
-    final worlds = await getWorlds();
-    return worlds.firstWhere((w) => w.id == id);
+    final cached = _worldCache[id];
+    if (cached != null) return cached;
+
+    final worldStr = await rootBundle.loadString('assets/data/$id.json');
+    final world = WorldData.fromJson(
+      jsonDecode(worldStr) as Map<String, dynamic>,
+    );
+    _worldCache[id] = world;
+    return world;
   }
 }
 

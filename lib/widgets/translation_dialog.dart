@@ -244,43 +244,60 @@ class _TranslationSheetState extends State<_TranslationSheet> {
                   ),
                 ),
               ],
-              // "Typo" + "Mark as correct" buttons shown only after a wrong answer
-              if (!_correct && _controller.text.trim().isNotEmpty) ...[
+              // Buttons shown only after a wrong answer
+              if (!_correct) ...[
                 const SizedBox(height: 12),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    TextButton.icon(
-                      onPressed: _markAsTypo,
-                      icon: const Icon(Icons.spellcheck, size: 18),
-                      label: const Text('Typo'),
-                      style: TextButton.styleFrom(
-                        foregroundColor: Colors.orange.shade700,
-                        textStyle: theme.textTheme.bodySmall
-                            ?.copyWith(fontWeight: FontWeight.w600),
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 12, vertical: 6),
-                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                        minimumSize: Size.zero,
-                      ),
+                if (_controller.text.trim().isEmpty)
+                  // No input — offer "knew it, blanked on the word"
+                  TextButton.icon(
+                    onPressed: _markAsTypo,
+                    icon: const Icon(Icons.psychology_alt_rounded, size: 18),
+                    label: const Text('I knew it, mind went blank'),
+                    style: TextButton.styleFrom(
+                      foregroundColor: Colors.orange.shade700,
+                      textStyle: theme.textTheme.bodySmall
+                          ?.copyWith(fontWeight: FontWeight.w600),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 12, vertical: 6),
+                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                      minimumSize: Size.zero,
                     ),
-                    const SizedBox(width: 8),
-                    TextButton.icon(
-                      onPressed: _markAsCorrect,
-                      icon: const Icon(Icons.check_circle_outline, size: 18),
-                      label: Text("Mark '${_controller.text.trim()}' as correct"),
-                      style: TextButton.styleFrom(
-                        foregroundColor: Colors.green.shade600,
-                        textStyle: theme.textTheme.bodySmall
-                            ?.copyWith(fontWeight: FontWeight.w600),
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 12, vertical: 6),
-                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                        minimumSize: Size.zero,
+                  )
+                else
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      TextButton.icon(
+                        onPressed: _markAsTypo,
+                        icon: const Icon(Icons.spellcheck, size: 18),
+                        label: const Text('Typo'),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.orange.shade700,
+                          textStyle: theme.textTheme.bodySmall
+                              ?.copyWith(fontWeight: FontWeight.w600),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 6),
+                          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          minimumSize: Size.zero,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
+                      const SizedBox(width: 8),
+                      TextButton.icon(
+                        onPressed: _markAsCorrect,
+                        icon: const Icon(Icons.check_circle_outline, size: 18),
+                        label: Text("Mark '${_controller.text.trim()}' as correct"),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.green.shade600,
+                          textStyle: theme.textTheme.bodySmall
+                              ?.copyWith(fontWeight: FontWeight.w600),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 6),
+                          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          minimumSize: Size.zero,
+                        ),
+                      ),
+                    ],
+                  ),
               ],
               const SizedBox(height: 16),
               SizedBox(

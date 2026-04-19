@@ -1,6 +1,35 @@
 import 'vocabulary_item.dart';
 import 'level_data.dart';
 
+class WorldSummary {
+  final String id;
+  final String title;
+  final String description;
+  final String color;
+  final String icon;
+  final int levelCount;
+
+  const WorldSummary({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.color,
+    required this.icon,
+    required this.levelCount,
+  });
+
+  factory WorldSummary.fromJson(Map<String, dynamic> json) {
+    return WorldSummary(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      description: json['description'] as String,
+      color: json['color'] as String,
+      icon: json['icon'] as String,
+      levelCount: json['levelCount'] as int,
+    );
+  }
+}
+
 class WorldData {
   final String id;
   final String title;

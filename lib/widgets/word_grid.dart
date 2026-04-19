@@ -22,6 +22,20 @@ class WordGrid extends StatefulWidget {
   /// When true the grid has more rows than the visible area and should be
   /// scrollable (no zoom, vertical single-finger drag scrolls the grid).
   final bool scrollable;
+  /// Called once when zoom reaches the maximum scale.
+  final VoidCallback? onReachedMaxZoom;
+  /// Called once when zoom returns to the minimum scale.
+  final VoidCallback? onReachedMinZoom;
+  /// Called once when the grid (in scroll mode) is scrolled to the bottom.
+  final VoidCallback? onReachedMaxScroll;
+  /// Called once when the grid (in scroll mode) is scrolled back to the top.
+  final VoidCallback? onReachedMinScroll;
+  /// Persisted capital state to restore on first load (avoids replay).
+  final Set<(int, int)> initialCrossedCapitals;
+  final Set<(int, int)> initialActiveCapitals;
+  /// Called after every recompute with the latest capital state for saving.
+  final void Function(Set<(int, int)> crossed, Set<(int, int)> active)?
+      onCapitalsUpdated;
 
   const WordGrid({
     super.key,
@@ -34,6 +48,13 @@ class WordGrid extends StatefulWidget {
     this.claimedCells = const {},
     this.onCellClaimed,
     this.scrollable = false,
+    this.onReachedMaxZoom,
+    this.onReachedMinZoom,
+    this.onReachedMaxScroll,
+    this.onReachedMinScroll,
+    this.initialCrossedCapitals = const {},
+    this.initialActiveCapitals = const {},
+    this.onCapitalsUpdated,
   });
 
   @override
@@ -55,6 +76,14 @@ class _WordGridState extends State<WordGrid> {
   static const double _minScale = 1.0;
   double _maxScale = 5.0;
 
+  /// Tracks zoom boundary state to fire callbacks only on transitions.
+  bool _wasAtMax = false;
+  bool _wasAtMin = true; // starts at min scale
+
+  /// Tracks scroll boundary state (scroll mode only).
+  bool _wasAtMaxScroll = false;
+  bool _wasAtMinScroll = true; // starts at top
+
   // ── Word selection state ─────────────────────────────────────────
   int? _startRow;
   int? _startCol;
@@ -72,6 +101,19 @@ class _WordGridState extends State<WordGrid> {
   void initState() {
     super.initState();
     _countryManager = CountryManager(rows: _rows, cols: _cols);
+
+    // Restore persisted capital state when available (new saves).
+    // For old levels where capitals were never saved both sets are empty →
+    // we skip restoreState and let the first recompute elect fresh capitals
+    // from scratch, which always includes the green dot for the largest country.
+    final hasSavedCapitals = widget.initialCrossedCapitals.isNotEmpty ||
+        widget.initialActiveCapitals.isNotEmpty;
+    if (hasSavedCapitals) {
+      _countryManager.restoreState(
+        crossedCapitals: widget.initialCrossedCapitals,
+        activeCapitals: widget.initialActiveCapitals,
+      );
+    }
   }
 
   @override
@@ -91,14 +133,23 @@ class _WordGridState extends State<WordGrid> {
   void _recomputeCountriesIfNeeded() {
     final count = widget.foundWordIds.length;
     if (count == _lastFoundCount) return;
-    _lastFoundCount = count; // guard against double-scheduling
+    _lastFoundCount = count;
 
-    // Snapshot mutable references before going async.
     final placements = widget.placements;
     final foundWordIds = Set<String>.from(widget.foundWordIds);
+
     Future.microtask(() {
+      // Single recompute in both cases:
+      // • Old levels (no saved capitals): CountryManager starts fresh →
+      //   elects brand-new capitals, green dot always appears for the largest country.
+      // • New levels (capitals restored in initState): CountryManager already
+      //   has history → preserves existing capitals and crossed-out dots.
       _countryManager.recompute(placements, foundWordIds);
-      if (mounted) setState(() {}); // repaint with updated dots
+      widget.onCapitalsUpdated?.call(
+        _countryManager.crossedCapitalsSet,
+        _countryManager.activeCapitals,
+      );
+      if (mounted) setState(() {});
     });
   }
 
@@ -202,6 +253,64 @@ class _WordGridState extends State<WordGrid> {
 
   // ── Scale / pan gesture callbacks ─────────────────────────────────
 
+  /// Fires [onReachedMaxZoom] / [onReachedMinZoom] only on state transitions
+  /// so the callback is called exactly once per crossing, not every frame.
+  void _notifyZoomBoundary() {
+    // In scrollable mode min == max == 1, so no zoom is possible.
+    if (_maxScale <= _minScale) return;
+
+    final scale = _transform.getMaxScaleOnAxis();
+    final atMax = (scale - _maxScale).abs() < 0.01;
+    final atMin = (scale - _minScale).abs() < 0.01;
+
+    if (atMax && !_wasAtMax) {
+      _wasAtMax = true;
+      _wasAtMin = false;
+      widget.onReachedMaxZoom?.call();
+    } else if (!atMax) {
+      _wasAtMax = false;
+    }
+
+    if (atMin && !_wasAtMin) {
+      _wasAtMin = true;
+      _wasAtMax = false;
+      widget.onReachedMinZoom?.call();
+    } else if (!atMin) {
+      _wasAtMin = false;
+    }
+  }
+
+  /// Fires [onReachedMaxScroll] / [onReachedMinScroll] in scroll mode only,
+  /// once per boundary crossing.
+  void _notifyScrollBoundary() {
+    if (!widget.scrollable) return;
+
+    final ty = _transform.entry(1, 3);
+    final scaledH = _lastGridSize.height; // scale == 1.0 in scroll mode
+    final vpH = _containerSize.height;
+
+    // Bottom: ty is at its minimum allowed value (vpH - scaledH).
+    final atBottom = scaledH > vpH && (ty - (vpH - scaledH)).abs() < 1.0;
+    // Top: ty is at 0.
+    final atTop = ty.abs() < 1.0;
+
+    if (atBottom && !_wasAtMaxScroll) {
+      _wasAtMaxScroll = true;
+      _wasAtMinScroll = false;
+      widget.onReachedMaxScroll?.call();
+    } else if (!atBottom) {
+      _wasAtMaxScroll = false;
+    }
+
+    if (atTop && !_wasAtMinScroll) {
+      _wasAtMinScroll = true;
+      _wasAtMaxScroll = false;
+      widget.onReachedMinScroll?.call();
+    } else if (!atTop) {
+      _wasAtMinScroll = false;
+    }
+  }
+
   void _onScaleStart(ScaleStartDetails details) {
     _baseTransform = _transform.clone();
     _initialFocalPoint = details.localFocalPoint;
@@ -263,6 +372,8 @@ class _WordGridState extends State<WordGrid> {
       newTransform.multiply(_baseTransform);
 
       setState(() => _transform = _clampTransform(newTransform));
+      _notifyZoomBoundary();
+      _notifyScrollBoundary();
     } else {
       // Single finger: word selection.
       if (_startRow == null || _startCol == null) return;
@@ -511,34 +622,6 @@ class _GridPainter extends CustomPainter {
       }
     }
 
-    // ── Letters ─────────────────────────────────────────────────────
-    for (int r = 0; r < rows; r++) {
-      for (int c = 0; c < cols; c++) {
-        final letter = (r < grid.length && c < grid[r].length)
-            ? grid[r][c]
-            : '';
-        final tp = TextPainter(
-          text: TextSpan(
-            text: letter,
-            style: TextStyle(
-              color: Colors.black87,
-              fontSize: cellSize * 0.50,
-              fontWeight: FontWeight.w700,
-            ),
-          ),
-          textDirection: TextDirection.ltr,
-        );
-        tp.layout();
-        tp.paint(
-          canvas,
-          Offset(
-            c * cellSize + (cellSize - tp.width) / 2,
-            r * cellSize + (cellSize - tp.height) / 2,
-          ),
-        );
-      }
-    }
-
     // ── Claimed-cell circles (cleanup phase) ────────────────────────
     if (claimedCells.isNotEmpty) {
       final circlePaint = Paint()
@@ -584,9 +667,6 @@ class _GridPainter extends CustomPainter {
       if (len > 0 && cells.length > 1) {
         final nx = dx / len;
         final ny = dy / len;
-        // Diagonals get a slightly larger extension so they look as long as
-        // orthogonal lines visually (diagonal cell geometry makes them appear
-        // shorter at the same extension value).
         final isDiagonal = (last.$1 - first.$1).abs() > 0 &&
             (last.$2 - first.$2).abs() > 0;
         final ext = isDiagonal ? cellSize * 0.52 : cellSize * 0.42;
@@ -598,6 +678,34 @@ class _GridPainter extends CustomPainter {
       }
 
       canvas.drawLine(startPt, endPt, penPaint);
+    }
+
+    // ── Letters (drawn after lines so text is always on top) ────────
+    for (int r = 0; r < rows; r++) {
+      for (int c = 0; c < cols; c++) {
+        final letter = (r < grid.length && c < grid[r].length)
+            ? grid[r][c]
+            : '';
+        final tp = TextPainter(
+          text: TextSpan(
+            text: letter,
+            style: TextStyle(
+              color: Colors.black87,
+              fontSize: cellSize * 0.50,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          textDirection: TextDirection.ltr,
+        );
+        tp.layout();
+        tp.paint(
+          canvas,
+          Offset(
+            c * cellSize + (cellSize - tp.width) / 2,
+            r * cellSize + (cellSize - tp.height) / 2,
+          ),
+        );
+      }
     }
 
     // ── Capital dots ────────────────────────────────────────────────

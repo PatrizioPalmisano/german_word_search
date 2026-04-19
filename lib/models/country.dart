@@ -76,6 +76,22 @@ class CountryManager {
     _activeCapitals.clear();
   }
 
+  /// Restore persisted capital state before the first [recompute] call so
+  /// that the history of crossed-out capitals survives a level reload.
+  void restoreState({
+    required Set<(int, int)> crossedCapitals,
+    required Set<(int, int)> activeCapitals,
+  }) {
+    _crossedCapitals.addAll(crossedCapitals);
+    _activeCapitals.addAll(activeCapitals);
+  }
+
+  /// The set of currently active capitals (for persistence).
+  Set<(int, int)> get activeCapitals => Set.unmodifiable(_activeCapitals);
+
+  /// The set of crossed-out former capitals (for persistence).
+  Set<(int, int)> get crossedCapitalsSet => Set.unmodifiable(_crossedCapitals);
+
   /// The size of the largest country (0 if none).
   int get maxCountrySize {
     if (countries.isEmpty) return 0;
@@ -257,21 +273,24 @@ class CountryManager {
     // ── Nearest grid cell(s) to centre (1–4 unique cells) ───────────
     var candidates = _centroidCells(midR, midC);
 
-    // Expand outward until at least one candidate is in this country.
+    // Expand outward ring-by-ring across the full grid (alive or dead cells)
+    // until the wave reaches this country.
+    final visited = <(int, int)>{...candidates};
     while (true) {
       final inside = candidates.where(cells.contains).toList();
       if (inside.isNotEmpty) {
         candidates = inside;
         break;
       }
+
       final next = <(int, int)>{};
       for (final cand in candidates) {
         for (final (dr, dc) in _eightDirs) {
           final n = (cand.$1 + dr, cand.$2 + dc);
-          if (_inBounds(n) && !_deadCells.containsKey(n)) next.add(n);
+          if (_inBounds(n) && !visited.contains(n)) next.add(n);
         }
       }
-      if (next.isEmpty) return cells.first; // extreme fallback
+      visited.addAll(next);
       candidates = next.toList();
     }
 

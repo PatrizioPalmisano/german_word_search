@@ -1,116 +1,306 @@
 [
   {
-    "id": "a1_easy"
+    "id": "a1_easy",
+    "title": "A1 Easy",
+    "description": "German A1 vocabulary — easy",
+    "color": "#4CAF50",
+    "icon": "star",
+    "levelCount": 50
   },
   {
-    "id": "a2_easy"
+    "id": "a2_easy",
+    "title": "A2 Easy",
+    "description": "German A2 vocabulary — easy",
+    "color": "#2196F3",
+    "icon": "school",
+    "levelCount": 50
   },
   {
-    "id": "a2_medium"
+    "id": "a2_medium",
+    "title": "A2 Medium",
+    "description": "German A2 vocabulary — medium",
+    "color": "#2196F3",
+    "icon": "school",
+    "levelCount": 65
   },
   {
-    "id": "a2_hard"
+    "id": "a2_hard",
+    "title": "A2 Hard",
+    "description": "German A2 vocabulary — hard",
+    "color": "#2196F3",
+    "icon": "school",
+    "levelCount": 72
   },
   {
-    "id": "a2_expert"
+    "id": "a2_expert",
+    "title": "A2 Expert",
+    "description": "German A2 vocabulary — expert",
+    "color": "#2196F3",
+    "icon": "school",
+    "levelCount": 100
   },
   {
-    "id": "b1_easy"
+    "id": "b1_easy",
+    "title": "B1 Easy",
+    "description": "German B1 vocabulary — easy",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 64
   },
   {
-    "id": "b1_medium"
+    "id": "b1_medium",
+    "title": "B1 Medium",
+    "description": "German B1 vocabulary — medium",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 79
   },
   {
-    "id": "b1_hard"
+    "id": "b1_hard",
+    "title": "B1 Hard",
+    "description": "German B1 vocabulary — hard",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 70
   },
   {
-    "id": "b1_expert"
+    "id": "b1_expert",
+    "title": "B1 Expert",
+    "description": "German B1 vocabulary — expert",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 57
   },
   {
-    "id": "b1_master"
+    "id": "b1_master",
+    "title": "B1 Master",
+    "description": "German B1 vocabulary — master",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 67
   },
   {
-    "id": "b1_inferno"
+    "id": "b1_inferno",
+    "title": "B1 Inferno",
+    "description": "German B1 vocabulary — inferno",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 83
   },
   {
-    "id": "b1_abyss"
+    "id": "b1_abyss",
+    "title": "B1 Abyss",
+    "description": "German B1 vocabulary — abyss",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 95
   },
   {
-    "id": "b1_titan"
+    "id": "b1_titan",
+    "title": "B1 Titan",
+    "description": "German B1 vocabulary — titan",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 100
   },
   {
-    "id": "b1_nemesis"
+    "id": "b1_nemesis",
+    "title": "B1 Nemesis",
+    "description": "German B1 vocabulary — nemesis",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 98
   },
   {
-    "id": "b1_requiem"
+    "id": "b1_requiem",
+    "title": "B1 Requiem",
+    "description": "German B1 vocabulary — requiem",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 100
   },
   {
-    "id": "b1_phantom"
+    "id": "b1_phantom",
+    "title": "B1 Phantom",
+    "description": "German B1 vocabulary — phantom",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 99
   },
   {
-    "id": "b1_oblivion"
+    "id": "b1_oblivion",
+    "title": "B1 Oblivion",
+    "description": "German B1 vocabulary — oblivion",
+    "color": "#FF9800",
+    "icon": "emoji_events",
+    "levelCount": 99
   },
   {
-    "id": "b2_easy"
+    "id": "b2_easy",
+    "title": "B2 Easy",
+    "description": "German B2 vocabulary — easy",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 99
   },
   {
-    "id": "b2_medium"
+    "id": "b2_medium",
+    "title": "B2 Medium",
+    "description": "German B2 vocabulary — medium",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_hard"
+    "id": "b2_hard",
+    "title": "B2 Hard",
+    "description": "German B2 vocabulary — hard",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_expert"
+    "id": "b2_expert",
+    "title": "B2 Expert",
+    "description": "German B2 vocabulary — expert",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_master"
+    "id": "b2_master",
+    "title": "B2 Master",
+    "description": "German B2 vocabulary — master",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_inferno"
+    "id": "b2_inferno",
+    "title": "B2 Inferno",
+    "description": "German B2 vocabulary — inferno",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 99
   },
   {
-    "id": "b2_abyss"
+    "id": "b2_abyss",
+    "title": "B2 Abyss",
+    "description": "German B2 vocabulary — abyss",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_titan"
+    "id": "b2_titan",
+    "title": "B2 Titan",
+    "description": "German B2 vocabulary — titan",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_nemesis"
+    "id": "b2_nemesis",
+    "title": "B2 Nemesis",
+    "description": "German B2 vocabulary — nemesis",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_requiem"
+    "id": "b2_requiem",
+    "title": "B2 Requiem",
+    "description": "German B2 vocabulary — requiem",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 98
   },
   {
-    "id": "b2_phantom"
+    "id": "b2_phantom",
+    "title": "B2 Phantom",
+    "description": "German B2 vocabulary — phantom",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 98
   },
   {
-    "id": "b2_oblivion"
+    "id": "b2_oblivion",
+    "title": "B2 Oblivion",
+    "description": "German B2 vocabulary — oblivion",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_apex"
+    "id": "b2_apex",
+    "title": "B2 Apex",
+    "description": "German B2 vocabulary — apex",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_vortex"
+    "id": "b2_vortex",
+    "title": "B2 Vortex",
+    "description": "German B2 vocabulary — vortex",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_colossus"
+    "id": "b2_colossus",
+    "title": "B2 Colossus",
+    "description": "German B2 vocabulary — colossus",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "b2_ragnarok"
+    "id": "b2_ragnarok",
+    "title": "B2 Ragnarok",
+    "description": "German B2 vocabulary — ragnarok",
+    "color": "#9C27B0",
+    "icon": "workspace_premium",
+    "levelCount": 100
   },
   {
-    "id": "c1_easy"
+    "id": "c1_easy",
+    "title": "C1 Easy",
+    "description": "German C1 vocabulary — easy",
+    "color": "#F44336",
+    "icon": "military_tech",
+    "levelCount": 100
   },
   {
-    "id": "c1_medium"
+    "id": "c1_medium",
+    "title": "C1 Medium",
+    "description": "German C1 vocabulary — medium",
+    "color": "#F44336",
+    "icon": "military_tech",
+    "levelCount": 100
   },
   {
-    "id": "c1_hard"
+    "id": "c1_hard",
+    "title": "C1 Hard",
+    "description": "German C1 vocabulary — hard",
+    "color": "#F44336",
+    "icon": "military_tech",
+    "levelCount": 100
   },
   {
-    "id": "c1_expert"
+    "id": "c1_expert",
+    "title": "C1 Expert",
+    "description": "German C1 vocabulary — expert",
+    "color": "#F44336",
+    "icon": "military_tech",
+    "levelCount": 100
   },
   {
-    "id": "c1_master"
+    "id": "c1_master",
+    "title": "C1 Master",
+    "description": "German C1 vocabulary — master",
+    "color": "#F44336",
+    "icon": "military_tech",
+    "levelCount": 100
   }
 ]
